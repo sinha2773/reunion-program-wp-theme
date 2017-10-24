@@ -16,7 +16,7 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-		<?php $base_url = "http://localhost/reunion/index.php"; ?> 
+		<?php $base_url = "http://dev.prasinosoft.com/reunion/index.php"; ?> 
         <header class="header_section navbar-fixed-top">
             <div class="container">
                 <div class="row">
