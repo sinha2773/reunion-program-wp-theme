@@ -108,94 +108,204 @@ include 'inc/header.php';
               </div>
             </div>
         </section>
-        <section id="school_proud" class="area_of_practice_section">
+        <section id="school_proud" class="area_of_practice_section school_proud_section">
             <div class="container">
                 <div class="area_practice_information">
-                    <div class="area_practice_top_title">
+                    <!-- <div class="area_practice_top_title school_proud_header">
                         <h2>যাদের জন্য স্কুল গৌরবময় </h2>
                         <p>যেসব মানুষদের কারনে আমরা গর্ববোধ করি বা আমাদের স্কুল সবসময় গর্ববোধ করবে<br> তাদের কে আমরা এখানে তুলে ধরেছি</p>
-                    </div>
+                    </div> -->
                     <div class="area_practice_information_top">
                         <div class="row">
-                            <div class="col-md-3">
-                                <div class="image_hover_effect">
-                                    <div class="area_practice_top">
-                                        <div class="area_practice_image">
-                                            <img src="images/head_teacher.jpg">
+                            <div class="col-md-8">
+                                <div class="school_proud_left_content">
+                                    <div class="area_practice_top_title school_proud_header">
+                                        <h3>প্রধান শিক্ষকবৃন্দ ক্রমানুযায়ী</h3>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="image_hover_effect image_hover_effect_margin_bottom">
+                                                <div class="area_practice_top">
+                                                    <div class="area_practice_image">
+                                                        <img src="images/head_teacher.jpg">
+                                                    </div>
+                                                    <div class="area_practice_image_text">
+                                                        <p>প্রধান শিক্ষক: ABC</p>
+                                                    </div>
+                                                </div>
+                                                <div class="project-content-wrap">
+                                                    <div class="project-title">প্রধান শিক্ষক: ABC</div>
+                                                    <div class="project-content">This intensive field work course is taught out of the Monash Prato Centre, utilising the intellectual capital of the members of the Prato Consortium for Medieval and Renaissance Studies.</div>
+                                                    <div class="project-link-wrap">
+                                                        
+                                                        <a class="project-link" href="#">Details</a>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="area_practice_image_text">
-                                            <p>প্রধান শিক্ষক: ABC</p>
+                                        <div class="col-md-4">
+                                            <div class="image_hover_effect image_hover_effect_margin_bottom">
+                                                <div class="area_practice_top">
+                                                    <div class="area_practice_image">
+                                                        <img src="images/head_teacher.jpg">
+                                                    </div>
+                                                    <div class="area_practice_image_text">
+                                                        <p>প্রধান শিক্ষক: ABC</p>
+                                                    </div>
+                                                </div>
+                                                <div class="project-content-wrap">
+                                                    <div class="project-title">প্রধান শিক্ষক: ABC</div>
+                                                    <div class="project-content">This intensive field work course is taught out of the Monash Prato Centre, utilising the intellectual capital of the members of the Prato Consortium for Medieval and Renaissance Studies.</div>
+                                                    <div class="project-link-wrap">
+                                                        
+                                                        <a class="project-link" href="#">Details</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="image_hover_effect image_hover_effect_margin_bottom">
+                                                <div class="area_practice_top">
+                                                    <div class="area_practice_image">
+                                                        <img src="images/head_teacher.jpg">
+                                                    </div>
+                                                    <div class="area_practice_image_text">
+                                                        <p>প্রধান শিক্ষক: ABC</p>
+                                                    </div>
+                                                </div>
+                                                <div class="project-content-wrap">
+                                                    <div class="project-title">প্রধান শিক্ষক: ABC</div>
+                                                    <div class="project-content">This intensive field work course is taught out of the Monash Prato Centre, utilising the intellectual capital of the members of the Prato Consortium for Medieval and Renaissance Studies.</div>
+                                                    <div class="project-link-wrap">
+                                                        
+                                                        <a class="project-link" href="#">Details</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="image_hover_effect">
+                                                <div class="area_practice_top">
+                                                    <div class="area_practice_image">
+                                                        <img src="images/head_teacher.jpg">
+                                                    </div>
+                                                    <div class="area_practice_image_text">
+                                                        <p>প্রধান শিক্ষক: ABC</p>
+                                                    </div>
+                                                </div>
+                                                <div class="project-content-wrap">
+                                                    <div class="project-title">প্রধান শিক্ষক: ABC</div>
+                                                    <div class="project-content">This intensive field work course is taught out of the Monash Prato Centre, utilising the intellectual capital of the members of the Prato Consortium for Medieval and Renaissance Studies.</div>
+                                                    <div class="project-link-wrap">
+                                                        
+                                                        <a class="project-link" href="#">Details</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="image_hover_effect">
+                                                <div class="area_practice_top">
+                                                    <div class="area_practice_image">
+                                                        <img src="images/head_teacher.jpg">
+                                                    </div>
+                                                    <div class="area_practice_image_text">
+                                                        <p>প্রধান শিক্ষক: ABC</p>
+                                                    </div>
+                                                </div>
+                                                <div class="project-content-wrap">
+                                                    <div class="project-title">প্রধান শিক্ষক: ABC</div>
+                                                    <div class="project-content">This intensive field work course is taught out of the Monash Prato Centre, utilising the intellectual capital of the members of the Prato Consortium for Medieval and Renaissance Studies.</div>
+                                                    <div class="project-link-wrap">
+                                                        
+                                                        <a class="project-link" href="#">Details</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="image_hover_effect">
+                                                <div class="area_practice_top">
+                                                    <div class="area_practice_image">
+                                                        <img src="images/head_teacher.jpg">
+                                                    </div>
+                                                    <div class="area_practice_image_text">
+                                                        <p>প্রধান শিক্ষক: ABC</p>
+                                                    </div>
+                                                </div>
+                                                <div class="project-content-wrap">
+                                                    <div class="project-title">প্রধান শিক্ষক: ABC</div>
+                                                    <div class="project-content">This intensive field work course is taught out of the Monash Prato Centre, utilising the intellectual capital of the members of the Prato Consortium for Medieval and Renaissance Studies.</div>
+                                                    <div class="project-link-wrap">
+                                                        
+                                                        <a class="project-link" href="#">Details</a>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="project-content-wrap">
-                                        <div class="project-title">প্রধান শিক্ষক: ABC</div>
-                                        <div class="project-content">This intensive field work course is taught out of the Monash Prato Centre, utilising the intellectual capital of the members of the Prato Consortium for Medieval and Renaissance Studies.</div>
-                                        <div class="project-link-wrap">
-                                            
-                                            <a class="project-link" href="#">Details</a>
-                                        </div>
+                                    <div class="school_proud_button">
+                                        <button>আরও দেখতে</button>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
-                                <div class="image_hover_effect">
-                                    <div class="area_practice_top">
-                                        <div class="area_practice_image">
-                                            <img src="images/ssc.jpg">
+                            <div class="col-md-4">
+                                <div class="area_practice_top_title school_proud_header">
+                                        <h3>যাদের জন্য স্কুল গৌরবময় </h3>
+                                </div>
+                                <div class="school_proud_sidebar">
+                                    <div class="school_proud_sidebar_content">
+                                        <div class="school_proud_sidebar_content_image">
+                                            <img src="images/teacher-assistant-certification.jpg">
                                         </div>
-                                        <div class="area_practice_image_text">
-                                            <p>এস.এস.সি ১৯৯৯ সালের ব্যাচ</p>
+                                        <div class="school_proud_sidebar_content_image_text">
+                                            <p>যেসব মানুষদের কারনে আমরা গর্ববোধ করি বা আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
                                         </div>
                                     </div>
-                                    <div class="project-content-wrap">
-                                        <div class="project-title">এস.এস.সি ১৯৯৯ সালের ব্যাচ</div>
-                                        <div class="project-content">The Independence Day of Bangladesh also referred to as 26 March, is a national holiday. It commemorates the country's declaration of independence from Pakistan in the late hours of 25 March 1971.</div>
-                                        <div class="project-link-wrap">
-                                            
-                                            <a class="project-link" href="#">Details</a>
+                                    <div class="school_proud_sidebar_content">
+                                        <div class="school_proud_sidebar_content_image">
+                                            <img src="images/teacher-assistant-certification.jpg">
+                                        </div>
+                                        <div class="school_proud_sidebar_content_image_text">
+                                            <p>যেসব মানুষদের কারনে আমরা গর্ববোধ করি বা আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
+                                        </div>
+                                    </div>
+                                    <div class="school_proud_sidebar_content">
+                                        <div class="school_proud_sidebar_content_image">
+                                            <img src="images/teacher-assistant-certification.jpg">
+                                        </div>
+                                        <div class="school_proud_sidebar_content_image_text">
+                                            <p>যেসব মানুষদের কারনে আমরা গর্ববোধ করি বা আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
+                                        </div>
+                                    </div>
+                                    <div class="school_proud_sidebar_content">
+                                        <div class="school_proud_sidebar_content_image">
+                                            <img src="images/teacher-assistant-certification.jpg">
+                                        </div>
+                                        <div class="school_proud_sidebar_content_image_text">
+                                            <p>যেসব মানুষদের কারনে আমরা গর্ববোধ করি বা আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
+                                        </div>
+                                    </div>
+                                    <div class="school_proud_sidebar_content">
+                                        <div class="school_proud_sidebar_content_image">
+                                            <img src="images/teacher-assistant-certification.jpg">
+                                        </div>
+                                        <div class="school_proud_sidebar_content_image_text">
+                                            <p>যেসব মানুষদের কারনে আমরা গর্ববোধ করি বা আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
+                                        </div>
+                                    </div>
+                                    <div class="school_proud_sidebar_content">
+                                        <div class="school_proud_sidebar_content_image">
+                                            <img src="images/teacher-assistant-certification.jpg">
+                                        </div>
+                                        <div class="school_proud_sidebar_content_image_text">
+                                            <p>যেসব মানুষদের কারনে আমরা গর্ববোধ করি বা আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="image_hover_effect">
-                                    <div class="area_practice_top">
-                                        <div class="area_practice_image">
-                                            <img src="images/assistant_teacher.jpg">
-                                        </div>
-                                        <div class="area_practice_image_text">
-                                            <p>সহকারি শিক্ষক: Lorem</p>
-                                        </div>
+                                <div class="school_proud_button">
+                                        <button>আরও দেখতে</button>
                                     </div>
-                                    <div class="project-content-wrap">
-                                        <div class="project-title">সহকারি শিক্ষক: Lorem</div>
-                                        <div class="project-content">Australia saw their second ICC Champions Trophy game in succession end in a no-contest on Monday, as their match against Bangladesh was abandoned at The Oval in London due to rain.</div>
-                                        <div class="project-link-wrap">
-                                            
-                                            <a class="project-link" href="#">Details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="image_hover_effect">
-                                    <div class="area_practice_top">
-                                        <div class="area_practice_image">
-                                            <img src="images/21st.jpg">
-                                        </div>
-                                        <div class="area_practice_image_text">
-                                            <p>21st February</p>
-                                        </div>
-                                    </div>
-                                    <div class="project-content-wrap">
-                                        <div class="project-title">21st February</div>
-                                        <div class="project-content">International Mother Language Day (IMLD) is a worldwide annual observance held on 21 February to promote awareness of linguistic and cultural diversity and multilingualism. First announced by UNESCO on 17 November 1999, it was formally recognized by the United Nations General Assembly in its resolution establishing 2008 as the International Year of Languages</div>
-                                        <div class="project-link-wrap">
-                                            
-                                            <a class="project-link" href="#">Details</a>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
