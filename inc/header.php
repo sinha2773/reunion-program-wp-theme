@@ -62,19 +62,19 @@
                                           <a href="">বর্তমান স্কুল ব্যবস্থাপনা কমিটি </a>
                                         </li>
 										                    <li class="dropdown-submenu">
-                                          <a href="">প্রধান শিক্ষকবৃন্দ ক্রমানুযায়ী </a>
+                                          <a href="head_teacher.php">প্রধান শিক্ষকবৃন্দ ক্রমানুযায়ী </a>
                                         </li>
 										                    <li class="dropdown-submenu">
-                                          <a href="">বর্তমান শিক্ষকমন্ডলী  </a>
+                                          <a href="present_teacher.php">বর্তমান শিক্ষকমন্ডলী  </a>
                                         </li>
 										                    <li class="dropdown-submenu">
-                                          <a href="">সাবেক শিক্ষকবৃন্দ </a>
+                                          <a href="past_teacher.php">সাবেক শিক্ষকবৃন্দ </a>
                                         </li>
 										                    <li class="dropdown-submenu">
-                                          <a href="">শিক্ষক যাদের হারিয়েছি </a>
+                                          <a href="die_teacher.php">শিক্ষক যাদের হারিয়েছি </a>
                                         </li>
 										                    <li class="dropdown-submenu">
-                                          <a href="">স্কুলের মেধাবী ছাত্র-ছাত্রীরা </a>
+                                          <a href="good_student.php">স্কুলের মেধাবী ছাত্র-ছাত্রীরা </a>
                                         </li>
                                       </ul>
                                     </li>
@@ -84,34 +84,34 @@
                                       <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">  শতবর্ষের  নানা আয়োজন<span class="caret"></span></a>
                                       <ul class="dropdown-menu dropdown_menu_background_color">                
                                         <li class="dropdown-submenu">
-                                          <a href="">প্রস্তুতিসভা </a>
+                                          <a href="preparation.php">প্রস্তুতিসভা </a>
                                         </li>
 										                    <li class="dropdown-submenu">
-                                          <a href="">সাবেক ছাত্র-ছাত্রীদের স্মৃতিকথা</a>
+                                          <a href="past_students.php">সাবেক ছাত্র-ছাত্রীদের স্মৃতিকথা</a>
                                         </li>
 										                    <li class="dropdown-submenu">
-                                          <a href="">স্মারক গ্রন্থ প্রকাশনা উপকমিটির তৎপরতা</a>
+                                          <a href="book_publicaions_committre.php">স্মারক গ্রন্থ প্রকাশনা উপকমিটির তৎপরতা</a>
                                         </li>
 										                    <li class="dropdown-submenu">
-                                          <a href="">অর্থ উপকমিটির তৎপরতা</a>
+                                          <a href="finalsial_committre.php">অর্থ উপকমিটির তৎপরতা</a>
                                         </li>
 										                    <li class="dropdown-submenu">
-                                          <a href="">ডোনেশন উপকমিটির  তৎপরতা</a>
+                                          <a href="donation_committre.php">ডোনেশন উপকমিটির  তৎপরতা</a>
                                         </li>
 										                    <li class="dropdown-submenu">
-                                          <a href="">প্রচার উপকমিটির   তৎপরতা</a>
+                                          <a href="promote_committre.php">প্রচার উপকমিটির   তৎপরতা</a>
                                         </li>
 										                    <li class="dropdown-submenu">
-                                          <a href="">সম্মাননা উপকমিটির কার্যক্রম</a>
+                                          <a href="honour_committre.php">সম্মাননা উপকমিটির কার্যক্রম</a>
                                         </li>
 										                    <li class="dropdown-submenu">
-                                          <a href="">তথ্য অনুসন্ধান উপকমিটির তৎপরতা</a>
+                                          <a href="information_search_committre.php">তথ্য অনুসন্ধান উপকমিটির তৎপরতা</a>
                                         </li>
 										                    <li class="dropdown-submenu">
-                                          <a href="">বৈদেশিক যোগাযোগ উপকমিটির কার্যক্রম</a>
+                                          <a href="forener_communication_committre.php">বৈদেশিক যোগাযোগ উপকমিটির কার্যক্রম</a>
                                         </li>
 										                    <li class="dropdown-submenu">
-                                          <a href="">অফিস ব্যবস্থাপনা উপকমিটির কার্যক্রম</a>
+                                          <a href="office_committre.php">অফিস ব্যবস্থাপনা উপকমিটির কার্যক্রম</a>
                                         </li>
                                       </ul>
                                     </li>
@@ -137,7 +137,7 @@
                                     <li><a class="scrollto" href="<?php echo $base_url; ?>#school_proud">স্কুলের গর্ব যারা</a></li>
                   									<li><a href="blog.php">শরনিকার জন্য আপনার লিখা পোষ্ট করুন</a></li>
                   									<li><a href="today_update.php">আজকের আপডেট</a></li>
-                  									<li><a class="scrollto" href="hotline.php">সর্বশেষ সংবাদ</a></li>
+                  									<li><a class="" href="hotline.php">সর্বশেষ সংবাদ</a></li>
                   									<li><a class="" href="contact.php">যোগাযোগ</a></li>
                                   </ul>
                                 </div><!-- /.navbar-collapse -->

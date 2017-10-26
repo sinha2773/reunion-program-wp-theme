@@ -152,9 +152,9 @@
 	
 }
 .dropdown-menu {
-    border: 1px solid #1D849A;
+    border: 1px solid #BD4078;
     padding: 0px;    
-    background: #1D849A;
+    background: #BD4078;
     
 }
 .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
@@ -332,7 +332,7 @@
     margin-bottom: 30px;
     font-size: 16px; 
     line-height: 25px;
-    margin-bottom: 0px;
+   
 }
 .image_hover_effect_margin_bottom{
     margin-bottom: 20px;
@@ -2418,6 +2418,111 @@ background: #3B5997;
 .{}
 
 /*school proud sidebar style end*/
+
+/*head teacher page style*/
+
+.head_teacher_page{
+    background: #DCDCDC;
+}
+.main_head_teacher{
+    margin: 60px 0px;
+}
+.head_teacher_page_title{
+    padding: 15px;
+    background: #F8F8F8;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.head_teacher_content_margin_bottom{
+    margin-bottom: 30px;
+}
+.head_teacher_name{
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.head_teacher_name h3{
+    margin: 0px;
+}
+.head_teacher_content{}
+.head_teacher_profile_picture{}
+.head_teacher_profile_picture img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.head_teacher_content_text{
+    
+    background: #eee;
+    border:1px solid #eee;
+}
+.head_teacher_content_text h3{
+    margin-top: 0px;
+    
+}
+.head_teacher_name_details{
+    padding: 15px;
+}
+.head_teacher_name_details p{
+    text-align: justify;
+    font-size: 16px;
+    margin: 0px;
+}
+.teacher_details{
+    margin-top: 15px !important; 
+}
+.{}
+.{}
+
+
+/*head teacher page style end*/
+
+/*preparation page style*/
+
+.preparation_page_section{
+    background: #DCDCDC;
+}
+.main_preparation_page{
+    margin: 60px 0px;
+}
+.preparation_page_title{
+    padding: 15px;
+    background: #F8F8F8;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.preparation_page_title h3{
+    margin: 0px;
+}
+.main_preparation_page_content{
+    width: 100%;
+        background: #F8F8F8;
+        padding: 20px;
+}
+.preparation_page_content{
+    margin-bottom: 20px;
+}
+.preparation_page_content_images{
+    width: 20%;
+    margin-right: 2%;
+    float: left;
+}
+.preparation_page_content_images img{
+    width: 100%;
+}
+.preparation_page_content_images_text{}
+.preparation_page_content_images_text p{
+    text-align: justify;
+    margin: 0px;
+    font-size: 16px;
+    line-height: 26px;
+}
+.{}
+.{}
+.{}
+.{}
+
+
+/*preparation page style end*/
 .{}
 .{}
 .{}

@@ -62,7 +62,7 @@ include 'inc/header.php';
                 <div class="row">
                     <div class="col-md-12">
                         <div class="clear_advice common_title_color akk">
-                            <h3>আমাদের শায়েস্তাগঞ্জ উচ্চ বিদ্যালয় সম্পর্কে
+                            <h3>একনজরে শায়েস্তাগঞ্জ উচ্চ বিদ্যালয়
                             </h3>
                         </div>
                     </div>
@@ -251,7 +251,7 @@ include 'inc/header.php';
                             </div>
                             <div class="col-md-4">
                                 <div class="area_practice_top_title school_proud_header">
-                                        <h3>যাদের জন্য স্কুল গৌরবময় </h3>
+                                        <h3>স্কুলের গর্ব যারা</h3>
                                 </div>
                                 <div class="school_proud_sidebar">
                                     <div class="school_proud_sidebar_content">
