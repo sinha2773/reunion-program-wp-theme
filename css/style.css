@@ -224,7 +224,7 @@
     
 }
 .logo_image img{
-	    height: 112px;
+	    height: 119px;
 }
 .both_paddint{
     padding-left: 0px !important;
@@ -2354,7 +2354,7 @@ background: #3B5997;
     transition: all 0.5s;
 }
 .fixed_header .logo_image img{
-        height: 75px;
+        height: 84px;
         transition: all 0.5s;
 }
 .fixed_header .nvaber_margin_top{
@@ -2388,6 +2388,7 @@ background: #3B5997;
 .school_proud_sidebar_content_image_text{}
 .school_proud_sidebar_content_image_text p{
     text-align: justify;
+        margin-bottom: 4px;
 }
 .school_proud_section{
     background: #eee;
@@ -2496,7 +2497,7 @@ background: #3B5997;
 .main_preparation_page_content{
     width: 100%;
         background: #F8F8F8;
-        padding: 20px;
+        padding: 40px 20px 20px 20px;
 }
 .preparation_page_content{
     margin-bottom: 20px;

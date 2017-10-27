@@ -23,7 +23,8 @@ include 'inc/header.php';
 				   <img src="images/6_6304.jpg">
 				 </div>
 				 <div class="preparation_page_content_images_text">
-				   <p>শতবর্ষ আয়োজনের মধ্যে থাকতেছে আমাদের সারাদিনের আয়োজন নবীন ছাত্র-ছাত্রীদের অনুষ্ঠানে আয়োজন করতে উৎসাহিত করবে।</p>
+				   <p><b>শতবর্ষ আয়োজনের মধ্যে থাকতেছে আমাদের </b></p>
+				   <p>সারাদিনের আয়োজন নবীন ছাত্র-ছাত্রীদের অনুষ্ঠানে আয়োজন করতে উৎসাহিত করবে।</p>
 				 </div>
 			   </div>
 			   <div class="preparation_page_content">
@@ -31,7 +32,8 @@ include 'inc/header.php';
 				   <img src="images/6_6304.jpg">
 				 </div>
 				 <div class="preparation_page_content_images_text">
-				   <p>শতবর্ষ আয়োজনের মধ্যে থাকতেছে আমাদের সারাদিনের আয়োজন নবীন ছাত্র-ছাত্রীদের অনুষ্ঠানে আয়োজন করতে উৎসাহিত করবে।</p>
+				   <p><b>শতবর্ষ আয়োজনের মধ্যে থাকতেছে আমাদের </b></p>
+				   <p>সারাদিনের আয়োজন নবীন ছাত্র-ছাত্রীদের অনুষ্ঠানে আয়োজন করতে উৎসাহিত করবে।</p>
 				 </div>
 			   </div>
 			   <div class="preparation_page_content">
@@ -39,7 +41,8 @@ include 'inc/header.php';
 				   <img src="images/6_6304.jpg">
 				 </div>
 				 <div class="preparation_page_content_images_text">
-				   <p>শতবর্ষ আয়োজনের মধ্যে থাকতেছে আমাদের সারাদিনের আয়োজন নবীন ছাত্র-ছাত্রীদের অনুষ্ঠানে আয়োজন করতে উৎসাহিত করবে।</p>
+				  <p><b>শতবর্ষ আয়োজনের মধ্যে থাকতেছে আমাদের </b></p>
+				   <p>সারাদিনের আয়োজন নবীন ছাত্র-ছাত্রীদের অনুষ্ঠানে আয়োজন করতে উৎসাহিত করবে।</p>
 				 </div>
 			   </div>
 			   <div class="preparation_page_content">
@@ -47,7 +50,8 @@ include 'inc/header.php';
 				   <img src="images/6_6304.jpg">
 				 </div>
 				 <div class="preparation_page_content_images_text">
-				   <p>শতবর্ষ আয়োজনের মধ্যে থাকতেছে আমাদের সারাদিনের আয়োজন নবীন ছাত্র-ছাত্রীদের অনুষ্ঠানে আয়োজন করতে উৎসাহিত করবে।</p>
+				   <p><b>শতবর্ষ আয়োজনের মধ্যে থাকতেছে আমাদের </b></p>
+				   <p>সারাদিনের আয়োজন নবীন ছাত্র-ছাত্রীদের অনুষ্ঠানে আয়োজন করতে উৎসাহিত করবে।</p>
 				 </div>
 			   </div>
 			   <div class="preparation_page_content">
@@ -55,7 +59,8 @@ include 'inc/header.php';
 				   <img src="images/6_6304.jpg">
 				 </div>
 				 <div class="preparation_page_content_images_text">
-				   <p>শতবর্ষ আয়োজনের মধ্যে থাকতেছে আমাদের সারাদিনের আয়োজন নবীন ছাত্র-ছাত্রীদের অনুষ্ঠানে আয়োজন করতে উৎসাহিত করবে।</p>
+				   <p><b>শতবর্ষ আয়োজনের মধ্যে থাকতেছে আমাদের </b></p>
+				   <p>সারাদিনের আয়োজন নবীন ছাত্র-ছাত্রীদের অনুষ্ঠানে আয়োজন করতে উৎসাহিত করবে।</p>
 				 </div>
 			   </div>
 		   </div>
@@ -67,7 +72,8 @@ include 'inc/header.php';
 				   <img src="images/6_6304.jpg">
 				 </div>
 				 <div class="preparation_page_content_images_text">
-				   <p>শতবর্ষ আয়োজনের মধ্যে থাকতেছে আমাদের সারাদিনের আয়োজন নবীন ছাত্র-ছাত্রীদের অনুষ্ঠানে আয়োজন করতে উৎসাহিত করবে।</p>
+				   <p><b>শতবর্ষ আয়োজনের মধ্যে থাকতেছে আমাদের </b></p>
+				   <p>সারাদিনের আয়োজন নবীন ছাত্র-ছাত্রীদের অনুষ্ঠানে আয়োজন করতে উৎসাহিত করবে।</p>
 				 </div>
 			   </div>
 			   <div class="preparation_page_content">
@@ -75,7 +81,8 @@ include 'inc/header.php';
 				   <img src="images/6_6304.jpg">
 				 </div>
 				 <div class="preparation_page_content_images_text">
-				   <p>শতবর্ষ আয়োজনের মধ্যে থাকতেছে আমাদের সারাদিনের আয়োজন নবীন ছাত্র-ছাত্রীদের অনুষ্ঠানে আয়োজন করতে উৎসাহিত করবে।</p>
+				   <p><b>শতবর্ষ আয়োজনের মধ্যে থাকতেছে আমাদের </b></p>
+				   <p>সারাদিনের আয়োজন নবীন ছাত্র-ছাত্রীদের অনুষ্ঠানে আয়োজন করতে উৎসাহিত করবে।</p>
 				 </div>
 			   </div>
 			   <div class="preparation_page_content">
@@ -83,7 +90,8 @@ include 'inc/header.php';
 				   <img src="images/6_6304.jpg">
 				 </div>
 				 <div class="preparation_page_content_images_text">
-				   <p>শতবর্ষ আয়োজনের মধ্যে থাকতেছে আমাদের সারাদিনের আয়োজন নবীন ছাত্র-ছাত্রীদের অনুষ্ঠানে আয়োজন করতে উৎসাহিত করবে।</p>
+				   <p><b>শতবর্ষ আয়োজনের মধ্যে থাকতেছে আমাদের </b></p>
+				   <p>সারাদিনের আয়োজন নবীন ছাত্র-ছাত্রীদের অনুষ্ঠানে আয়োজন করতে উৎসাহিত করবে।</p>
 				 </div>
 			   </div>
 			   <div class="preparation_page_content">
@@ -91,7 +99,8 @@ include 'inc/header.php';
 				   <img src="images/6_6304.jpg">
 				 </div>
 				 <div class="preparation_page_content_images_text">
-				   <p>শতবর্ষ আয়োজনের মধ্যে থাকতেছে আমাদের সারাদিনের আয়োজন নবীন ছাত্র-ছাত্রীদের অনুষ্ঠানে আয়োজন করতে উৎসাহিত করবে।</p>
+				   <p><b>শতবর্ষ আয়োজনের মধ্যে থাকতেছে আমাদের </b></p>
+				   <p>সারাদিনের আয়োজন নবীন ছাত্র-ছাত্রীদের অনুষ্ঠানে আয়োজন করতে উৎসাহিত করবে।</p>
 				 </div>
 			   </div>
 			   <div class="preparation_page_content">
@@ -99,7 +108,8 @@ include 'inc/header.php';
 				   <img src="images/6_6304.jpg">
 				 </div>
 				 <div class="preparation_page_content_images_text">
-				   <p>শতবর্ষ আয়োজনের মধ্যে থাকতেছে আমাদের সারাদিনের আয়োজন নবীন ছাত্র-ছাত্রীদের অনুষ্ঠানে আয়োজন করতে উৎসাহিত করবে।</p>
+				   <p><b>শতবর্ষ আয়োজনের মধ্যে থাকতেছে আমাদের </b></p>
+				   <p>সারাদিনের আয়োজন নবীন ছাত্র-ছাত্রীদের অনুষ্ঠানে আয়োজন করতে উৎসাহিত করবে।</p>
 				 </div>
 			   </div>
 		   </div>

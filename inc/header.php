@@ -56,10 +56,10 @@
                                       <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">একনজরে শায়েস্তাগঞ্জ উচ্চ বিদ্যালয়<span class="caret"></span></a>
                                       <ul class="dropdown-menu dropdown_menu_background_color">                
                                         <li class="dropdown-submenu">
-                                          <a href="">সংক্ষিপ্ত  ইতিহাস</a>
+                                          <a href="<?php echo $base_url; ?>#about_school">সংক্ষিপ্ত  ইতিহাস</a>
                                         </li>
 										                    <li class="dropdown-submenu">
-                                          <a href="">বর্তমান স্কুল ব্যবস্থাপনা কমিটি </a>
+                                          <a href="present_school_management_committre.php">বর্তমান স্কুল ব্যবস্থাপনা কমিটি </a>
                                         </li>
 										                    <li class="dropdown-submenu">
                                           <a href="head_teacher.php">প্রধান শিক্ষকবৃন্দ ক্রমানুযায়ী </a>

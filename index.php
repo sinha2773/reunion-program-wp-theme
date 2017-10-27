@@ -259,7 +259,8 @@ include 'inc/header.php';
                                             <img src="images/teacher-assistant-certification.jpg">
                                         </div>
                                         <div class="school_proud_sidebar_content_image_text">
-                                            <p>যেসব মানুষদের কারনে আমরা গর্ববোধ করি বা আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
+                                            <p><b>যেসব মানুষদের কারনে আমরা গর্ববোধ</b></p>
+											<p>											করি বা আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
                                         </div>
                                     </div>
                                     <div class="school_proud_sidebar_content">
@@ -267,7 +268,8 @@ include 'inc/header.php';
                                             <img src="images/teacher-assistant-certification.jpg">
                                         </div>
                                         <div class="school_proud_sidebar_content_image_text">
-                                            <p>যেসব মানুষদের কারনে আমরা গর্ববোধ করি বা আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
+                                            <p><b>যেসব মানুষদের কারনে আমরা গর্ববোধ</b></p>
+											<p>											করি বা আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
                                         </div>
                                     </div>
                                     <div class="school_proud_sidebar_content">
@@ -275,7 +277,8 @@ include 'inc/header.php';
                                             <img src="images/teacher-assistant-certification.jpg">
                                         </div>
                                         <div class="school_proud_sidebar_content_image_text">
-                                            <p>যেসব মানুষদের কারনে আমরা গর্ববোধ করি বা আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
+                                            <p><b>যেসব মানুষদের কারনে আমরা গর্ববোধ</b></p>
+											<p>											করি বা আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
                                         </div>
                                     </div>
                                     <div class="school_proud_sidebar_content">
@@ -283,7 +286,8 @@ include 'inc/header.php';
                                             <img src="images/teacher-assistant-certification.jpg">
                                         </div>
                                         <div class="school_proud_sidebar_content_image_text">
-                                            <p>যেসব মানুষদের কারনে আমরা গর্ববোধ করি বা আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
+                                            <p><b>যেসব মানুষদের কারনে আমরা গর্ববোধ</b></p>
+											<p>											করি বা আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
                                         </div>
                                     </div>
                                     <div class="school_proud_sidebar_content">
@@ -291,7 +295,8 @@ include 'inc/header.php';
                                             <img src="images/teacher-assistant-certification.jpg">
                                         </div>
                                         <div class="school_proud_sidebar_content_image_text">
-                                            <p>যেসব মানুষদের কারনে আমরা গর্ববোধ করি বা আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
+                                            <p><b>যেসব মানুষদের কারনে আমরা গর্ববোধ</b></p>
+											<p>											করি বা আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
                                         </div>
                                     </div>
                                     <div class="school_proud_sidebar_content">
@@ -299,7 +304,8 @@ include 'inc/header.php';
                                             <img src="images/teacher-assistant-certification.jpg">
                                         </div>
                                         <div class="school_proud_sidebar_content_image_text">
-                                            <p>যেসব মানুষদের কারনে আমরা গর্ববোধ করি বা আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
+                                            <p><b>যেসব মানুষদের কারনে আমরা গর্ববোধ</b></p>
+											<p>											করি বা আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
                                         </div>
                                     </div>
                                 </div>

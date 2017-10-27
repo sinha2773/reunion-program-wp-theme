@@ -11,7 +11,7 @@ include 'inc/header.php';
        <div class="row">
          <div class="col-md-12">
            <div class="preparation_page_title">
-             <h3>শায়েস্তাগঞ্জ উচ্চ বিদ্যালয়ের স্মারক গ্রন্থ প্রকাশনা উপকমিটির তৎপরতা</h3>             
+             <h3>শায়েস্তাগঞ্জ উচ্চ বিদ্যালয়ের বর্তমান স্কুল ব্যবস্থাপনা কমিটি</h3>             
            </div>
          </div>
        </div>
@@ -41,7 +41,7 @@ include 'inc/header.php';
 				   <img src="images/6_6304.jpg">
 				 </div>
 				 <div class="preparation_page_content_images_text">
-				   <p><b>শতবর্ষ আয়োজনের মধ্যে থাকতেছে আমাদের </b></p>
+				  <p><b>শতবর্ষ আয়োজনের মধ্যে থাকতেছে আমাদের </b></p>
 				   <p>সারাদিনের আয়োজন নবীন ছাত্র-ছাত্রীদের অনুষ্ঠানে আয়োজন করতে উৎসাহিত করবে।</p>
 				 </div>
 			   </div>
