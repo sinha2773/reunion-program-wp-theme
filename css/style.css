@@ -214,7 +214,7 @@
     margin-top: -1px;
 }
 .header_section{
-    background: #1BACB9;
+    background: #FDF69B;
 }
 .logo_image{
 	
@@ -237,7 +237,7 @@
 
 .banner_section{
 	width: 100%;
-	height: 500px;
+	min-height: 400px;
         margin-top: 110px;
 }
 .common_banner_section{
@@ -250,7 +250,7 @@
 }
 .item img{
 	width: 100%;
-	height: 450px;
+	height: 400px !important;
 }
 .carousel-caption {
     
