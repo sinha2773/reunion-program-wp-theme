@@ -143,6 +143,8 @@
         <script src="js/scrolling-nav.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/validate.min.js"></script>
+        <script src="js/validator.min.js"></script>
+        <script src="js/jquery.smartWizard.min.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
