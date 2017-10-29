@@ -35,8 +35,8 @@ include 'inc/header.php';
           				<div class="form-group registration_form_payment inpur_tag_margin_bottom registration_payment_method">
           				  <label for="inputEmail3" class="label_bottom control-label">Registration Fee payment method <span>*</span></label>
           				  <div class="label_bottom">
-          					<input type="radio" name="" checked class="radio_button_class" id="" value="1">bKash<br/>
-          					<input type="radio" name="" class="radio_button_class" id="payment_method" value="2">Rocket
+          					<input type="radio" name="money" checked class="radio_button_class" id="" value="1">bKash<br/>
+          					<input type="radio" name="money" class="radio_button_class" id="payment_method" value="2">Rocket
           				  </div>				  
           				</div>
           				<div class="form-group registration_form_payment inpur_tag_margin_bottom registration_payment_method">
@@ -54,8 +54,8 @@ include 'inc/header.php';
           				<div class="form-group registration_form_payment inpur_tag_margin_bottom registration_payment_method">
           				  <label for="inputEmail3" class="label_bottom control-label">Spouse<span>*</span></label>
           				  <div class="label_bottom">
-          					<input type="radio" name="" checked class="radio_button_class" id="" value="1">Yes<br/>
-          					<input type="radio" name="" class="radio_button_class" id="payment_method" value="2">No
+          					<input type="radio" name="wife" checked class="radio_button_class" id="" value="1">Yes<br/>
+          					<input type="radio" name="wife" class="radio_button_class" id="payment_method" value="2">No
           				  </div>				  
           				</div>
           				<div class="form-group registration_form_payment inpur_tag_margin_bottom registration_payment_method">
@@ -73,8 +73,8 @@ include 'inc/header.php';
           				<div class="form-group registration_form_payment inpur_tag_margin_bottom registration_payment_method">
           				  <label for="inputEmail3" class="label_bottom control-label">Driver (will be accompanied or not)<span>*</span></label>
           				  <div class="label_bottom">
-          					<input type="radio" name="" checked class="radio_button_class" id="" value="1">Yes<br/>
-          					<input type="radio" name="" class="radio_button_class" id="payment_method" value="2">No
+          					<input type="radio" name="driving" checked class="radio_button_class" id="" value="1">Yes<br/>
+          					<input type="radio" name="driving" class="radio_button_class" id="payment_method" value="2">No
           				  </div>				  
           				</div>
           				<div class="form-group registration_form_payment inpur_tag_margin_bottom registration_payment_method">

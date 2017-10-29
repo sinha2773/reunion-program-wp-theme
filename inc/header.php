@@ -35,7 +35,7 @@
                                     <li class="hundred_year"><a href="">শায়েস্তাগঞ্জ উচ্চ বিদ্যালয় শতবর্ষ উৎসব</a></li>
 									                 <li class="hotline_class"><a href=""><i class="fa fa-phone" aria-hidden="true"></i>Hotline : +8801770515151</a></li>
 									
-                                    <li class="nibondhon"><a href="registration_form.php">নিবন্ধন করতে এখানে ক্লিক করুন</a></li>
+                                    <li class="nibondhon"><a href="registration.php">নিবন্ধন করতে এখানে ক্লিক করুন</a></li>
                                     <li class="menu_date_time"><span>October 24, 2017 11:52 AM</span></li>
                                 </ul>
                             </div>
