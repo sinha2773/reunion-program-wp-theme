@@ -16,9 +16,19 @@ include 'inc/header.php';
            <p>ডাক ও থানা : শায়েস্তাগঞ্জ-৩৩০১, উপজেলা: হবিগঞ্জ সদর, জেলা : হবিগঞ্জ</p>
            <p>মোবাইল : ০১৭১১-১৭৬৫৬৩, ই-মেইল : shaistaganjhs100@gmail.com</p>
          </div>
-         <div class="registration_text">
+         <div class="registration_form_button">
+           <div class="registration_text">
+          
            <button>রেজিষ্ট্রেশন ফরম</button>
+          </div>
+            <div class="download_form">
+              <a href="document/registration.pdf" target="_blank">
+               <button>ডাউনলোড রেজিষ্ট্রেশন ফরম</button>
+              </a>
+            </div>
+         
          </div>
+         
          <div class="person_all_information">
            <form class="form-horizontal" action="#" id="myForm" role="form" data-toggle="validator" method="post" accept-charset="utf-8">
             <div id="smartwizard" class="sw-main sw-theme-dots">
@@ -32,34 +42,34 @@ include 'inc/header.php';
 
               <div id="step-1">
                 <div id="form-step-0" role="form" data-toggle="validator" class="first_step">
-          				<div class="form-group registration_form_payment inpur_tag_margin_bottom registration_payment_method">
-          				  <label for="inputEmail3" class="label_bottom control-label">Registration Fee payment method <span>*</span></label>
+          				<div class="form-group registration_form_payment registration_payment_method">
+          				  <label for="inputEmail3" class="label_bottom control-label">Registration Fee payment method <span class="red">*</span></label>
           				  <div class="label_bottom">
           					<input type="radio" name="money" checked class="radio_button_class" id="" value="1">bKash<br/>
           					<input type="radio" name="money" class="radio_button_class" id="payment_method" value="2">Rocket
           				  </div>				  
           				</div>
-          				<div class="form-group registration_form_payment inpur_tag_margin_bottom registration_payment_method">
-          				  <label for="inputEmail3" class="label_bottom control-label">In which bKash/Rocket/SureCash number you have sent your Registration Fee (include Transaction ID within brackets)<span>*</span></label>
+          				<div class="form-group registration_form_payment registration_payment_method">
+          				  <label for="inputEmail3" class="label_bottom control-label">In which bKash/Rocket/SureCash number you have sent your Registration Fee (include Transaction ID within brackets)<span class="red">*</span></label>
           				  <div class="">
           					<input type="text" class="form-control" id="inputEmail3" placeholder="">
           				  </div>				  
           				</div>
-          				<div class="form-group registration_form_payment inpur_tag_margin_bottom registration_payment_method">
-          				  <label for="inputEmail3" class="label_bottom control-label">Total Amount of Taka (numeric)<span>*</span></label>
+          				<div class="form-group registration_form_payment registration_payment_method">
+          				  <label for="inputEmail3" class="label_bottom control-label">Total Amount of Taka (numeric)<span class="red">*</span></label>
           				  <div class="">
           					<input type="text" class="form-control" id="inputEmail3" placeholder="">
           				  </div>				  
           				</div>
-          				<div class="form-group registration_form_payment inpur_tag_margin_bottom registration_payment_method">
-          				  <label for="inputEmail3" class="label_bottom control-label">Spouse<span>*</span></label>
+          				<div class="form-group registration_form_payment registration_payment_method">
+          				  <label for="inputEmail3" class="label_bottom control-label">Spouse<span class="red">*</span></label>
           				  <div class="label_bottom">
           					<input type="radio" name="wife" checked class="radio_button_class" id="" value="1">Yes<br/>
           					<input type="radio" name="wife" class="radio_button_class" id="payment_method" value="2">No
           				  </div>				  
           				</div>
-          				<div class="form-group registration_form_payment inpur_tag_margin_bottom registration_payment_method">
-          				  <label for="inputEmail3" class="label_bottom control-label">Child (please mention the number of child)<span>*</span></label>
+          				<div class="form-group registration_form_payment registration_payment_method">
+          				  <label for="inputEmail3" class="label_bottom control-label">Child (please mention the number of child)<span class="red">*</span></label>
           				   <div class="label_bottom">
           					<select class="form-control">
           					  <option>Choose</option>
@@ -70,15 +80,15 @@ include 'inc/header.php';
           					</select>
           				  </div>				  
           				</div>
-          				<div class="form-group registration_form_payment inpur_tag_margin_bottom registration_payment_method">
-          				  <label for="inputEmail3" class="label_bottom control-label">Driver (will be accompanied or not)<span>*</span></label>
+          				<div class="form-group registration_form_payment registration_payment_method">
+          				  <label for="inputEmail3" class="label_bottom control-label">Driver (will be accompanied or not)<span class="red">*</span></label>
           				  <div class="label_bottom">
           					<input type="radio" name="driving" checked class="radio_button_class" id="" value="1">Yes<br/>
           					<input type="radio" name="driving" class="radio_button_class" id="payment_method" value="2">No
           				  </div>				  
           				</div>
-          				<div class="form-group registration_form_payment inpur_tag_margin_bottom registration_payment_method">
-          				  <label for="inputEmail3" class="label_bottom control-label">Total Number of Participants (including You)<span>*</span></label>
+          				<div class="form-group registration_form_payment registration_payment_method">
+          				  <label for="inputEmail3" class="label_bottom control-label">Total Number of Participants (including You)<span class="red">*</span></label>
           				  <div class="">
           					<input type="text" class="form-control" id="inputEmail3" placeholder="">
           				  </div>				  
@@ -87,153 +97,154 @@ include 'inc/header.php';
               </div>
           <div id="step-2">
             <div id="form-step-1" role="form" data-toggle="validator">
-              <div class="form-group inpur_tag_margin_bottom">
-                <label for="inputEmail3" class="col-md-3 control-label">শিক্ষার্থীর নাম ( বাংলায় )<span>*</span></label>
-                  <div class="col-md-9">
+              <div class="form-group inpur_tag_margin_bottom form_margin_top">
+                <label for="inputEmail3" class="col-md-4 control-label">শিক্ষার্থীর নাম ( বাংলায় )<span class="red">*</span></label>
+                  <div class="col-md-8">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="" required>
                   </div>
               </div>
               <div class="form-group inpur_tag_margin_bottom">
-                <label for="inputEmail3" class="col-md-3 control-label">( ইংরেজি )</label>
-                  <div class="col-md-9">
+                <label for="inputEmail3" class="col-md-4 control-label">( ইংরেজি )</label>
+                  <div class="col-md-8">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="" required>
                   </div>
               </div>
               <div class="form-group inpur_tag_margin_bottom">
-                <label for="inputEmail3" class="col-md-3 control-label">পিতার নাম</label>
-                  <div class="col-md-9">
+                <label for="inputEmail3" class="col-md-4 control-label">পিতার নাম</label>
+                  <div class="col-md-8">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="" required>
                   </div>
               </div>
               <div class="form-group inpur_tag_margin_bottom">
-                <label for="inputEmail3" class="col-md-3 control-label">মাতার নাম</label>
-                  <div class="col-md-9">
+                <label for="inputEmail3" class="col-md-4 control-label">মাতার নাম</label>
+                  <div class="col-md-8">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="" required>
                   </div>
               </div>
 			  <div class="form-group inpur_tag_margin_bottom">
-                <label for="inputEmail3" class="col-md-3 control-label">স্বামী / স্ত্রীর নাম</label>
-                  <div class="col-md-9">
+                <label for="inputEmail3" class="col-md-4 control-label">স্বামী / স্ত্রীর নাম</label>
+                  <div class="col-md-8">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="" required>
                   </div>
               </div>
 			  <div class="form-group inpur_tag_margin_bottom">
-                <label for="inputEmail3" class="col-md-3 control-label">সন্তানের সংখ্যা</label>
-                  <div class="col-md-9">
+                <label for="inputEmail3" class="col-md-4 control-label">সন্তানের সংখ্যা</label>
+                  <div class="col-md-8">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="" required>
                   </div>
               </div>
               
               <div class="form-group inpur_tag_margin_bottom">
-                <label for="inputEmail3" class="col-md-3 control-label">বর্তমান পেশা</label>
-                  <div class="col-md-9">
+                <label for="inputEmail3" class="col-md-4 control-label">বর্তমান পেশা</label>
+                  <div class="col-md-8">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="" required>
                   </div>
               </div>
 			  <div class="form-group inpur_tag_margin_bottom">
-                <label for="inputEmail3" class="col-md-3 control-label">ভর্তির সন</label>
-                  <div class="col-md-9">
+                <label for="inputEmail3" class="col-md-4 control-label">ভর্তির সন<span class="red">*</span></label>
+                  <div class="col-md-8">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="" required>
                   </div>
               </div>
 			  <div class="form-group inpur_tag_margin_bottom">
-                <label for="inputEmail3" class="col-md-3 control-label">শ্রেণি</label>
-                  <div class="col-md-9">
+                <label for="inputEmail3" class="col-md-4 control-label">শ্রেণি<span class="red">*</span></label>
+                  <div class="col-md-8">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="" required>
                   </div>
               </div>
 			  <div class="form-group inpur_tag_margin_bottom">
-                <label for="inputEmail3" class="col-md-3 control-label">এস এস সি পাশের সন (  প্রযোজ্য ক্ষেত্রে )</label>
-                  <div class="col-md-9">
+                <label for="inputEmail3" class="col-md-4 control-label">এস এস সি পাশের সন (  প্রযোজ্য ক্ষেত্রে )<span class="red">*</span></label>
+                  <div class="col-md-8">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="" required>
                   </div>
               </div>
 			  <div class="form-group inpur_tag_margin_bottom">
-                <label for="inputEmail3" class="col-md-3 control-label">স্থায়ী ঠিকানা ( গ্রাম  )</label>
-                  <div class="col-md-9">
+                <label for="inputEmail3" class="col-md-4 control-label">স্থায়ী ঠিকানা ( গ্রাম  )</label>
+                  <div class="col-md-8">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="" required>
                   </div>
               </div>
 			  <div class="form-group inpur_tag_margin_bottom">
-                <label for="inputEmail3" class="col-md-3 control-label">ডাক</label>
-                  <div class="col-md-9">
+                <label for="inputEmail3" class="col-md-4 control-label">ডাক</label>
+                  <div class="col-md-8">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="" required>
                   </div>
               </div>
 			  <div class="form-group inpur_tag_margin_bottom">
-                <label for="inputEmail3" class="col-md-3 control-label">উপজেলা</label>
-                  <div class="col-md-9">
+                <label for="inputEmail3" class="col-md-4 control-label">উপজেলা</label>
+                  <div class="col-md-8">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="" required>
                   </div>
               </div>
 			  <div class="form-group inpur_tag_margin_bottom">
-                <label for="inputEmail3" class="col-md-3 control-label">জেলা</label>
-                  <div class="col-md-9">
+                <label for="inputEmail3" class="col-md-4 control-label">জেলা</label>
+                  <div class="col-md-8">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="" required>
                   </div>
               </div>
 			  
 			        <div class="form-group inpur_tag_margin_bottom">
-                <label for="inputEmail3" class="col-md-3 control-label">বর্তমান যোগাযোগ ঠিকানা</label>
-                  <div class="col-md-9">
+                <label for="inputEmail3" class="col-md-4 control-label">বর্তমান যোগাযোগ ঠিকানা<span class="red">*</span></label>
+                  <div class="col-md-8">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="" required>
                   </div>
               </div>
 			        <div class="form-group inpur_tag_margin_bottom">
-                <label for="inputEmail3" class="col-md-3 control-label"></label>
-                  <div class="col-md-9">
+                <label for="inputEmail3" class="col-md-4 control-label"></label>
+                  <div class="col-md-8">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="" required>
                   </div>
               </div>
 			       <div class="form-group inpur_tag_margin_bottom">
-                <label for="inputEmail3" class="col-md-3 control-label"></label>
-                  <div class="col-md-9">
+                <label for="inputEmail3" class="col-md-4 control-label"></label>
+                  <div class="col-md-8">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="" required>
                   </div>
               </div>
 			  <div class="form-group inpur_tag_margin_bottom">
-                <label for="inputEmail3" class="col-md-3 control-label">জন্ম তারিখ</label>
-                  <div class="col-md-9">
+                <label for="inputEmail3" class="col-md-4 control-label">জন্ম তারিখ</label>
+                  <div class="col-md-8">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="" required>
                   </div>
               </div>
 			  <div class="form-group inpur_tag_margin_bottom">
-                <label for="inputEmail3" class="col-md-3 control-label">রক্তের গ্রুপ যদি থাকে</label>
-                  <div class="col-md-9">
+                <label for="inputEmail3" class="col-md-4 control-label">রক্তের গ্রুপ যদি থাকে</label>
+                  <div class="col-md-8">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="" required>
                   </div>
               </div>
 			  <div class="form-group inpur_tag_margin_bottom">
-                <label for="inputEmail3" class="col-md-3 control-label">মোবাইল নম্বর </label>
-                  <div class="col-md-9">
+                <label for="inputEmail3" class="col-md-4 control-label">মোবাইল নম্বর <span class="red">*</span></label>
+                  <div class="col-md-8">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="" required>
                   </div>
               </div>
 			  <div class="form-group inpur_tag_margin_bottom">
-                <label for="inputEmail3" class="col-md-3 control-label">ই-মেইল </label>
-                  <div class="col-md-9">
+                <label for="inputEmail3" class="col-md-4 control-label">ই-মেইল<span class="red">*</span> </label>
+                  <div class="col-md-8">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="" required>
                   </div>
               </div>
 			      
 			       <div class="form-group inpur_tag_margin_bottom">
-                <label for="inputEmail3" class="col-md-3 control-label">রেজিষ্ট্রেশন ফি (  শিক্ষার্থী )</label>
-                  <div class="col-md-9">
+                <label for="inputEmail3" class="col-md-4 control-label">রেজিষ্ট্রেশন ফি (  শিক্ষার্থী )</label>
+                  <div class="col-md-8">
                     <strong>২00/- দুইশত টাকা মাত্র।, <p class="bishes_drostobo">(  বি:দ্র: পরিবারের অন্যান্য সদস্যদের অংশগ্রহনের ক্ষেতে জন প্রতি ফি ১০০০/- )  </p></strong>
                   </div>
               </div>
 			        <div class="form-group inpur_tag_margin_bottom">
-                <label for="inputEmail3" class="col-md-3 control-label">মোট টাকা</label>
+                <label for="inputEmail3" class="col-md-4 control-label">মোট টাকা</label>
                   <div class="col-md-2">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="" required>
                   </div>
               </div>
             </div>
-             <div class="form-group police_report_div">
+             <div class="form-group police_report_div inpur_tag_margin_bottom">
+              
                 <div class="">
                   <button type="submit" class="">Submit</button>
                 </div>
-                
+              
               </div>
             
           </div>

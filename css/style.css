@@ -2143,14 +2143,18 @@ background: #3B5997;
     color: #1BACB9;
 }
 .inpur_tag_margin_bottom input, select{
-    margin-bottom: 0px;
+   /* margin-bottom: 0px;*/
 }
 .inpur_tag_margin_bottom label{
         font-size: 13px;
-    margin-top: 6px;
+    
 }
 .inpur_tag_margin_bottom label{}
-.inpur_tag_margin_bottom{}
+.inpur_tag_margin_bottom{
+    background: #eee;
+    padding: 10px 0px;
+        border-radius: 5px;
+}
 .first_step .registration_payment_method input, select, label{
     /*margin-left: 10px;*/
 }
@@ -2193,10 +2197,7 @@ background: #3B5997;
 .label_margin_top{
     margin-top: 0px !important;
 }
-.inpur_tag_margin_bottom span{
-    color: red;
-    font-size: 18px;
-}
+
 /*registratio form style end*/
 
 /*blog style*/
@@ -2541,6 +2542,7 @@ background: #3B5997;
 .registration_page_all_information{
     padding: 30px 40px;
     background: #fff;
+        border-radius: 10px;
 }
 .registration_page_header_information{
     text-align: center;
@@ -2548,21 +2550,62 @@ background: #3B5997;
 }
 .registration_page_header_information h1{
     font-size: 40px;
+    margin: 0px;
+    color: #FE7511;
 }
-.registration_page_header_information h3{}
-.registration_page_header_information h2{}
-.registration_page_header_information p{}
+.registration_page_header_information h3{
+    color: #BD4079;
+    font-size: 22px;
+    margin: 10px 0px;
+}
+.registration_page_header_information h2{
+        color: #000;
+    margin-top: 0px;
+    font-size: 24px;
+}
+.registration_page_header_information p{
+    color: #000;
+}
+.registration_form_button{
+        margin: 30px 0px;
+    width: 100%;
+    
+    overflow: hidden;
+}
 .registration_text{
-    text-align: center;
-    margin: 30px 0px;
+    float: left;
 }
 .registration_text button{
-    background: #1BACB9;
-    padding: 15px 45px;
+   background: #1BACB9;
+    /* padding: 15px 45px; */
     font-size: 20px;
     color: #fff;
-    border:1px solid #1BACB9;
+    border: 1px solid #1BACB9;
     border-radius: 5px;
+    width: 300px;
+    height: 52px;
+}
+.download_form{
+    float: right;
+}
+.download_form button{
+    background: #1BACB9;
+    /* padding: 15px 45px; */
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #1BACB9;
+    border-radius: 5px;
+    width: 300px;
+    height: 52px;
+    
+}
+.radio_button_class{
+    margin-right: 5px !important;
+
+}
+.red{
+    color: red;
+    font-size: 18px;
 }
 .bishes_drostobo{
     font-size: 10px;
@@ -2574,7 +2617,9 @@ background: #3B5997;
 .registration_form_payment input{}
 
 .person_all_information{
-    background: #F8F8F8;
+    background: #fff !important;
+        width: 75%;
+    margin: 0 auto;
 }
 .btn-default {
     border: 2px solid #31B0D5;
@@ -2630,20 +2675,27 @@ button.btn.btn-default.sw-btn-prev {
     border: 2px solid #31B0D5;
 }
 .sw-theme-dots .sw-toolbar-bottom {
-    margin-top: 15px;
+    /*margin-top: 15px;*/
     text-align: center;
 }
 .registrarion_step{}
 .registrarion_step li{
-        margin: 0px 180px;
+        margin: 0px 121px;
 }
 .sw-theme-dots > ul.step-anchor > li > a:after {
-    
-    left: 45%;
-    
-    top: -9px;
+       left: 45% !important;
+    top: -10px !important;
 }
-.{}
+input[type="text"], input[type="date"], input[type="password"], input[type="email"], input[type="number"], select, textarea {
+    border: 1px solid #d5d5d5 !important;
+    border-right: 5px solid #E7E7E7 !important;
+    position: relative;
+    border-radius: 4px;
+    padding: 2px 10px;
+}
+.form_margin_top{
+    margin-top: 30px;
+}
 .{}
 .{}
 .{}
