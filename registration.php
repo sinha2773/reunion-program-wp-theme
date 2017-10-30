@@ -15,18 +15,17 @@ include 'inc/header.php';
            <h2>শায়েস্তাগঞ্জ উচ্চ বিদ্যালয়</h2>
            <p>ডাক ও থানা : শায়েস্তাগঞ্জ-৩৩০১, উপজেলা: হবিগঞ্জ সদর, জেলা : হবিগঞ্জ</p>
            <p>মোবাইল : ০১৭১১-১৭৬৫৬৩, ই-মেইল : shaistaganjhs100@gmail.com</p>
+           <div class="download_form">
+              <a href="document/registration.pdf" target="_blank">
+               <button class="btn-sm">ডাউনলোড রেজিষ্ট্রেশন ফরম</button>
+              </a>
+            </div>
          </div>
          <div class="registration_form_button">
            <div class="registration_text">
           
-           <button>রেজিষ্ট্রেশন ফরম</button>
+           <h2>রেজিষ্ট্রেশন ফরম</h2>
           </div>
-            <div class="download_form">
-              <a href="document/registration.pdf" target="_blank">
-               <button>ডাউনলোড রেজিষ্ট্রেশন ফরম</button>
-              </a>
-            </div>
-         
          </div>
          
          <div class="person_all_information">
