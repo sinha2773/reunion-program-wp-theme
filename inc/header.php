@@ -19,7 +19,32 @@
     </head>
     <body>
 		<?php $base_url = "http://localhost/reunion-program-wp-theme/index.php"; ?> 
-        <header class="header_section navbar-fixed-top">
+      <div class="hotline_header">
+        <div class="container">
+          <div class="main_hotline_header">
+            <div class="hotline_information">
+              <div class="hotline_left_information">
+                <ul>
+                   <li><i class="fa fa-phone" aria-hidden="true"></i>Hotline : +8801770515151</li>
+                </ul>
+              </div>
+              <div class="hotline_right_information">
+                <ul>
+                  <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-google-plus" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-dribbble" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-rss" aria-hidden="true"></i></li>
+                  <li><span>October 24, 2017 11:52 AM</span></li>
+                </ul>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <header class="header_section">
             <div class="container">
                 <div class="row">
                         <div class="col_thr col-xs-6 col-sm-2 col-md-2">
@@ -30,7 +55,7 @@
                             </div>
                         </div>
                         <div class="bg_col col-xs-12 col-sm-10 col-md-10 both_paddint">
-                           <div class="top_header_content collapse navbar-collapse">
+                           <!-- <div class="top_header_content collapse navbar-collapse">
                                 <ul class="nav navbar-nav top_header_menu">
                                     <li class="hundred_year"><a href="">শায়েস্তাগঞ্জ উচ্চ বিদ্যালয় শতবর্ষ উৎসব</a></li>
 									                 <li class="hotline_class"><a href=""><i class="fa fa-phone" aria-hidden="true"></i>Hotline : +8801770515151</a></li>
@@ -38,7 +63,7 @@
                                     <li class="nibondhon"><a href="registration.php">নিবন্ধন করতে এখানে ক্লিক করুন</a></li>
                                     <li class="menu_date_time"><span>October 24, 2017 11:52 AM</span></li>
                                 </ul>
-                            </div>
+                            </div> -->
                             <nav class="navbar navbar-default">
                               <div class="container_ful">
                                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -136,9 +161,10 @@
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                   <ul class="nav navbar-nav bottom_navber_margin_top">
+									<li class="nibondhon"><a href="registration.php">নিবন্ধন করতে এখানে ক্লিক করুন</a></li>
                                     <li><a class="scrollto" href="<?php echo $base_url; ?>#school_proud">স্কুলের গর্ব যারা</a></li>
                   									<li><a href="blog.php">শরনিকার জন্য আপনার লিখা পোষ্ট করুন</a></li>
-                  									<li><a href="today_update.php">আজকের আপডেট</a></li>
+                  									<!-- <li><a href="today_update.php">আজকের আপডেট</a></li> -->
                   									<li><a class="" href="hotline.php">সর্বশেষ সংবাদ</a></li>
                   									<li><a class="" href="contact.php">যোগাযোগ</a></li>
                                   </ul>

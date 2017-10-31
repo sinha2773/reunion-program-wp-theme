@@ -70,7 +70,7 @@
     margin-top: 7px !important;
 }
 .nvaber_margin_top{
-    margin-top: 5px !important;
+    margin-top: 24px !important;
 }
 .nvaber_margin_top i{
     margin-right: 8px;
@@ -234,11 +234,50 @@
 	float: right;
 	margin-top: 3px;
 }
-
+.{}
 .banner_section{
 	width: 100%;
 	min-height: 400px;
-        margin-top: 110px;
+    /*margin-top: 110px;*/
+    background: #3D1B1A;
+}
+.banner_section_information{
+    margin: 40px 0px;
+}
+.banner_sidebar_header{
+    background: #F8F8F8;
+    padding: 10px;
+    text-align: center;
+    /*border-radius: 5px;*/
+    margin-bottom: 10px;
+}
+.banner_sidebar_header h2{
+    color: #811e02;
+    margin: 0px;
+    font-size: 24px;
+
+}
+.banner_sidebar_header2{
+    background: #F8F8F8;
+    padding: 10px;
+    text-align: center;
+    /*border-radius: 5px;*/
+    
+}
+.banner_sidebar_header2 h2{
+    color: #811e02;
+    margin: 0px;
+    font-size: 24px;
+}
+.banner_sidebar{
+    width: 100%;
+    background: #F8F8F8;
+        padding-top: 46px;
+   
+}
+.banner_sidebar video{
+    width: 100% !important;
+    height: 208px !important;
 }
 .common_banner_section{
     margin-top: 70px;
@@ -250,6 +289,7 @@
 }
 .item img{
 	width: 100%;
+        height: 311px !important;
 	
 }
 .carousel-caption {
@@ -260,7 +300,9 @@
 .carousel-caption a{
 
 }
-
+.banner_section_banner{
+    
+}
 .row{
 	margin-left: -10px;
 	margin-right: -10px;
@@ -310,13 +352,173 @@
 .{}
 
 /*bottom header style end*/
+
+/*hotline header style*/
+
+.hotline_header{
+    background: #3D1B1B;
+}
+.main_hotline_header{
+    margin: 10px 0px;
+}
+.hotline_information{
+    color: #fff;
+}
+.hotline_left_information{
+    float: left;
+}
+.hotline_left_information .fa-phone{
+    margin-right: 10px;
+    color: red;
+}
+.hotline_left_information ul{}
+.hotline_left_information li{
+    list-style-type: none;
+    
+    font-size: 18px;
+    
+}
+.hotline_right_information{
+    float: right;
+}
+.hotline_right_information ul{}
+.hotline_right_information li{
+    list-style-type: none;
+    float: left;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.hotline_right_information li i{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+
+/*hotline header style end*/
+
+/*hundred years style*/
+
+.hundred_years_section{
+    background: #DCDCDC;
+}
+.main_hundred_years{
+    margin: 60px 0px; 
+}
+.hundred_years_title{
+    text-align: center;
+    padding: 15px;
+    background: #F8F8F8;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.hundred_years_title h2{
+    margin: 0px;
+    color: #811e02;
+    font-size: 36px;
+}
+.hundred_years_content{
+    background: #F8F8F8;
+}
+.hundred_years_content_title{
+    text-align: center;
+    padding: 10px;    
+    border-radius: 5px;    
+}
+.hundred_years_content_title h3{
+        margin: 0px;
+    font-size: 19px;
+}
+.hundred_years_content_images{}
+.hundred_years_content_images img{
+    width: 100%;
+}
+.hundred_years_content_images_text{
+        padding: 10px;
+}
+.hundred_years_content_images_text h3{
+    margin: 0px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.hundred_years_another_content{
+        padding: 10px;
+    border-top: 1px solid #000;
+}
+.hundred_years_another_content_text{
+    
+}
+.hundred_years_another_content_text p{
+    text-align: justify;
+    margin: 0px;
+}
+.hundred_years_top{
+    margin-bottom: 15px;
+}
+
+
+.comettree_totporota_section{
+    background: #ccc;
+}
+.main_comettree{
+    margin: 60px 0px;
+}
+.comettree_totporota_content{
+    background: #F8F8F8;
+    border-radius: 5px;
+}
+.comettree_totporota_content_info{
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+}
+.comettree_totporota_images{
+    width: 25%;
+    margin-right: 2%;
+    float: left;
+}
+.comettree_totporota_images img{
+    width: 100%;
+}
+.comettree_totporota_images_text{}
+.comettree_totporota_images_text h4{
+    font-weight: bold;
+}
+.comettree_totporota_images_text p{
+    text-align: justify;
+}
+.donation_comettre{
+    margin-bottom: 15px;
+}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+/*hundred years style end*/
+
+
 /*area of practice section*/
 
 .area_of_practice_section{
 	    
 }
 .area_practice_information{
-    margin: 60px 0px;
+    margin: 0px 0px 60px 0px;
 }
 .area_practice_top_title{
 	text-align: center;
@@ -344,7 +546,7 @@
 .area_practice_image{}
 .area_practice_image img{
 	    width: 100%;
-        height: 220px;
+        height: 160px;
 }
 .area_practice_image_text{
 	background: #F9F8F8;
@@ -500,13 +702,14 @@
     border-bottom: 1px solid #ccc;
     border-radius: 5px;
     text-align: center;
+    margin-bottom: 20px;
    
 }
 .clear_advice span{}
 .clear_advice h3{
 	margin: 0px;
     color: #092D54;
-    font-size: 22px;
+        font-size: 36px;
 }
 .wellcome_text{
     background: #F8F8F8;
@@ -1333,7 +1536,7 @@ div.wpcf7 .screen-reader-response {
 }
 .right_sideber_body{
 	    background: #F8F8F8;
-    padding: 30px 10px 20px 10px;
+        padding: 15px 30px 20px 30px;
     border: 1px solid #F8F8F8;
     border-radius: 0px 0px 5px 5px;
    
@@ -1362,7 +1565,7 @@ div.wpcf7 .screen-reader-response {
 	text-align: center;
 }
 .btn-success{
-	    width: 50%;
+	width: 35%;
     padding: 10px;
     margin: 0 auto;
     font-size: 16px;
@@ -1377,7 +1580,7 @@ div.wpcf7 .screen-reader-response {
 }
 .submit_button{
 	text-align: center;
-        margin-top: 30px;
+        margin-top: 15px;
 }
 .common_title_color{}
 .common_title_color h3{
@@ -1839,10 +2042,10 @@ background: #3B5997;
 /*upcomming section style*/
 
 .upcomming_event_section{
-    background: #FAFAFA;
+    background: #DCDCDC;
 }
 .all_upcomming_event_div{
-    margin: 60px 0px;
+    margin: 0px 0px 60px 0px;
 }
 .upcomming_event_title{
     text-align: center;
@@ -1908,7 +2111,7 @@ background: #3B5997;
     margin-bottom: 30px;
 }
 .all_teacher_section{
-    background: #ccc;
+    background: #DCDCDC;
 }
 .{}
 .{}
@@ -1919,7 +2122,7 @@ background: #3B5997;
 
 .blog_section{}
 .all_blog_div{
-    margin: 60px 0;
+    margin: 0px 0px 60px 0px;
 }
 .blog_title{
     text-align: center;
@@ -2114,7 +2317,7 @@ background: #3B5997;
 /*registratio form style*/
 
 .all_section_upper{
-    margin-top: 110px;
+    /*margin-top: 110px;*/
 }
 .registration_from_section{
     background: #DCDCDC;
@@ -2376,7 +2579,7 @@ background: #3B5997;
 .school_proud_sidebar{
     padding: 20px;
     background: #F8F8F8;
-    min-height: 547px;
+       min-height: 427px;
 }
 .school_proud_sidebar_content{
     width: 100%;
@@ -2405,23 +2608,25 @@ background: #3B5997;
     margin-bottom: 10px;
 }
 .school_proud_header h3{
-    margin: 0px;
+    font-size: 22px;
 }
 .school_proud_button{
     text-align: center;
-    padding: 20px;
+    padding: 14px;
     background: #F8F8F8;
     margin-top: 20px;
 }
 .school_proud_button button{
-    padding: 15px 50px;
-    font-size: 20px;
+        padding: 10px 40px;
+    font-size: 16px;
     color: #fff;
     background: #1BACB9;
-    border:1px solid #1BACB9;
+    border: 1px solid #1BACB9;
     border-radius: 5px;
 }
-.{}
+.teacher_images{
+    width:35% !important; 
+}
 .{}
 
 /*school proud sidebar style end*/

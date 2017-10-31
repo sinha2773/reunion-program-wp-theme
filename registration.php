@@ -49,7 +49,7 @@ include 'inc/header.php';
           				  </div>				  
           				</div>
           				<div class="form-group registration_form_payment registration_payment_method">
-          				  <label for="inputEmail3" class="label_bottom control-label">In which bKash/Rocket/SureCash number you have sent your Registration Fee (include Transaction ID within brackets)<span class="red">*</span></label>
+          				  <label for="inputEmail3" class="label_bottom control-label">In which bKash/Rocket number you have sent your Registration Fee (include Transaction ID within brackets)<span class="red">*</span></label>
           				  <div class="">
           					<input type="text" class="form-control" id="inputEmail3" placeholder="">
           				  </div>				  
@@ -222,6 +222,12 @@ include 'inc/header.php';
                 <label for="inputEmail3" class="col-md-4 control-label">ই-মেইল<span class="red">*</span> </label>
                   <div class="col-md-8">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="" required>
+                  </div>
+              </div>
+			  <div class="form-group inpur_tag_margin_bottom">
+                <label for="inputEmail3" class="col-md-4 control-label">তোমার ছবি<span class="red">*</span> </label>
+                  <div class="col-md-8">
+                    <input type="file" class="form-control" id="inputEmail3" placeholder="" required>
                   </div>
               </div>
 			      
