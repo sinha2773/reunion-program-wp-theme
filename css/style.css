@@ -104,7 +104,7 @@
     margin-top: 7px;
 }
 .nibondhon{
-    background: #FE7411;
+    background: red !important;
     height: 30px;
     margin-top: -9px;
     border-radius: 5px;
@@ -240,19 +240,21 @@
 	min-height: 400px;
     /*margin-top: 110px;*/
     background: #3D1B1A;
+    /*background: url(../images/school_bg.jpg);*/
 }
 .banner_section_information{
     margin: 40px 0px;
 }
 .banner_sidebar_header{
-    background: #F8F8F8;
+        background: red;
     padding: 10px;
     text-align: center;
-    /*border-radius: 5px;*/
+    /* border-radius: 5px; */
     margin-bottom: 10px;
+    color: #fff;
 }
 .banner_sidebar_header h2{
-    color: #811e02;
+    /*color: #811e02;*/
     margin: 0px;
     font-size: 24px;
 
@@ -2603,9 +2605,11 @@ background: #3B5997;
     background: #eee;
 }
 .school_proud_header{
-    background: #F8F8F8;
+    
+    background: red;
     padding: 20px;
     margin-bottom: 10px;
+    color: #fff;
 }
 .school_proud_header h3{
     font-size: 22px;
@@ -2630,6 +2634,29 @@ background: #3B5997;
 .{}
 
 /*school proud sidebar style end*/
+
+/*school comety upocomety style*/
+
+.comety_upcomety_section{
+    background: #DCDCDC;
+}
+.main_comety_upcomety{
+    margin-bottom: 60px; 
+}
+.comety_upcomety_section_content{
+    background: #F8F8F8;
+    padding: 15px;
+}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+
+
+/*school comety upocomety style end*/
 
 /*head teacher page style*/
 

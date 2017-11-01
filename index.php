@@ -702,7 +702,124 @@ include 'inc/header.php';
           </div>
           </div>
         </section>
-		
+		<section class="comety_upcomety_section">
+            <div class="container">
+                <div class="main_comety_upcomety">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="area_practice_top_title school_proud_header">
+                                    <h3>বর্তমান স্কুল ব্যবস্থাপনা কমিটি</h3>
+                                </div>
+                            <div class="comety_upcomety_section_content">
+                                
+                                <div class="comettree_totporota_content donation_comettre">
+                                    <div class="comettree_totporota_content_info">
+                                        <div class="comettree_totporota_images">
+                                            <img src="images/Benefits-of-Technology-in-the-Classroom.jpg">
+                                        </div>
+                                        <div class="comettree_totporota_images_text">
+                                            <h4>আহবায়ক : জনাব তরিকুল ইসলাম হারুন</h4>
+                                            <p>অর্থ উপকমিটি</p>
+                                        </div>
+                                    </div>
+                                </div>
+								<div class="comettree_totporota_content donation_comettre">
+                                    <div class="comettree_totporota_content_info">
+                                        <div class="comettree_totporota_images">
+                                            <img src="images/Benefits-of-Technology-in-the-Classroom.jpg">
+                                        </div>
+                                        <div class="comettree_totporota_images_text">
+                                            <h4>আহবায়ক : জনাব তরিকুল ইসলাম হারুন</h4>
+                                            <p>অর্থ উপকমিটি</p>
+                                        </div>
+                                    </div>
+                                </div>
+								<div class="comettree_totporota_content donation_comettre">
+                                    <div class="comettree_totporota_content_info">
+                                        <div class="comettree_totporota_images">
+                                            <img src="images/Benefits-of-Technology-in-the-Classroom.jpg">
+                                        </div>
+                                        <div class="comettree_totporota_images_text">
+                                            <h4>আহবায়ক : জনাব তরিকুল ইসলাম হারুন</h4>
+                                            <p>অর্থ উপকমিটি</p>
+                                        </div>
+                                    </div>
+                                </div>
+								<div class="comettree_totporota_content donation_comettre">
+                                    <div class="comettree_totporota_content_info">
+                                        <div class="comettree_totporota_images">
+                                            <img src="images/Benefits-of-Technology-in-the-Classroom.jpg">
+                                        </div>
+                                        <div class="comettree_totporota_images_text">
+                                            <h4>আহবায়ক : জনাব তরিকুল ইসলাম হারুন</h4>
+                                            <p>অর্থ উপকমিটি</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="school_proud_button">
+                                   <button>আরও দেখতে</button>
+                                </div>
+                        </div>
+						<div class="col-md-6">
+                            <div class="area_practice_top_title school_proud_header">
+                                    <h3>শতবর্ষ উদ্ যাপন কমিটি ও উপকমিটি</h3>
+                                </div>
+                            <div class="comety_upcomety_section_content">
+                                
+                                <div class="comettree_totporota_content donation_comettre">
+                                    <div class="comettree_totporota_content_info">
+                                        <div class="comettree_totporota_images">
+                                            <img src="images/Benefits-of-Technology-in-the-Classroom.jpg">
+                                        </div>
+                                        <div class="comettree_totporota_images_text">
+                                            <h4>আহবায়ক : জনাব নূরুল ইসলাম তালুকদার</h4>
+                                            <p>স্পন্সার,ডোনার উপকমিটি </p>
+                                        </div>
+                                    </div>
+                                </div>
+								<div class="comettree_totporota_content donation_comettre">
+                                    <div class="comettree_totporota_content_info">
+                                        <div class="comettree_totporota_images">
+                                            <img src="images/Benefits-of-Technology-in-the-Classroom.jpg">
+                                        </div>
+                                        <div class="comettree_totporota_images_text">
+                                            <h4>আহবায়ক : জনাব নূরুল ইসলাম তালুকদার</h4>
+                                            <p>স্পন্সার,ডোনার উপকমিটি </p>
+                                        </div>
+                                    </div>
+                                </div>
+								<div class="comettree_totporota_content donation_comettre">
+                                    <div class="comettree_totporota_content_info">
+                                        <div class="comettree_totporota_images">
+                                            <img src="images/Benefits-of-Technology-in-the-Classroom.jpg">
+                                        </div>
+                                        <div class="comettree_totporota_images_text">
+                                            <h4>আহবায়ক : জনাব নূরুল ইসলাম তালুকদার</h4>
+                                            <p>স্পন্সার,ডোনার উপকমিটি </p>
+                                        </div>
+                                    </div>
+                                </div>
+								<div class="comettree_totporota_content donation_comettre">
+                                    <div class="comettree_totporota_content_info">
+                                        <div class="comettree_totporota_images">
+                                            <img src="images/Benefits-of-Technology-in-the-Classroom.jpg">
+                                        </div>
+                                        <div class="comettree_totporota_images_text">
+                                            <h4>আহবায়ক : জনাব নূরুল ইসলাম তালুকদার</h4>
+                                            <p>স্পন্সার,ডোনার উপকমিটি </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="school_proud_button">
+                                   <button>আরও দেখতে</button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+        </section>
        
 		
 		
