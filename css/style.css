@@ -245,16 +245,43 @@
 .banner_section_information{
     margin: 40px 0px;
 }
+.nibondhon_button{
+    width: 100%;
+    background: #F8F8F8;
+    padding: 20px 10px;
+        min-height: 366px;
+    text-align: center;
+    border-radius: 10px;
+}
+.nibondhon_button a:hover{
+    text-decoration: none;
+}
+.nibondhon_button a h2{
+       color: red; 
+    margin-top: 65px;
+    font-size: 30px;
+    line-height: 45px;
+}
+.banner_sidebar video{
+    margin-bottom: 10px;
+}
 .banner_sidebar_header{
-        background: red;
+     background: #f8f8f8;;
     padding: 10px;
     text-align: center;
-    /* border-radius: 5px; */
+     border-radius: 5px; 
     margin-bottom: 10px;
-    color: #fff;
+    color: #4285F4;
+    overflow: hidden;
+}
+.sotoborso_udjapon_comity_content_image{}
+.sotoborso_udjapon_comity_content_image img{
+    width: 100%;
+    margin-bottom: 15px;
+        min-height: 150px;
 }
 .banner_sidebar_header h2{
-    /*color: #811e02;*/
+    color:red;
     margin: 0px;
     font-size: 24px;
 
@@ -271,15 +298,42 @@
     margin: 0px;
     font-size: 24px;
 }
-.banner_sidebar{
-    width: 100%;
+.banner_sidebar_button{
     background: #F8F8F8;
-        padding-top: 46px;
+       
+    margin-top: 5px;
+        /*padding: 5px 0px 30px 10px;*/
+}
+.banner_sidebar ul{
+    background: #F8F8F8;
+    width: 100%;
+}
+.banner_sidebar ul li{
+    list-style-type: none;
+    float: left;
+    
+    width: 20%;
+    
+}
+.banner_sidebar li a{
+    background: red;
+    padding: 8px 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: #fff;
+}
+.banner_sidebar{
+        width: 100%;
+    background: #F8F8F8;
+    padding-top: 46px;
+    overflow: hidden;
+    padding: 20px 10px;
+    border-radius: 5px;
    
 }
 .banner_sidebar video{
     width: 100% !important;
-    height: 208px !important;
+    /*height: 208px !important;*/
 }
 .common_banner_section{
     margin-top: 70px;
@@ -303,7 +357,9 @@
 
 }
 .banner_section_banner{
-    
+    background: #f8f8f8;
+        padding: 27px 20px;
+    border-radius: 5px;
 }
 .row{
 	margin-left: -10px;
@@ -376,9 +432,17 @@
 .hotline_left_information ul{}
 .hotline_left_information li{
     list-style-type: none;
-    
+    float: left;
     font-size: 18px;
+    margin-right: 20px;
+    margin-bottom: 7px;
     
+}
+.hotline_left_information li a{
+   color: #fff;
+}
+.hotline_left_information .fa-globe{
+    margin-right: 10px;
 }
 .hotline_right_information{
     float: right;
@@ -432,8 +496,11 @@
 }
 .hundred_years_content_title{
     text-align: center;
-    padding: 10px;    
-    border-radius: 5px;    
+    padding: 18px 10px;
+    /* border-radius: 5px; */
+    background: red;
+    margin-bottom: 15px;
+    color: #fff;  
 }
 .hundred_years_content_title h3{
         margin: 0px;
@@ -442,6 +509,7 @@
 .hundred_years_content_images{}
 .hundred_years_content_images img{
     width: 100%;
+    min-height: 260px;
 }
 .hundred_years_content_images_text{
         padding: 10px;
@@ -472,6 +540,33 @@
 }
 .main_comettree{
     margin: 60px 0px;
+}
+.sotoborso_udjapon_comity{}
+.sotoborso_udjapon_comity_content_all{
+    background:#F8F8F8;
+    padding: 15px 10px; 
+    /*border-radius: 5px;*/
+}
+.sotoborso_udjapon_comity_content{
+    color: #000;
+}
+.sotoborso_udjapon_comity_content h2{
+    margin: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 25px;
+}
+.sotoborso_udjapon_comity_content h3{
+    margin: 7px 0px;
+    font-size: 14px;
+
+}
+.margin_bottom{
+    margin-bottom: 20px;
+}
+.sotoborso_udjapon_comity_content p{
+    margin: 0px;
+    font-size: 11px;
 }
 .comettree_totporota_content{
     background: #F8F8F8;
@@ -1713,6 +1808,18 @@ div.wpcf7 .screen-reader-response {
 	    margin-right: 10px;
 	    color: #BABABA;
 }
+.footer_text{
+    text-align: center;
+    padding: 40px;
+    color: #BABABA;
+}
+.footer_text h2{
+    margin:0px;
+    font-size: 45px;
+}
+.footer_text h3{
+    margin-top: 10px; 
+}
 .copyright{
 	padding: 10px 0px;
 	border-top: 1px solid #BABABA;
@@ -2581,11 +2688,14 @@ background: #3B5997;
 .school_proud_sidebar{
     padding: 20px;
     background: #F8F8F8;
-       min-height: 427px;
+    min-height: 659px;
 }
 .school_proud_sidebar_content{
     width: 100%;
     margin-bottom: 20px;
+}
+.school_good_student{
+    min-height: 428px;
 }
 .school_proud_sidebar_content_image{
     width: 20%;
@@ -2607,12 +2717,19 @@ background: #3B5997;
 .school_proud_header{
     
     background: red;
-    padding: 20px;
+   padding: 18px 5px;
     margin-bottom: 10px;
     color: #fff;
 }
 .school_proud_header h3{
     font-size: 22px;
+    margin: 0px;
+}
+.teacher_list_header h3{
+    font-size: 18px;
+}
+.teacher_list_sidebar{
+    min-height: 400px;
 }
 .school_proud_button{
     text-align: center;
@@ -2634,6 +2751,44 @@ background: #3B5997;
 .{}
 
 /*school proud sidebar style end*/
+
+/*school information style*/
+
+.school_information_section{
+    background: #DCDCDC;
+}
+.main_school_information{
+    margin-bottom: 60px;
+}
+.important_links{}
+.important_links ul{
+    list-style-image: url(../images/blue-tick-icon-1.png);
+}
+.important_links li{
+    font-size: 16px;
+    line-height: 25px;
+}
+.important_links li a{}
+.student_registration_online{
+    background: #EB4A3A;
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.student_registration_online ‍a{
+    
+}
+.student_registration_online ‍h2:hover{
+    text-decoration: none;
+}
+.student_registration_online h2{
+    margin: 0px;
+    color: #fff;
+        font-size: 22px;
+}
+
+/*school information style end*/
 
 /*school comety upocomety style*/
 
