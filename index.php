@@ -807,17 +807,17 @@ include 'inc/header.php';
                                     <h3>যারা নিবন্ধন করেছেন</h3>
                             </div>
                             <div class="school_proud_sidebar teacher_list_sidebar">
-                                <div class="student_registration_online margin_bottom">
+                                <div class="student_registration_online margin_bottom" id="student_hover">
                                     <a href="">
                                         <h2>বিকাশ এবং রকেটে যারা নিবন্ধন করেছেন</h2>
                                     </a>
                                 </div>
-                                <div class="student_registration_online margin_bottom">
+                                <div class="student_registration_online margin_bottom" id="student_hover">
                                     <a href="">
                                         <h2>ব্যংকে এবং অনলাইনে যারা নিবন্ধন করেছেন</h2>
                                     </a>
                                 </div>
-								<div class="student_registration_online margin_bottom">
+								<div class="student_registration_online margin_bottom" id="student_hover">
                                     <a href="">
                                         <h2>সরাসরি স্কুলে যারা নিবন্ধন করেছেন</h2>
                                     </a>

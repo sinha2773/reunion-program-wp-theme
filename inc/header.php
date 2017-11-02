@@ -51,7 +51,7 @@
                         <div class="col_thr col-xs-6 col-sm-2 col-md-2">
                             <div class="logo_image">
                                <a href="index.php">
-                                   <img src="images/logo.png">
+                                   <img src="images/logo_.png">
                                </a>
                             </div>
                         </div>
@@ -162,7 +162,7 @@
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                   <ul class="nav navbar-nav bottom_navber_margin_top">
-									<li class="nibondhon"><a href="registration.php">নিবন্ধন করতে এখানে ক্লিক করুন</a></li>
+									                   <!-- <li class="nibondhon"><a href="registration.php">নিবন্ধন করতে এখানে ক্লিক করুন</a></li> -->
                                     <li><a class="scrollto" href="<?php echo $base_url; ?>#school_proud">স্কুলের গর্ব যারা</a></li>
                   									<li><a href="blog.php">শরনিকার জন্য আপনার লিখা পোষ্ট করুন</a></li>
                   									<!-- <li><a href="today_update.php">আজকের আপডেট</a></li> -->

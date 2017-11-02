@@ -217,7 +217,7 @@
     background: #FDF69B;
 }
 .logo_image{
-	
+	margin: 5px 0px;
 
 }
 .logo_image a{
@@ -2776,16 +2776,17 @@ background: #3B5997;
     border-radius: 10px;
 
 }
-.student_registration_online ‍a{
-    
-}
-.student_registration_online ‍h2:hover{
+.main_school_information .school_proud_sidebar .student_registration_online ‍a:hover{
     text-decoration: none;
 }
+
 .student_registration_online h2{
     margin: 0px;
     color: #fff;
         font-size: 22px;
+}
+#student_hover a:hover{
+    text-decoration: none;
 }
 
 /*school information style end*/
