@@ -107,7 +107,7 @@
                                       </ul>
                                     </li>
                                     <!-- <li><a class="page-scroll" href="<?php //echo $base_url; ?>#about_school">একনজরে শায়েস্তাগঞ্জ উচ্চ বিদ্যালয়</a></li> -->
-									                   <li><a class="scrollto" href="<?php echo $base_url; ?>#event_committee">শতবর্ষ উদ্ যাপন কমিটি ও উপকমিটি</a></li>
+									                   <li><a class="scrollto" href="<?php echo $base_url; ?>#event_committee">শতবর্ষ উদযাপন কমিটি ও উপকমিটি</a></li>
 									                     <li class="dropdown">
                                       <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">  শতবর্ষের  নানা আয়োজন<span class="caret"></span></a>
                                       <ul class="dropdown-menu dropdown_menu_background_color">                
@@ -164,9 +164,9 @@
                                   <ul class="nav navbar-nav bottom_navber_margin_top">
 									                   <!-- <li class="nibondhon"><a href="registration.php">নিবন্ধন করতে এখানে ক্লিক করুন</a></li> -->
                                     <li><a class="scrollto" href="<?php echo $base_url; ?>#school_proud">স্কুলের গর্ব যারা</a></li>
-                  									<li><a href="blog.php">শরনিকার জন্য আপনার লিখা পোষ্ট করুন</a></li>
+                  									<li><a href="blog.php">স্মরণিকার জন্য আপনার লেখা পোষ্ট করুন</a></li>
                   									<!-- <li><a href="today_update.php">আজকের আপডেট</a></li> -->
-                  									<li><a class="" href="hotline.php">সর্বশেষ সংবাদ</a></li>
+                  									<li><a class="" href="hotline.php">জরুরি নোটিশ</a></li>
                   									<li><a class="" href="contact.php">যোগাযোগ</a></li>
                                   </ul>
                                 </div><!-- /.navbar-collapse -->

@@ -3,6 +3,9 @@
             <div class="container">
                 <div class="footer_text">
                     <h2>শায়েস্তাগঞ্জ উচ্চ বিদ্যালয়</h2>
+					<a href="http://www.shaistaganjhighschool.edu.bd/" target="_blank">
+                        <h2>School Website</h2>               
+                    </a>
                     <h3>ইমেইল :  shschool1918@gmail.com</h3>
                     <h3>হটলাইন : 01715442678</h3>
                 </div>

@@ -73,6 +73,18 @@ jQuery(document).ready(function($){
             $('body').removeClass('fixed_header');    
         }       
     });
+
+    //Radio button hide and show
+    $("body #payment_method").on('click', function(){
+        if ( $(this).val()=="1" || $(this).val()=="2" ){
+          $(".bank_information").hide();
+          $(".mobile_information").show();           
+        }else{
+          $(".bank_information").show();
+          $(".mobile_information").hide();          
+        }
+    });
+
     // Smart Wizard
     $('#smartwizard').smartWizard({ 
       selected: 0, 

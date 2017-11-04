@@ -280,6 +280,19 @@
     margin-bottom: 15px;
         min-height: 150px;
 }
+.details_button {
+    /*background: #eee;
+    padding: */
+    text-align: center;
+    margin: 15px 0px;
+}
+.details_button button{
+    background: #1BACB9;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid #1BACB9;
+    border-radius: 5px;
+}
 .banner_sidebar_header h2{
     color:red;
     margin: 0px;
@@ -554,12 +567,15 @@
     margin: 0px;
     font-size: 15px;
     font-weight: bold;
-    line-height: 25px;
+    line-height: 22px;
+}
+.details{
+    cursor: pointer;
 }
 .sotoborso_udjapon_comity_content h3{
     margin: 7px 0px;
     font-size: 14px;
-
+    line-height: 16px;
 }
 .margin_bottom{
     margin-bottom: 20px;
@@ -647,12 +663,12 @@
 }
 .area_practice_image_text{
 	background: #F9F8F8;
-    padding: 10px 12px;
+    padding: 10px 5px;
         text-align: center;
 }
 .area_practice_image_text p{
 	margin: 0px;
-    font-size: 16px;
+    font-size: 14px;
 }
 .area_practice_information_middle{
 	margin: 20px 0px;
@@ -1813,6 +1829,12 @@ div.wpcf7 .screen-reader-response {
     padding: 40px;
     color: #BABABA;
 }
+.footer_text a{
+    color:#BABABA; 
+}
+.footer_text a:hover{
+    text-decoration: none;
+}
 .footer_text h2{
     margin:0px;
     font-size: 45px;
@@ -2470,6 +2492,9 @@ background: #3B5997;
 .first_step .registration_payment_method input, select, label{
     /*margin-left: 10px;*/
 }
+.scan_button{
+    margin: 30px 0px;
+}
 .form_left{
     
     background: #F8F8F8;
@@ -2511,6 +2536,25 @@ background: #3B5997;
 }
 
 /*registratio form style end*/
+
+/*school management comity style*/
+
+.school_management_comitee_section{
+    background: #DCDCDC;
+}
+.main_school_management_comitee{
+    margin-bottom: 60px;
+}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+
+/*school management comity style end*/
+
 
 /*blog style*/
 
@@ -2694,6 +2738,9 @@ background: #3B5997;
     width: 100%;
     margin-bottom: 20px;
 }
+.‍school_proud_last{
+    margin-bottom: 5px !important;
+}
 .school_good_student{
     min-height: 428px;
 }
@@ -2748,8 +2795,27 @@ background: #3B5997;
 .teacher_images{
     width:35% !important; 
 }
-.{}
+.past_teacher_pro img{
+    min-height: 80px;
+}
+.past_teacher_header{
+        min-height: 75px;
+    padding-top: 27px;
 
+}
+.communication_link_box{
+    padding: 20px 10px;
+    background: #F8F8F8;
+}
+.communication_bos{
+    background: #EB4B3A;
+    min-height: 130px;
+    width: 100%;
+    border-radius: 5px;
+}
+.present_student img{
+    min-height: 120px;
+}
 /*school proud sidebar style end*/
 
 /*school information style*/
@@ -2771,7 +2837,7 @@ background: #3B5997;
 .important_links li a{}
 .student_registration_online{
     background: #EB4A3A;
-    padding: 20px 10px;
+       padding: 41px 10px;
     text-align: center;
     border-radius: 10px;
 
@@ -2785,10 +2851,19 @@ background: #3B5997;
     color: #fff;
         font-size: 22px;
 }
+#student_hover{
+    margin-bottom: 30px;
+}
 #student_hover a:hover{
     text-decoration: none;
 }
+.download_or_scan .download_form .dowload_dropdown {}
+.download_or_scan .download_form .dowload_dropdown button{
 
+}
+.download_or_scan .download_form .dowload_dropdown ul{}
+.download_or_scan .download_form .dowload_dropdown ul li{}
+.{}
 /*school information style end*/
 
 /*school comety upocomety style*/
@@ -2967,8 +3042,15 @@ background: #3B5997;
     color: #000;
    
 }
+.download_or_scan{
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+}
 .download_form{
     margin-bottom: 20px;
+    float: left;
+    width: 50%;
 }
 .download_form button{
     background: #1BACB9;
@@ -2977,8 +3059,32 @@ background: #3B5997;
     color: #fff;
     border: 1px solid #1BACB9;
     border-radius: 5px;
-   
-    
+}
+#form_download_button{
+        border-right: 0px solid #E7E7E7 !important;
+    background: #1BACB9;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #1BACB9;
+    border-radius: 5px;
+}
+#form_download_button select{
+
+}
+#form_download_button option{}
+.scan_form{
+    margin-bottom: 20px;
+    float: right;
+    width: 50%;
+}
+.scan_form button{
+    background: #1BACB9;
+    /* padding: 15px 45px; */
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #1BACB9;
+    border-radius: 5px;
 }
 .radio_button_class{
     margin-right: 5px !important;

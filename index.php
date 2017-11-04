@@ -115,7 +115,7 @@ include 'inc/header.php';
                         <div class="col-md-4">
                             <div class="hundred_years_content">
                                 <div class="hundred_years_content_title">
-                                    <h3>শতবর্ষ উৎযাপন উপকমিটির তৎপরতা</h3>
+                                    <h3>শতবর্ষ উদযাপন উপকমিটির তৎপরতা</h3>
                                 </div>
                                 <div class="hundred_years_content_images">
                                     <img src="images/6_6304.jpg">
@@ -165,6 +165,109 @@ include 'inc/header.php';
                 </div>
             </div>
         </section>
+        <section class="school_management_comitee_section">
+            <div class="container">
+                <div class="main_school_management_comitee">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="area_practice_top_title school_proud_header">
+                                <h3>স্কুল ব্যবস্থাপনা কমিটি</h3>
+                            </div>
+    						<div class="sotoborso_udjapon_comity_content_all">
+                                <div class="sotoborso_udjapon_comity_content_image">
+                                    <img src="images/207.jpg">
+                                </div>
+                                <div class="sotoborso_udjapon_comity_content margin_bottom">
+                                    <h2>অর্থ উপকমিটি :</h2>                                    
+                                </div>
+                                <div class="school_proud_sidebar_content">
+                                    <div class="school_proud_sidebar_content_image">
+                                        <img src="images/teacher-assistant-certification.jpg">
+                                    </div>
+                                    <div class="school_proud_sidebar_content_image_text">
+                                        <p><b>সফিকুল ইসলাম</b></p>
+                                        <p>                                         আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
+                                    </div>
+                                </div>
+                                <div class="school_proud_sidebar_content">
+                                    <div class="school_proud_sidebar_content_image">
+                                        <img src="images/teacher-assistant-certification.jpg">
+                                    </div>
+                                    <div class="school_proud_sidebar_content_image_text">
+                                        <p><b>সফিকুল ইসলাম</b></p>
+                                        <p>                                         আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="school_proud_button">
+                               <button>আরও দেখতে</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="area_practice_top_title school_proud_header">
+                                <h3>শতবর্ষ ব্যবস্থাপনা কমিটি</h3>
+                            </div>
+                            <div class="sotoborso_udjapon_comity_content_all">
+                                <div class="sotoborso_udjapon_comity_content_image">
+                                    <img src="images/202.jpg">
+                                </div>
+                                <div class="sotoborso_udjapon_comity_content margin_bottom">
+                                    <h2>অর্থ উপকমিটি :</h2>                                    
+                                </div>
+                                <div class="school_proud_sidebar_content">
+                                    <div class="school_proud_sidebar_content_image">
+                                        <img src="images/teacher-assistant-certification.jpg">
+                                    </div>
+                                    <div class="school_proud_sidebar_content_image_text">
+                                        <p><b>সফিকুল ইসলাম</b></p>
+                                        <p>                                         আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
+                                    </div>
+                                </div>
+                                <div class="school_proud_sidebar_content">
+                                    <div class="school_proud_sidebar_content_image">
+                                        <img src="images/teacher-assistant-certification.jpg">
+                                    </div>
+                                    <div class="school_proud_sidebar_content_image_text">
+                                        <p><b>সফিকুল ইসলাম</b></p>
+                                        <p>                                         আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="school_proud_button">
+                               <button>আরও দেখতে</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="area_practice_top_title school_proud_header">
+                                    <h3>যারা নিবন্ধন করেছেন</h3>
+                            </div>
+                            <div class="school_proud_sidebar teacher_list_sidebar">
+                                <div class="student_registration_online" id="student_hover">
+                                    <a href="">
+                                        <h2>বিকাশ এবং রকেটে যারা নিবন্ধন করেছেন</h2>
+                                    </a>
+                                </div>
+                                <div class="student_registration_online" id="student_hover">
+                                    <a href="">
+                                        <h2>ব্যংকে এবং অনলাইনে যারা নিবন্ধন করেছেন</h2>
+                                    </a>
+                                </div>
+                                <div class="student_registration_online" id="student_hover">
+                                    <a href="">
+                                        <h2>সরাসরি স্কুলে যারা নিবন্ধন করেছেন</h2>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="school_proud_button">
+                                <button>আরও দেখতে</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="comettree_totporota_section">
             <div class="container">
                 <div class="main_comettree">
@@ -177,81 +280,109 @@ include 'inc/header.php';
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="sotoborso_udjapon_comity_content_all">
-                                            <div class="sotoborso_udjapon_comity_content_image">
-                                                <img src="images/school-managing-committee.jpg">
+                                            <div class="sotoborso_udjapon_comity_content_all_information margin_bottom">
+                                                <div class="sotoborso_udjapon_comity_content_image">
+                                                    <img src="images/school-managing-committee.jpg">
+                                                </div>
+                                                <div class="sotoborso_udjapon_comity_content margin_bottom">
+        											<h2>হেডিং ১</h2>
+    												<h2>হেডিং 2</h2>
+    												<h2>হেডিং 3</h2>
+                                                    <h3>ডামি টেক্স লেখা ১</h3>
+        											<h3>ডামি টেক্স লেখা 2</h3>     
+                                                    <h3>ডামি টেক্স লেখা ৩</h3>
+    												<h3>ডামি টেক্স লেখা ৪ ... <span class="details">[  বিস্তারিত ] </span></h3>
+                                                    
+                                                </div>
                                             </div>
-                                            <div class="sotoborso_udjapon_comity_content margin_bottom">
-    											<h2>অর্থ উপকমিটি :</h2>
-                                                <h3>আহবায়ক : জনাব তরিকুল ইসলাম হারুন</h3>       
-                                                <p>মোবাইল : ০১৭১২-৬৩৮৫০০</p>
-    											<h3> সদস্য : জনাব গিয়াস উদ্দিন (শিক্ষক)</h3>       
-                                                <p>মোবাইল :০১৭২০-৮০৭৫৭৩</p>
+                                            <div class="sotoborso_udjapon_comity_content_all_information">
+                                                <div class="sotoborso_udjapon_comity_content_image">
+                                                    <img src="images/school-managing-committee.jpg">
+                                                </div>
+                                                <div class="sotoborso_udjapon_comity_content margin_bottom">
+                                                    <h2>হেডিং ১</h2>
+                                                    <h2>হেডিং 2</h2>
+                                                    <h2>হেডিং 3</h2>
+                                                    <h3>ডামি টেক্স লেখা ১</h3>
+                                                    <h3>ডামি টেক্স লেখা 2</h3>     
+                                                    <h3>ডামি টেক্স লেখা ৩</h3>
+                                                    <h3>ডামি টেক্স লেখা ৪  ... <span class="details">[  বিস্তারিত ] </span></h3>
+                                                    
+                                                </div>
                                             </div>
-                                            <div class="sotoborso_udjapon_comity_content margin_bottom">
-                                                <h2> অফিস ব্যবস্থাপনা উপকমিটি :</h2>
-                                                <h3>আহবায়ক : জনাব মোঃ মহিবুর রহমান</h3>       
-                                                <p>মোবাইল :০১৭১৭-৬৭৪১০৮</p>
-                                                <h3> সদস্য : মুর্শেদা আক্তার লিপি(শিক্ষক)</h3>       
-                                                <p>মোবাইল :০১৭৮৭-১৫৮৬৪২</p>
+                                        </div>
+                                        <div class="school_proud_button">
+                                           <button>আরও দেখতে</button>
+                                        </div>
+                                    </div>                                    
+                                    <div class="col-md-4">
+                                        <div class="sotoborso_udjapon_comity_content_all">
+                                            <div class="sotoborso_udjapon_comity_content_all_information margin_bottom">
+                                                <div class="sotoborso_udjapon_comity_content_image">
+                                                    <img src="images/school-teaching-staff.jpg">
+                                                </div>
+                                                <div class="sotoborso_udjapon_comity_content margin_bottom">
+                                                    <h2>হেডিং ১</h2>
+                                                    <h2>হেডিং 2</h2>
+                                                    <h2>হেডিং 3</h2>
+                                                    <h3>ডামি টেক্স লেখা ১</h3>
+                                                    <h3>ডামি টেক্স লেখা 2</h3>     
+                                                    <h3>ডামি টেক্স লেখা ৩</h3>
+                                                    <h3>ডামি টেক্স লেখা ৪ ... <span class="details">[  বিস্তারিত ] </span></h3>
+                                                    
+                                                </div>
                                             </div>
-                                            <div class="sotoborso_udjapon_comity_content">
-                                                <h2> আন্তর্জাতিক যোগাযোগ উপ-কমিটি :</h2>
-                                                <h3> আহবায়ক : জনাবএম এ মুমিন চৌধুরী বুলবুল</h3>       
-                                                <p>মোবাইল : ০১৭৫৬-৯২০৮০১</p>
-                                                <h3> সদস্যঃ জনাবা নাজমুন নাহার মুন (শিক্ষক)</h3>       
-                                                <p>মোবাইল :০১৭৯৫-৪৮২৮৭৩</p>
+                                            <div class="sotoborso_udjapon_comity_content_all_information">
+                                                <div class="sotoborso_udjapon_comity_content_image">
+                                                    <img src="images/school-teaching-staff.jpg">
+                                                </div>
+                                                <div class="sotoborso_udjapon_comity_content margin_bottom">
+                                                    <h2>হেডিং ১</h2>
+                                                    <h2>হেডিং 2</h2>
+                                                    <h2>হেডিং 3</h2>
+                                                    <h3>ডামি টেক্স লেখা ১</h3>
+                                                    <h3>ডামি টেক্স লেখা 2</h3>     
+                                                    <h3>ডামি টেক্স লেখা ৩</h3>
+                                                    <h3>ডামি টেক্স লেখা ৪ ... <span class="details">[  বিস্তারিত ] </span></h3>
+                                                    
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="school_proud_button">
                                            <button>আরও দেখতে</button>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+									<div class="col-md-4">
                                         <div class="sotoborso_udjapon_comity_content_all">
-                                            
-                                            <div class="sotoborso_udjapon_comity_content margin_bottom sotoborso_udjapon_comity_content_image">
-                                                <img src="images/6_6304.jpg">
-                                                <h2>সাংস্কৃতিক অনুষ্ঠান</h2>
+                                            <div class="sotoborso_udjapon_comity_content_all_information margin_bottom">
+                                                <div class="sotoborso_udjapon_comity_content_image">
+                                                    <img src="images/school-managing-committee.jpg">
+                                                </div>
+                                                <div class="sotoborso_udjapon_comity_content margin_bottom">
+        											<h2>হেডিং ১</h2>
+    												<h2>হেডিং 2</h2>
+    												<h2>হেডিং 3</h2>
+                                                    <h3>ডামি টেক্স লেখা ১</h3>
+        											<h3>ডামি টেক্স লেখা 2</h3>     
+                                                    <h3>ডামি টেক্স লেখা ৩</h3>
+    												<h3>ডামি টেক্স লেখা ৪ ... <span class="details">[  বিস্তারিত ] </span></h3>
+                                                    
+                                                </div>
                                             </div>
-                                            <div class="sotoborso_udjapon_comity_content margin_bottom sotoborso_udjapon_comity_content_image">
-                                                <img src="images/6_6304.jpg">
-                                                <h2>সাংস্কৃতিক অনুষ্ঠান</h2>
-                                            </div>
-                                            <div class="sotoborso_udjapon_comity_content margin_bottom sotoborso_udjapon_comity_content_image">
-                                                <img src="images/6_6304.jpg">
-                                                <h2>সাংস্কৃতিক অনুষ্ঠান</h2>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="school_proud_button">
-                                           <button>আরও দেখতে</button>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="sotoborso_udjapon_comity_content_all">
-                                            <div class="sotoborso_udjapon_comity_content_image">
-                                                <img src="images/school-teaching-staff.jpg">
-                                            </div>
-                                            <div class="sotoborso_udjapon_comity_content margin_bottom">
-                                                <h2>অর্থ উপকমিটি :</h2>
-                                                <h3>আহবায়ক : জনাব তরিকুল ইসলাম হারুন</h3>       
-                                                <p>মোবাইল : ০১৭১২-৬৩৮৫০০</p>
-                                                <h3> সদস্য : জনাব গিয়াস উদ্দিন (শিক্ষক)</h3>       
-                                                <p>মোবাইল :০১৭২০-৮০৭৫৭৩</p>
-                                            </div>
-                                            <div class="sotoborso_udjapon_comity_content margin_bottom">
-                                                <h2> অফিস ব্যবস্থাপনা উপকমিটি :</h2>
-                                                <h3>আহবায়ক : জনাব মোঃ মহিবুর রহমান</h3>       
-                                                <p>মোবাইল :০১৭১৭-৬৭৪১০৮</p>
-                                                <h3> সদস্য : মুর্শেদা আক্তার লিপি(শিক্ষক)</h3>       
-                                                <p>মোবাইল :০১৭৮৭-১৫৮৬৪২</p>
-                                            </div>
-                                            <div class="sotoborso_udjapon_comity_content">
-                                                <h2> আন্তর্জাতিক যোগাযোগ উপ-কমিটি :</h2>
-                                                <h3> আহবায়ক : জনাবএম এ মুমিন চৌধুরী বুলবুল</h3>       
-                                                <p>মোবাইল : ০১৭৫৬-৯২০৮০১</p>
-                                                <h3> সদস্যঃ জনাবা নাজমুন নাহার মুন (শিক্ষক)</h3>       
-                                                <p>মোবাইল :০১৭৯৫-৪৮২৮৭৩</p>
+                                            <div class="sotoborso_udjapon_comity_content_all_information">
+                                                <div class="sotoborso_udjapon_comity_content_image">
+                                                    <img src="images/school-managing-committee.jpg">
+                                                </div>
+                                                <div class="sotoborso_udjapon_comity_content margin_bottom">
+                                                    <h2>হেডিং ১</h2>
+                                                    <h2>হেডিং 2</h2>
+                                                    <h2>হেডিং 3</h2>
+                                                    <h3>ডামি টেক্স লেখা ১</h3>
+                                                    <h3>ডামি টেক্স লেখা 2</h3>     
+                                                    <h3>ডামি টেক্স লেখা ৩</h3>
+                                                    <h3>ডামি টেক্স লেখা ৪  ... <span class="details">[  বিস্তারিত ] </span></h3>
+                                                    
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="school_proud_button">
@@ -272,8 +403,9 @@ include 'inc/header.php';
                                         </div>
                                         <div class="school_proud_sidebar_content_image_text">
                                             <p><b>সফিকুল ইসলাম</b></p>
-                                            <p>                                         আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
+                                            <p>                                         আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে  ... <span class="details">[  বিস্তারিত ]</p>
                                         </div>
+                                       
                                     </div>
                                     <div class="school_proud_sidebar_content">
                                         <div class="school_proud_sidebar_content_image">
@@ -281,8 +413,9 @@ include 'inc/header.php';
                                         </div>
                                         <div class="school_proud_sidebar_content_image_text">
                                             <p><b>সফিকুল ইসলাম</b></p>
-                                            <p>                                         আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
+                                            <p>                                         আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে  ... <span class="details">[  বিস্তারিত ]</p>
                                         </div>
+										
                                     </div>
                                     <div class="school_proud_sidebar_content">
                                         <div class="school_proud_sidebar_content_image">
@@ -290,8 +423,9 @@ include 'inc/header.php';
                                         </div>
                                         <div class="school_proud_sidebar_content_image_text">
                                             <p><b>সফিকুল ইসলাম</b></p>
-                                            <p>                                         আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
+                                            <p>                                         আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে  ... <span class="details">[  বিস্তারিত ]</p>
                                         </div>
+										
                                     </div>
 									<div class="school_proud_sidebar_content">
                                         <div class="school_proud_sidebar_content_image">
@@ -299,8 +433,9 @@ include 'inc/header.php';
                                         </div>
                                         <div class="school_proud_sidebar_content_image_text">
                                             <p><b>সফিকুল ইসলাম</b></p>
-                                            <p>                                         আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
+                                            <p>                                         আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে  ... <span class="details">[  বিস্তারিত ]</p>
                                         </div>
+										
                                     </div>
 									<div class="school_proud_sidebar_content">
                                         <div class="school_proud_sidebar_content_image">
@@ -308,8 +443,9 @@ include 'inc/header.php';
                                         </div>
                                         <div class="school_proud_sidebar_content_image_text">
                                             <p><b>সফিকুল ইসলাম</b></p>
-                                            <p>                                         আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
+                                            <p>                                         আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে ... <span class="details">[  বিস্তারিত ]</p>
                                         </div>
+										
                                     </div>
 									<div class="school_proud_sidebar_content">
                                         <div class="school_proud_sidebar_content_image">
@@ -317,8 +453,9 @@ include 'inc/header.php';
                                         </div>
                                         <div class="school_proud_sidebar_content_image_text">
                                             <p><b>সফিকুল ইসলাম</b></p>
-                                            <p>                                         আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
+                                            <p>                                         আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে  ... <span class="details">[  বিস্তারিত ]</p>
                                         </div>
+										
                                     </div>
                                     <div class="school_proud_sidebar_content">
                                         <div class="school_proud_sidebar_content_image">
@@ -326,9 +463,21 @@ include 'inc/header.php';
                                         </div>
                                         <div class="school_proud_sidebar_content_image_text">
                                             <p><b>সফিকুল ইসলাম</b></p>
-                                            <p>                                         আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
+                                            <p>                                         আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে  ... <span class="details">[  বিস্তারিত ]</p>
                                         </div>
+										
                                     </div>
+									<div class="school_proud_sidebar_content">
+                                        <div class="school_proud_sidebar_content_image">
+                                            <img src="images/teacher-assistant-certification.jpg">
+                                        </div>
+                                        <div class="school_proud_sidebar_content_image_text">
+                                            <p><b>সফিকুল ইসলাম</b></p>
+                                            <p>                                         আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে  ... <span class="details">[  বিস্তারিত ]</p>
+                                        </div>
+										
+                                    </div>
+									
                                 </div>
                                 <div class="school_proud_button">
                                    <button>আরও দেখতে</button>
@@ -361,7 +510,8 @@ include 'inc/header.php';
                                         </div>
                                         <div class="school_proud_sidebar_content_image_text">
                                             <p><b>মামুনুর রশিদ</b></p>
-											<p>											আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
+											<p>পাশের সাল : </p>	
+											<p>বর্তমান অবস্থান :</p>
                                         </div>
                                     </div>
                                     <div class="school_proud_sidebar_content">
@@ -370,26 +520,38 @@ include 'inc/header.php';
                                         </div>
                                         <div class="school_proud_sidebar_content_image_text">
                                             <p><b>মামুনুর রশিদ</b></p>
-											<p>											আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
+											<p>পাশের সাল : </p>	
+											<p>বর্তমান অবস্থান :</p>
                                         </div>
                                     </div>
-
+									<div class="school_proud_sidebar_content">
+                                        <div class="school_proud_sidebar_content_image">
+                                            <img src="images/teacher-assistant-certification.jpg">
+                                        </div>
+                                        <div class="school_proud_sidebar_content_image_text">
+                                            <p><b>মামুনুর রশিদ</b></p>
+											<p>পাশের সাল : </p>	
+											<p>বর্তমান অবস্থান :</p>
+                                        </div>
+                                    </div>
                                     <div class="school_proud_sidebar_content">
                                         <div class="school_proud_sidebar_content_image">
                                             <img src="images/teacher-assistant-certification.jpg">
                                         </div>
                                         <div class="school_proud_sidebar_content_image_text">
                                             <p><b>মামুনুর রশিদ</b></p>
-											<p>											আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
+											<p>পাশের সাল : </p>	
+											<p>বর্তমান অবস্থান :</p>
                                         </div>
                                     </div>
-                                    <div class="school_proud_sidebar_content">
+                                    <div class="school_proud_sidebar_content ‍school_proud_last">
                                         <div class="school_proud_sidebar_content_image">
                                             <img src="images/teacher-assistant-certification.jpg">
                                         </div>
                                         <div class="school_proud_sidebar_content_image_text">
                                             <p><b>মামুনুর রশিদ</b></p>
-											<p>											আমাদের স্কুল সবসময় গর্ববোধ করবে তাদের কে আমরা এখানে তুলে ধরেছি</p>
+											<p>পাশের সাল : </p>	
+											<p>বর্তমান অবস্থান :</p>
                                         </div>
                                     </div>
                                    
@@ -402,7 +564,7 @@ include 'inc/header.php';
 							<div class="col-md-8">
                                 <div class="school_proud_left_content">
                                     <div class="area_practice_top_title school_proud_header">
-                                        <h3>সাবেক ছাত্র-ছাত্রীদের স্মৃতিচারন</h3>
+                                        <h3>স্কুলের  সাবেক প্রধান শিক্ষকবৃন্দ</h3>
                                     </div>
                                     <div class="row">
                                         <div class="col-md-3">
@@ -413,6 +575,7 @@ include 'inc/header.php';
                                                     </div>
                                                     <div class="area_practice_image_text">
                                                         <p>আসাদুজ্জামান</p>
+														<p>মেয়াদকাল: ১৯৫০-১৯৭৫</p>
                                                     </div>
                                                 </div>
                                                 <div class="project-content-wrap">
@@ -433,6 +596,7 @@ include 'inc/header.php';
                                                     </div>
                                                     <div class="area_practice_image_text">
                                                         <p>আসাদুজ্জামান</p>
+														<p>মেয়াদকাল: ১৯৫০-১৯৭৫</p>
                                                     </div>
                                                 </div>
                                                 <div class="project-content-wrap">
@@ -453,6 +617,7 @@ include 'inc/header.php';
                                                     </div>
                                                     <div class="area_practice_image_text">
                                                         <p>আসাদুজ্জামান</p>
+														<p>মেয়াদকাল: ১৯৫০-১৯৭৫</p>
                                                     </div>
                                                 </div>
                                                 <div class="project-content-wrap">
@@ -473,6 +638,7 @@ include 'inc/header.php';
                                                     </div>
                                                     <div class="area_practice_image_text">
                                                         <p>আসাদুজ্জামান</p>
+														<p>মেয়াদকাল: ১৯৫০-১৯৭৫</p>
                                                     </div>
                                                 </div>
                                                 <div class="project-content-wrap">
@@ -493,6 +659,7 @@ include 'inc/header.php';
                                                     </div>
                                                     <div class="area_practice_image_text">
                                                         <p>আসাদুজ্জামান</p>
+														<p>মেয়াদকাল: ১৯৫০-১৯৭৫</p>
                                                     </div>
                                                 </div>
                                                 <div class="project-content-wrap">
@@ -513,6 +680,7 @@ include 'inc/header.php';
                                                     </div>
                                                     <div class="area_practice_image_text">
                                                         <p>আসাদুজ্জামান</p>
+														<p>মেয়াদকাল: ১৯৫০-১৯৭৫</p>
                                                     </div>
                                                 </div>
                                                 <div class="project-content-wrap">
@@ -533,6 +701,7 @@ include 'inc/header.php';
                                                     </div>
                                                     <div class="area_practice_image_text">
                                                         <p>আসাদুজ্জামান</p>
+														<p>মেয়াদকাল: ১৯৫০-১৯৭৫</p>
                                                     </div>
                                                 </div>
                                                 <div class="project-content-wrap">
@@ -553,6 +722,7 @@ include 'inc/header.php';
                                                     </div>
                                                     <div class="area_practice_image_text">
                                                         <p>আসাদুজ্জামান</p>
+														<p>মেয়াদকাল: ১৯৫০-১৯৭৫</p>
                                                     </div>
                                                 </div>
                                                 <div class="project-content-wrap">
@@ -583,49 +753,52 @@ include 'inc/header.php';
               
               <div class="row">
 			     <div class="col-md-3">
-                    <div class="area_practice_top_title school_proud_header teacher_list_header">
-                            <h3>প্রধান শিক্ষক সমুহ ক্রমানুযায়ী</h3>
+                    <div class="area_practice_top_title school_proud_header teacher_list_header past_teacher_header">
+                            <h3>সাবেক ছাত্র-শিক্ষকদের স্মৃতিচারণ</h3>
                     </div>
                     <div class="school_proud_sidebar teacher_list_sidebar">
                         <div class="school_proud_sidebar_content">
-                            <div class="school_proud_sidebar_content_image teacher_images">
+                            <div class="school_proud_sidebar_content_image teacher_images past_teacher_pro">
                                 <img src="images/teacher-assistant-certification.jpg">
                             </div>
                             <div class="school_proud_sidebar_content_image_text">
                                 <p><b>মামুনুর রশিদ</b></p>
                                 <p>প্রধান শিক্ষক</p>
                                 <p>গনিত</p>
-                                
+                                <span class="details">[  বিস্তারিত ] </span>
                             </div>
                         </div>
                         <div class="school_proud_sidebar_content">
-                            <div class="school_proud_sidebar_content_image teacher_images">
+                            <div class="school_proud_sidebar_content_image teacher_images past_teacher_pro">
                                 <img src="images/teacher-assistant-certification.jpg">
                             </div>
                             <div class="school_proud_sidebar_content_image_text">
                                 <p><b>মামুনুর রশিদ</b></p>
                                 <p>প্রধান শিক্ষক</p>
                                 <p>গনিত</p>
+								<span class="details">[  বিস্তারিত ] </span>
                             </div>
                         </div>
                         <div class="school_proud_sidebar_content">
-                            <div class="school_proud_sidebar_content_image teacher_images">
+                            <div class="school_proud_sidebar_content_image teacher_images past_teacher_pro">
                                 <img src="images/teacher-assistant-certification.jpg">
                             </div>
                             <div class="school_proud_sidebar_content_image_text">
                                 <p><b>মামুনুর রশিদ</b></p>
                                 <p>প্রধান শিক্ষক</p>
                                 <p>গনিত</p>
+								<span class="details">[  বিস্তারিত ] </span>
                             </div>
                         </div>
                         <div class="school_proud_sidebar_content">
-                            <div class="school_proud_sidebar_content_image teacher_images">
+                            <div class="school_proud_sidebar_content_image teacher_images past_teacher_pro">
                                 <img src="images/teacher-assistant-certification.jpg">
                             </div>
                             <div class="school_proud_sidebar_content_image_text">
                                 <p><b>স্যার আইস্টাইন</b></p>
                                 <p>প্রধান শিক্ষক</p>
                                 <p>গনিত</p>
+								<span class="details">[  বিস্তারিত ] </span>
                             </div>
                         </div>
                        
@@ -638,47 +811,51 @@ include 'inc/header.php';
                 
 				<div class="col-md-3">
 					<div class="area_practice_top_title school_proud_header teacher_list_header">
-							<h3>শিক্ষক যাদেরকে আমরা হারিয়েছি</h3>
+							<h3>শিক্ষক ও ছাত্র-ছাত্রী যাদের হারিয়েছি</h3>
 					</div>
 					<div class="school_proud_sidebar teacher_list_sidebar">
 						<div class="school_proud_sidebar_content">
-							<div class="school_proud_sidebar_content_image teacher_images">
+							<div class="school_proud_sidebar_content_image teacher_images past_teacher_pro">
 								<img src="images/teacher-assistant-certification.jpg">
 							</div>
 							<div class="school_proud_sidebar_content_image_text">
 								<p><b>স্যার আইস্টাইন</b></p>
 								<p><b>জন্ম :</b> ১৯৪0</p>
 								<p><b>মৃত্যু :</b> ২০১০</p>
+								<span class="details">[  বিস্তারিত ] </span>
 							</div>
 						</div>
 						<div class="school_proud_sidebar_content">
-							<div class="school_proud_sidebar_content_image teacher_images">
+							<div class="school_proud_sidebar_content_image teacher_images past_teacher_pro">
 								<img src="images/teacher-assistant-certification.jpg">
 							</div>
 							<div class="school_proud_sidebar_content_image_text">
 								<p><b>স্যার আইস্টাইন</b></p>
 								<p><b>জন্ম :</b> ১৯৪0</p>
 								<p><b>মৃত্যু :</b> ২০১০</p>
+								<span class="details">[  বিস্তারিত ] </span>
 							</div>
 						</div>
 						<div class="school_proud_sidebar_content">
-							<div class="school_proud_sidebar_content_image teacher_images">
+							<div class="school_proud_sidebar_content_image teacher_images past_teacher_pro">
 								<img src="images/teacher-assistant-certification.jpg">
 							</div>
 							<div class="school_proud_sidebar_content_image_text">
 								<p><b>স্যার আইস্টাইন</b></p>
 								<p><b>জন্ম :</b> ১৯৪0</p>
 								<p><b>মৃত্যু :</b> ২০১০</p>
+								<span class="details">[  বিস্তারিত ] </span>
 							</div>
 						</div>
 						<div class="school_proud_sidebar_content">
-							<div class="school_proud_sidebar_content_image teacher_images">
+							<div class="school_proud_sidebar_content_image teacher_images past_teacher_pro">
 								<img src="images/teacher-assistant-certification.jpg">
 							</div>
 							<div class="school_proud_sidebar_content_image_text">
 								<p><b>স্যার আইস্টাইন</b></p>
 								<p><b>জন্ম :</b> ১৯৪0</p>
 								<p><b>মৃত্যু :</b> ২০১০</p>
+								<span class="details">[  বিস্তারিত ] </span>
 							</div>
 						</div>
 					   
@@ -689,48 +866,52 @@ include 'inc/header.php';
 						</div>
 				</div> 
                   <div class="col-md-3">
-					<div class="area_practice_top_title school_proud_header teacher_list_header">
-							<h3>বর্তমান শিক্ষকবৃন্দ</h3>
+					<div class="area_practice_top_title school_proud_header teacher_list_header past_teacher_header">
+							<h3>অন্যান্য সাবেক শিক্ষকবৃন্দ </h3>
 					</div>
 					<div class="school_proud_sidebar teacher_list_sidebar">
 						<div class="school_proud_sidebar_content">
-							<div class="school_proud_sidebar_content_image teacher_images">
+							<div class="school_proud_sidebar_content_image teacher_images past_teacher_pro">
 								<img src="images/teacher-assistant-certification.jpg">
 							</div>
 							<div class="school_proud_sidebar_content_image_text">
 								<p><b>মামুনুর রশিদ</b></p>
-								<p>সহকারি শিক্ষক</p>
-								<p>ইংরেজি</p>
+								<p>সামাজিক বিজ্ঞান</p>
+								<p>সাল : ১৯৬০-১৯৮০</p>
+								<span class="details">[  বিস্তারিত ] </span>
 							</div>
 						</div>
 						<div class="school_proud_sidebar_content">
-							<div class="school_proud_sidebar_content_image teacher_images">
+							<div class="school_proud_sidebar_content_image teacher_images past_teacher_pro">
 								<img src="images/teacher-assistant-certification.jpg">
 							</div>
 							<div class="school_proud_sidebar_content_image_text">
 								<p><b>মামুনুর রশিদ</b></p>
-								<p>সহকারি শিক্ষক</p>
-								<p>ইংরেজি</p>
+								<p>সামাজিক বিজ্ঞান</p>
+								<p>সাল : ১৯৬০-১৯৮০</p>
+								<span class="details">[  বিস্তারিত ] </span>
 							</div>
 						</div>
 						<div class="school_proud_sidebar_content">
-							<div class="school_proud_sidebar_content_image teacher_images">
+							<div class="school_proud_sidebar_content_image teacher_images past_teacher_pro">
 								<img src="images/teacher-assistant-certification.jpg">
 							</div>
 							<div class="school_proud_sidebar_content_image_text">
 								<p><b>মামুনুর রশিদ</b></p>
-								<p>সহকারি শিক্ষক</p>
-								<p>ইংরেজি</p>
+								<p>সামাজিক বিজ্ঞান</p>
+								<p>সাল : ১৯৬০-১৯৮০</p>
+								<span class="details">[  বিস্তারিত ] </span>
 							</div>
 						</div>
 						<div class="school_proud_sidebar_content">
-							<div class="school_proud_sidebar_content_image teacher_images">
+							<div class="school_proud_sidebar_content_image teacher_images past_teacher_pro">
 								<img src="images/teacher-assistant-certification.jpg">
 							</div>
 							<div class="school_proud_sidebar_content_image_text">
-								<p><b>স্যার আইস্টাইন</b></p>
-								<p>সহকারি শিক্ষক</p>
-								<p>ইংরেজি</p>
+								<p><b>মামুনুর রশিদ</b></p>
+								<p>সামাজিক বিজ্ঞান</p>
+								<p>সাল : ১৯৬০-১৯৮০</p>
+								<span class="details">[  বিস্তারিত ] </span>
 							</div>
 						</div>
 					   
@@ -741,8 +922,8 @@ include 'inc/header.php';
 						</div>
 				</div> 
 				<div class="col-md-3">
-					<div class="area_practice_top_title school_proud_header ">
-							<h3>স্কুলের সাবেক শিক্ষকবৃন্দ</h3>
+					<div class="area_practice_top_title school_proud_header teacher_list_header">
+							<h3>স্কুলের বর্তমান শিক্ষক ও অন্য স্টাফবৃন্দ </h3>
 					</div>
 					<div class="school_proud_sidebar teacher_list_sidebar">
 						<div class="school_proud_sidebar_content">
@@ -754,6 +935,16 @@ include 'inc/header.php';
 								<p>সহকারি প্রধান শিক্ষক</p>
 								<p>গনিত</p>
 								
+							</div>
+						</div>
+						<div class="school_proud_sidebar_content">
+							<div class="school_proud_sidebar_content_image teacher_images">
+								<img src="images/teacher-assistant-certification.jpg">
+							</div>
+							<div class="school_proud_sidebar_content_image_text">
+								<p><b>মামুনুর রশিদ</b></p>
+								<p>সহকারি প্রধান শিক্ষক</p>
+								<p>গনিত</p>
 							</div>
 						</div>
 						<div class="school_proud_sidebar_content">
@@ -802,76 +993,65 @@ include 'inc/header.php';
             <div class="container">
                 <div class="main_school_information">
                     <div class="row">
+                         <div class="col-md-4">
+                             <div class="area_practice_top_title school_proud_header teacher_list_header">
+                                    <h3>জরুরি যোগাযোগ ও লিংক</h3>
+                            </div>
+                            <div class="communication_link_box">
+                                <div class="communication_bos margin_bottom">
+                                    
+                                </div>
+                                <div class="communication_bos margin_bottom">
+                                    
+                                </div>
+                                <div class="communication_bos margin_bottom">
+                                    
+                                </div>
+                            </div>
+                         </div>
                         <div class="col-md-4">
                             <div class="area_practice_top_title school_proud_header teacher_list_header">
-                                    <h3>যারা নিবন্ধন করেছেন</h3>
-                            </div>
-                            <div class="school_proud_sidebar teacher_list_sidebar">
-                                <div class="student_registration_online margin_bottom" id="student_hover">
-                                    <a href="">
-                                        <h2>বিকাশ এবং রকেটে যারা নিবন্ধন করেছেন</h2>
-                                    </a>
-                                </div>
-                                <div class="student_registration_online margin_bottom" id="student_hover">
-                                    <a href="">
-                                        <h2>ব্যংকে এবং অনলাইনে যারা নিবন্ধন করেছেন</h2>
-                                    </a>
-                                </div>
-								<div class="student_registration_online margin_bottom" id="student_hover">
-                                    <a href="">
-                                        <h2>সরাসরি স্কুলে যারা নিবন্ধন করেছেন</h2>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="school_proud_button">
-                                <button>আরও দেখতে</button>
-                            </div>
-                        </div> 
-                        <div class="col-md-4">
-                            <div class="area_practice_top_title school_proud_header teacher_list_header">
-                                    <h3>স্কুলের ছাত্র-ছাত্রী যারা</h3>
+                                    <h3>স্কুলের শত বর্ষের ছাত্র-ছাত্রী যারা  হবে</h3>
                             </div>
                             <div class="school_proud_sidebar teacher_list_sidebar">
                                 <div class="school_proud_sidebar_content">
-                                    <div class="school_proud_sidebar_content_image teacher_images">
+                                    <div class="school_proud_sidebar_content_image teacher_images present_student">
                                         <img src="images/teacher-assistant-certification.jpg">
                                     </div>
                                     <div class="school_proud_sidebar_content_image_text">
                                         <p><b>আব্দুর রহিম</b></p>
-                                        <p>নবম শ্রেনী</p>
-                                        <p>বিঞ্জান বিভাগ</p>
+										<p><b>ব্যচ :</b></p>
+                                        <p>অ্যাড্রেস ১</p>
+										<p>অ্যাড্রেস ২</p>
+										<p>অ্যাড্রেস ৩</p>
+                                        
                                     </div>
                                 </div>
                                 <div class="school_proud_sidebar_content">
-                                    <div class="school_proud_sidebar_content_image teacher_images">
+                                    <div class="school_proud_sidebar_content_image teacher_images present_student">
                                         <img src="images/teacher-assistant-certification.jpg">
                                     </div>
                                     <div class="school_proud_sidebar_content_image_text">
                                         <p><b>আব্দুর রহিম</b></p>
-                                        <p>নবম শ্রেনী</p>
-                                        <p>বিঞ্জান বিভাগ</p>
+                                        <p><b>ব্যচ :</b></p>
+                                        <p>অ্যাড্রেস ১</p>
+                                        <p>অ্যাড্রেস ২</p>
+                                        <p>অ্যাড্রেস ৩</p>
                                     </div>
                                 </div>
                                 <div class="school_proud_sidebar_content">
-                                    <div class="school_proud_sidebar_content_image teacher_images">
+                                    <div class="school_proud_sidebar_content_image teacher_images present_student">
                                         <img src="images/teacher-assistant-certification.jpg">
                                     </div>
                                     <div class="school_proud_sidebar_content_image_text">
-                                        <p><b>আব্দুর রহিম</b></p>
-                                       <p>নবম শ্রেনী</p>
-                                        <p>বিঞ্জান বিভাগ</p>
+                                       <p><b>আব্দুর রহিম</b></p>
+                                        <p><b>ব্যচ :</b></p>
+                                        <p>অ্যাড্রেস ১</p>
+                                        <p>অ্যাড্রেস ২</p>
+                                        <p>অ্যাড্রেস ৩</p>
                                     </div>
                                 </div>
-                                <div class="school_proud_sidebar_content">
-                                    <div class="school_proud_sidebar_content_image teacher_images">
-                                        <img src="images/teacher-assistant-certification.jpg">
-                                    </div>
-                                    <div class="school_proud_sidebar_content_image_text">
-                                        <p><b>আব্দুর রহিম</b></p>
-                                        <p>নবম শ্রেনী</p>
-                                        <p>বিঞ্জান বিভাগ</p>
-                                    </div>
-                                </div>
+                                
                             </div>
                             <div class="school_proud_button">
                                 <button>আরও দেখতে</button>
@@ -898,8 +1078,8 @@ include 'inc/header.php';
                         	            <li><a href="http://ntrca.teletalk.com.bd/" target="_blank">এন.টি.আর.সি.এ. রেজাল্ট</a></li>
                         	            <li><a href="http://www.emis.gov.bd/" target="_blank">এমপিও সংশোধন</a></li>
                         	            <li><a href="http://www.ebook.gov.bd/" target="_blank">ই-বুক</a></li>
-                        	            <!-- <li><a href="http://www.banglapedia.org/" target="_blank">বাংলাপেডিয়া</a></li>
-                        	            <li><a href="https://bn.wikipedia.org/" target="_blank">উইকিপেডিয়া</a></li> -->
+                        	            <li><a href="http://www.banglapedia.org/" target="_blank">বাংলাপেডিয়া</a></li>
+                        	            <li><a href="https://bn.wikipedia.org/" target="_blank">উইকিপেডিয়া</a></li>
                                     </ul>
                                 </div>                              
                             </div>
