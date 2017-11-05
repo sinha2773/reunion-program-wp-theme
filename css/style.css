@@ -89,7 +89,15 @@
     height: unset !important;
     border-radius: 0px;
 }
-.{}
+.heaer_images{
+    position: absolute;
+}
+.heaer_images img{
+        width: 250px;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
 .hundred_year{
     background: #FE7411;
     height: 30px;
@@ -564,10 +572,11 @@
     color: #000;
 }
 .sotoborso_udjapon_comity_content h2{
-    margin: 0px;
+       margin-top: 0px;
     font-size: 15px;
     font-weight: bold;
     line-height: 22px;
+    margin-bottom: 8px;
 }
 .details{
     cursor: pointer;
@@ -581,8 +590,9 @@
     margin-bottom: 20px;
 }
 .sotoborso_udjapon_comity_content p{
-    margin: 0px;
-    font-size: 11px;
+        margin: 0px;
+    font-size: 13px;
+    margin-bottom: 10px;
 }
 .comettree_totporota_content{
     background: #F8F8F8;
@@ -1718,6 +1728,17 @@ div.wpcf7 .screen-reader-response {
 	border-left: 1px solid #555;
 
 }
+.footer_main_text{
+    text-align: center;
+    background: #444;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.footer_text_all_content{
+    background: #444444;
+    padding: 15px 10px;
+    text-align: unset;
+}
 .socila_padding_both{
 	padding: 0;
 	border-left: 1px solid #555;
@@ -1825,7 +1846,7 @@ div.wpcf7 .screen-reader-response {
 	    color: #BABABA;
 }
 .footer_text{
-    text-align: center;
+    /*text-align: center;*/
     padding: 40px;
     color: #BABABA;
 }
@@ -1837,10 +1858,16 @@ div.wpcf7 .screen-reader-response {
 }
 .footer_text h2{
     margin:0px;
-    font-size: 45px;
+    font-size: 30px;
 }
 .footer_text h3{
     margin-top: 10px; 
+    /*font-size: 15px;*/
+}
+.footer_text p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 22px;
 }
 .copyright{
 	padding: 10px 0px;
@@ -2732,7 +2759,7 @@ background: #3B5997;
 .school_proud_sidebar{
     padding: 20px;
     background: #F8F8F8;
-    min-height: 659px;
+    min-height: 788px;
 }
 .school_proud_sidebar_content{
     width: 100%;
@@ -2795,6 +2822,9 @@ background: #3B5997;
 .teacher_images{
     width:35% !important; 
 }
+.teachers_images{
+    width:27% !important; 
+}
 .past_teacher_pro img{
     min-height: 80px;
 }
@@ -2812,9 +2842,35 @@ background: #3B5997;
     min-height: 130px;
     width: 100%;
     border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0px; 
+}
+.communication_bos h2{
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+.communication_bos h3{
+    margin: 8px 0px;
+    font-size: 15px;
+}
+.communication_bos a{
+    color: #fff;
+}
+.communication_bos a:hover{
+    text-decoration: none;
+}
+.sotoborso_student h4{
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.sotoborso_student p{
+        font-size: 13px;
 }
 .present_student img{
-    min-height: 120px;
+            min-height: 85px;
 }
 /*school proud sidebar style end*/
 
@@ -2861,8 +2917,20 @@ background: #3B5997;
 .download_or_scan .download_form .dowload_dropdown button{
 
 }
-.download_or_scan .download_form .dowload_dropdown ul{}
+.download_or_scan .download_form .dowload_dropdown button:hover{
+    background: #1BACB9;
+    border: 1px solid #1BACB9;
+    color: #fff;
+}
+.download_or_scan .download_form .dowload_dropdown ul{
+    width: 100%;
+    background: #1BACB9;
+    border: 1px solid #1BACB9;
+}
 .download_or_scan .download_form .dowload_dropdown ul li{}
+.download_or_scan .download_form .dowload_dropdown ul li:hover{
+    color: #fff;
+}
 .{}
 /*school information style end*/
 
@@ -3008,8 +3076,10 @@ background: #3B5997;
         border-radius: 10px;
 }
 .registration_page_header_information{
-    text-align: center;
-    border-bottom: 5px solid #ccc;    
+       text-align: center;
+    border-bottom: 5px solid #ccc;
+    float: left;
+    width: 100%;    
 }
 .registration_page_header_information h1{
     font-size: 40px;
@@ -3044,13 +3114,13 @@ background: #3B5997;
 }
 .download_or_scan{
     text-align: center;
-    overflow: hidden;
+    /* overflow: hidden; */
     width: 100%;
 }
 .download_form{
     margin-bottom: 20px;
     float: left;
-    width: 50%;
+    /*width: 50%;*/
 }
 .download_form button{
     background: #1BACB9;
@@ -3076,7 +3146,7 @@ background: #3B5997;
 .scan_form{
     margin-bottom: 20px;
     float: right;
-    width: 50%;
+   /* width: 50%;*/
 }
 .scan_form button{
     background: #1BACB9;

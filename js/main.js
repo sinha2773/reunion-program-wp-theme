@@ -85,6 +85,9 @@ jQuery(document).ready(function($){
         }
     });
 
+    // Scroll on top defult
+    $(window).scrollTop(0);
+
     // Smart Wizard
     $('#smartwizard').smartWizard({ 
       selected: 0, 

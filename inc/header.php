@@ -56,15 +56,9 @@
                             </div>
                         </div>
                         <div class="bg_col col-xs-12 col-sm-10 col-md-10 both_paddint">
-                           <!-- <div class="top_header_content collapse navbar-collapse">
-                                <ul class="nav navbar-nav top_header_menu">
-                                    <li class="hundred_year"><a href="">শায়েস্তাগঞ্জ উচ্চ বিদ্যালয় শতবর্ষ উৎসব</a></li>
-									                 <li class="hotline_class"><a href=""><i class="fa fa-phone" aria-hidden="true"></i>Hotline : +8801770515151</a></li>
-									
-                                    <li class="nibondhon"><a href="registration.php">নিবন্ধন করতে এখানে ক্লিক করুন</a></li>
-                                    <li class="menu_date_time"><span>October 24, 2017 11:52 AM</span></li>
-                                </ul>
-                            </div> -->
+                           <div class="heaer_images">
+                              <img src="images/head2.png">
+                            </div>
                             <nav class="navbar navbar-default">
                               <div class="container_ful">
                                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -79,6 +73,9 @@
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                   <ul class="nav navbar-nav nvaber_margin_top">
+                                    <!-- <li> -->
+                                      
+                                    <!-- </li> -->
 									                   <li><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
 									                   <li class="dropdown">
                                       <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">একনজরে শায়েস্তাগঞ্জ উচ্চ বিদ্যালয়<span class="caret"></span></a>
@@ -107,7 +104,7 @@
                                       </ul>
                                     </li>
                                     <!-- <li><a class="page-scroll" href="<?php //echo $base_url; ?>#about_school">একনজরে শায়েস্তাগঞ্জ উচ্চ বিদ্যালয়</a></li> -->
-									                   <li><a class="scrollto" href="<?php echo $base_url; ?>#event_committee">শতবর্ষ উদযাপন কমিটি ও উপকমিটি</a></li>
+									                   <!-- <li><a class="scrollto" href="<?php //echo $base_url; ?>#event_committee">শতবর্ষ উদযাপন কমিটি ও উপকমিটি</a></li> -->
 									                     <li class="dropdown">
                                       <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">  শতবর্ষের  নানা আয়োজন<span class="caret"></span></a>
                                       <ul class="dropdown-menu dropdown_menu_background_color">                
@@ -163,6 +160,8 @@
                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                   <ul class="nav navbar-nav bottom_navber_margin_top">
 									                   <!-- <li class="nibondhon"><a href="registration.php">নিবন্ধন করতে এখানে ক্লিক করুন</a></li> -->
+                                     
+									<li><a class="scrollto" href="<?php echo $base_url; ?>#event_committee">শতবর্ষ উদযাপন কমিটি ও উপকমিটি</a></li>
                                     <li><a class="scrollto" href="<?php echo $base_url; ?>#school_proud">স্কুলের গর্ব যারা</a></li>
                   									<li><a href="blog.php">স্মরণিকার জন্য আপনার লেখা পোষ্ট করুন</a></li>
                   									<!-- <li><a href="today_update.php">আজকের আপডেট</a></li> -->

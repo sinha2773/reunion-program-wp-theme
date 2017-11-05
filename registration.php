@@ -17,18 +17,18 @@ include 'inc/header.php';
            <p>মোবাইল : ০১৭১১-১৭৬৫৬৩, ই-মেইল : shaistaganjhs100@gmail.com</p>
            <div class="download_or_scan">
              <div class="download_form">
-                <!-- <a href="document/registration.pdf" target="_blank"> -->
-                  <div class="dropdown dowload_dropdown">
-                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
-                    <span class="caret"></span></button>
-                    <ul class="dropdown-menu pull-right">
-                      <li><a href="#">HTML</a></li>
-                      <li><a href="#">CSS</a></li>
-                      <li><a href="#">JavaScript</a></li>
-                    </ul>
-                  </div>
+                
+			  <div class="dropdown dowload_dropdown">
+				<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">রেজিষ্ট্রেশন ফরম ডাউনলোড করুন
+				<span class="caret"></span></button>
+				<ul class="dropdown-menu">
+				  <li><a href="document/registration.pdf" target="_blank">ডাউনলোড PDF ফাইল</a></li>
+				  <li><a href="#">ডাউনলোড DOC ফাইল</a></li>
+				  <li><a href="document/Registration_Form_Final.jpg" target="_blank">ডাউনলোড JPG ফাইল</a></li>
+				</ul>
+			  </div>
                  
-                <!-- </a> -->
+               
               </div>
               <div class="scan_form">
                 <a href="scan_copy.php">
