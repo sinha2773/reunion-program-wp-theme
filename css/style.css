@@ -1847,7 +1847,7 @@ div.wpcf7 .screen-reader-response {
 }
 .footer_text{
     /*text-align: center;*/
-    padding: 40px;
+    padding: 40px 0px;
     color: #BABABA;
 }
 .footer_text a{
