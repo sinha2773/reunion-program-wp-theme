@@ -22,8 +22,8 @@
 								$args = array(
 								  'post_type' => 'our_member',
 								  "paged" => $paged,
-								  'posts_per_page' => 9,
-								  'member_type'=>'bkash'
+								  'posts_per_page' => 9
+								  
 								 );
 								if ( !empty($member_type) ){
 								 $args['member_type'] = $member_type;
@@ -44,7 +44,7 @@
 			                                		<h3><?php echo get_post_meta(get_the_ID(),'applicant_name_eng',true) ?></h3>
 			                                		<p>পেশা : <?php echo get_post_meta(get_the_ID(),'profession',true) ?></p>
 			                                		<p> এস এস সি সাল : <?php echo get_post_meta(get_the_ID(),'year_of_ssc',true) ?></p>
-			                                		<a href="<?php  the_permalink(); ?>">
+			                                		<a href="<?php  the_permalink(); ?>" class="details">
 			                                			বিস্তারিত
 			                                		</a>
 			                                	</div>

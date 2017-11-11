@@ -380,7 +380,7 @@ Template Name: Home Page Template
                                 </a>
                             </div>
                             <div class="area_practice_top_title school_proud_header">
-                                    <h3>যারা নিবন্ধন করেছেন</h3>
+                                    <h3><a href="<?php echo the_permalink('227'); ?>">যারা নিবন্ধন করেছেন </a></h3>
                             </div>
                             <div class="school_proud_sidebar teacher_list_sidebar">
                                 <div class="student_registration_online" id="student_hover">

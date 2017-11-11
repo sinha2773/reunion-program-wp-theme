@@ -16,11 +16,11 @@
 	                        <div class="all_page_content_information">
 	                            <div class="row">
 	                            	<?php 
-		                                // $q = new WP_Query(array(
-		                                //     'post_type' => 'our_program',
-		                                //     'posts_per_page' => 9,
-		                                //     'program_type'=>'sotoborsho-udjapon-committee-totporota'
-		                                // ));
+		                                $q = new WP_Query(array(
+		                                    'post_type' => 'our_program',
+		                                    'posts_per_page' => 9,
+		                                    'program_type'=>'sotoborsho-udjapon-committee-totporota'
+		                                ));
 		                           ?>
 		                            <?php if(have_posts()): while(have_posts()): the_post(); ?>
                             

@@ -39,9 +39,7 @@
 					                            <div class="school_proud_sidebar_content_image_text">
 					                                <h4><?php the_title(); ?></h4>
 					                                <p>বিষয় : <?php echo get_post_meta(get_the_ID(),'subject',true) ?></p>
-					                                <p><b><?php echo get_post_meta(get_the_ID(),'duration',true) ?></b></p>
-					                                
-					                                
+					                                <p><b>Duration : <?php echo get_post_meta(get_the_ID(),'duration',true) ?></b></p>
 					                                <a href="<?php the_permalink(); ?>" class="details">[  বিস্তারিত ] </a>
 					                            </div>
 					                        </div>
