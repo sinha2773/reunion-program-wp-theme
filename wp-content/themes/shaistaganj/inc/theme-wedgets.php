@@ -21,7 +21,18 @@
 				'before_title'  => '<p>',
 				'after_title'   => '</p>',
 
-			));
+		));
+		register_sidebar(array(
+				'name'          => 'Blog Right Sidebar',
+				'description'   => 'Use this widgets  for your site footer content',
+				'id'            => 'blog_right_sidebar',
+				
+				'before_widget' => '<div class="blog_right_sidebar_content">',
+				'after_widget'  => '</div>',
+				'before_title'  => '<p>',
+				'after_title'   => '</p>',
+
+		));
 	}
 	add_action('widgets_init','create_custom_wedgets');
 

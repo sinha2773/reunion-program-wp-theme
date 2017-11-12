@@ -66,13 +66,17 @@ Template Name: Home Page Template
                             </div>
                         </div>
                         <div class="col-md-2">
-                            <div class="nibondhon_button">
+                            <div class="nibondhon_button nibondhon_margin_bottom">
                                 <h2>
                                     <a href="<?php echo get_permalink('162');?>">
                                     নিবন্ধন করতে এখানে ক্লিক করুন
-                                </a>
+                                    </a>
                                 </h2>
-                                <h2 class="nibondhon_button_link"><a href="<?php echo the_permalink('227'); ?>">যারা নিবন্ধন করেছেন</a></h2>
+                            </div>
+                            <div class="nibondhon_button">
+                                <h2 class="nibondhon_button_link">
+                                    <a href="<?php echo the_permalink('227'); ?>">যারা নিবন্ধন করেছেন</a>
+                                </h2>
                             </div>
                         </div>
                         <div class="col-md-5">

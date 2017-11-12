@@ -26,8 +26,8 @@
 								);
 								if ( !empty($member_type) ){
 								 $args['member_type'] = $member_type;
-								 if ( $member_type=='bkash_or_rocket' || $member_type=='bank' || $member_type=='direct')
-								 $args['member_type'] = array('bkash','rocket','bank');
+								 if ( $member_type=='bkash_or_rocket')
+								 $args['member_type'] = array('bkash','rocket');
 								}
 								$book = new WP_Query($args);
 							?>

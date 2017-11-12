@@ -302,21 +302,24 @@
     margin: 40px 0px;
 }
 .nibondhon_button{
-    width: 100%;
+       width: 100%;
     background: #F8F8F8;
-    padding: 20px 10px;
-        min-height: 366px;
+    padding: 15px 10px;
+        min-height: 162px;
     text-align: center;
     border-radius: 10px;
 }
 .nibondhon_button a{
-    color: red;
-    font-size: 26px;
-    line-height: 42px;
+        color: red;
+    font-size: 25px;
+    line-height: 25px;
+}
+.nibondhon_margin_bottom{
+    margin-bottom: 40px;
 }
 .nibondhon_button_link{
     
-    margin-top: 50px;
+       margin-top: 35px;
 }
 .nibondhon_button a:hover{
     text-decoration: none;
@@ -940,6 +943,18 @@
     line-height: 17px;
     margin: 10px 0;
     padding: 0 10px;
+}
+.communication_div{
+    padding: 20px;
+}
+.communication_div h3{
+    margin-top: 0px;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.communication_div p{
+    text-align: justify;
+    font-size: 14px;
 }
 .image_hover_effect{
 	position: relative;
@@ -2039,10 +2054,11 @@ div.wpcf7 .screen-reader-response {
 .copyright{
 	padding: 10px 0px;
 	border-top: 1px solid #BABABA;
+    text-align: center;
 }
 
 .all_reserved{
-    float: left !important;
+  
 }
 .design_develop{
     float: right;
@@ -2775,13 +2791,24 @@ background: #3B5997;
 .blog_post_list{
     background: #F8F8F8;
         padding: 30px 10px;
+        overflow: hidden;
 }
 .blog_post_item{
         border: 1px solid #ccc;
+        margin-bottom: 20px;
 }
+
 .blog_post_item_images{}
 .blog_post_item_images img{
     width: 100%;
+    min-height: 150px;
+}
+.all_category_content{
+    background: #f8f8f8;
+    padding: 20px;
+}
+.blog_right_sidebar_content p{
+    font-size: 22px;
 }
 .blog_post_item_images_text{}
 .blog_post_item_images_text_title{
@@ -2842,12 +2869,27 @@ background: #3B5997;
     border: 1px solid #1BACB9;
     border-radius: 5px;
 }
+.blog_post_button a{
+    color: #fff;
+}
+.blog_post_button a:hover{
+    text-decoration: none;
+}
 .blog_post_date{
     float: right;
 }
 .blog_post_a_tag {
     /*float: right;*/
 }
+.blog_write_all_content{
+    background: #F8F8F8;
+    padding: 20px;
+}
+.blog_write_content_info{
+    width: 70%;
+    margin: 0 auto;
+}
+
 
 /*blog style end*/
 

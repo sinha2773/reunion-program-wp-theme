@@ -30,6 +30,8 @@ add_image_size('school_present_teachers_image',81,70,true);
 
 add_image_size('past_students_teachers_image',114,80,true);
 
+add_image_size('all_post_image',229,149,true);
+
 
 // add_theme_support( 'title-tag' );
 
