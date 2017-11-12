@@ -309,14 +309,23 @@
     text-align: center;
     border-radius: 10px;
 }
+.nibondhon_button a{
+    color: red;
+    font-size: 26px;
+    line-height: 42px;
+}
+.nibondhon_button_link{
+    
+    margin-top: 50px;
+}
 .nibondhon_button a:hover{
     text-decoration: none;
 }
 .nibondhon_button a h2{
-       color: red; 
-    margin-top: 65px;
-    font-size: 30px;
-    line-height: 45px;
+    color: red;
+    margin-top: 0px;
+    font-size: 26px;
+    
 }
 .banner_sidebar video{
     /*margin-bottom: 0px;*/

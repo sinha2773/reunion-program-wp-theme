@@ -23,7 +23,10 @@ Template Name: Home Page Template
                                   <ol class="carousel-indicators">
                                     <?php
                                         $i=1;
-                                     if($slider_add->have_posts()): while($slider_add->have_posts()): $slider_add->the_post(); ?>
+                                        if($slider_add->have_posts()): 
+                                        while($slider_add->have_posts()): 
+                                        $slider_add->the_post();
+                                    ?>
                                     <li data-target="#myCarousel" data-slide-to="<?php echo $i-1; ?>" class="<?php echo $i==1 ? 'active' : '';?>"></li>
                                     <!-- <li data-target="#myCarousel" data-slide-to="1"></li>
                                     <li data-target="#myCarousel" data-slide-to="2"></li> -->
@@ -64,9 +67,12 @@ Template Name: Home Page Template
                         </div>
                         <div class="col-md-2">
                             <div class="nibondhon_button">
-                                <a href="<?php echo get_permalink('162');?>">
-                                    <h2>নিবন্ধন করতে এখানে ক্লিক করুন</h2>
+                                <h2>
+                                    <a href="<?php echo get_permalink('162');?>">
+                                    নিবন্ধন করতে এখানে ক্লিক করুন
                                 </a>
+                                </h2>
+                                <h2 class="nibondhon_button_link"><a href="<?php echo the_permalink('227'); ?>">যারা নিবন্ধন করেছেন</a></h2>
                             </div>
                         </div>
                         <div class="col-md-5">

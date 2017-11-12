@@ -22,18 +22,20 @@
 								$args = array(
 								  'post_type' => 'our_member',
 								  "paged" => $paged,
-								  'posts_per_page' => 9
-								  
-								 );
+								  'posts_per_page' => 18
+								);
 								if ( !empty($member_type) ){
 								 $args['member_type'] = $member_type;
-								 if ( $member_type=='bkash_or_rocket' )
-								 $args['member_type'] = array('bkash','rocket');
+								 if ( $member_type=='bkash_or_rocket' || $member_type=='bank' || $member_type=='direct')
+								 $args['member_type'] = array('bkash','rocket','bank');
 								}
 								$book = new WP_Query($args);
 							?>
-                           <?php if($book->have_posts()): while($book->have_posts()): $book->the_post(); ?>
-                            
+                           	<?php 
+                           		if($book->have_posts()):
+                            	while($book->have_posts()):
+                             	$book->the_post(); 
+                            ?>
 	                            	<div class="col-sm-4 col-md-2">
 	                            		<div class="hundred_years_content">
 			                                <div class="registraion_page_content">
