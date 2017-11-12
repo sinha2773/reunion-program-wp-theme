@@ -2810,6 +2810,11 @@ background: #3B5997;
 .blog_right_sidebar_content p{
     font-size: 22px;
 }
+.blog_right_sidebar_content ul{
+    margin-top: 15px;
+    list-style-image: url(../images/blue-tick-icon-1.png);
+}
+.blog_right_sidebar_content ul li{}
 .blog_post_item_images_text{}
 .blog_post_item_images_text_title{
         border-bottom: 1px solid #ccc;
