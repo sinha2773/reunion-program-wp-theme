@@ -385,7 +385,7 @@ Template Name: Home Page Template
                                 <?php endwhile; endif; ?>
                             </div>
                             <div class="school_proud_button sriticharon_button">
-                                <a href="<?php echo get_permalink('278'); ?>">
+                                <a href="<?php echo get_permalink('256'); ?>">
                                     <button>আরও দেখতে</button>
                                 </a>
                             </div>
