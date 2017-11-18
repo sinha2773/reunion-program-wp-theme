@@ -73,7 +73,7 @@ Template Name: Home Page Template
                                     </a>
                                 </h2>
                             </div>
-                            <div class="nibondhon_button">
+                            <div class="nibondhon_button nibondhon_button_bottom">
                                 <h2 class="nibondhon_button_link">
                                     <a href="<?php echo the_permalink('227'); ?>">যারা নিবন্ধন করেছেন</a>
                                 </h2>
@@ -265,7 +265,7 @@ Template Name: Home Page Template
                                 <?php 
                                     $d = new WP_Query(array(
                                         'post_type' => 'our_committee',
-                                        'posts_per_page' => 5,
+                                        'posts_per_page' => 6,
                                         'committee_type' =>'school_management_committee'
                                         
                                     ));
@@ -282,7 +282,7 @@ Template Name: Home Page Template
                                     </div>
                                     <div class="school_proud_sidebar_content_image_text">
                                         <h4><?php the_title(); ?></h4>
-                                        <p>কমিটির নাম : <?php echo get_post_meta(get_the_ID(),'committee_name',true) ?></p>
+                                        <p>নাম : <?php echo get_post_meta(get_the_ID(),'committee_name',true) ?></p>
                                         <p>মোবাইল:  <?php echo get_post_meta(get_the_ID(),'mobile_no',true) ?></p>
                                     </div>
                                     
@@ -323,7 +323,7 @@ Template Name: Home Page Template
                                 <?php 
                                     $dol = new WP_Query(array(
                                         'post_type' => 'our_committee',
-                                        'posts_per_page' => 5,
+                                        'posts_per_page' => 6,
                                         'committee_type' => 'sotoborsho_udjapon_committee'
                                     ));
                                 ?>
@@ -338,7 +338,7 @@ Template Name: Home Page Template
                                     </div>
                                     <div class="school_proud_sidebar_content_image_text">
                                         <h4><?php the_title(); ?></h4>
-                                        <p>কমিটির নাম : <?php echo get_post_meta(get_the_ID(),'committee_name',true) ?></p>
+                                        <p>নাম : <?php echo get_post_meta(get_the_ID(),'committee_name',true) ?></p>
                                         <p>মোবাইল: <?php echo get_post_meta(get_the_ID(),'mobile_no',true) ?></p>
                                     </div>
                                 </div>
@@ -357,6 +357,41 @@ Template Name: Home Page Template
                         <div class="col-md-4">
                             <?php 
                                     $past_teacher_memmorys = new WP_Query(array(
+                                        'post_type' => 'our_committee',
+                                        'posts_per_page' => 3,
+                                        'committee_type' => 'sotoborsho-purti-udsob-upodesta-mondoli'
+                                    ));
+                                ?>
+                            <div class="area_practice_top_title school_proud_header">
+                                    <h3>শতবর্ষ পূর্তি উৎসব উপদেষ্টা মন্ডলী</h3>
+                            </div>
+                            <div class="school_proud_sidebar teacher_list_sidebar">
+                                <?php 
+                                    if($past_teacher_memmorys ->have_posts()): 
+                                    while($past_teacher_memmorys->have_posts()) :
+                                     $past_teacher_memmorys->the_post(); 
+                                ?>
+                                <div class="school_proud_sidebar_content">
+                                    <div class="school_proud_sidebar_content_image teacher_images upodesta_image">
+                                        <?php the_post_thumbnail('past_students_teachers_image'); ?>
+                                    </div>
+                                    <div class="school_proud_sidebar_content_image_text">
+                                       <h4><?php the_title(); ?></h4>
+                                        <p>নাম : <?php echo get_post_meta(get_the_ID(),'committee_name',true) ?></p>
+                                        <p>মোবাইল: <?php echo get_post_meta(get_the_ID(),'mobile_no',true) ?></p>
+                                        
+                                    </div>
+                                </div>
+                                <?php endwhile; endif; ?>
+                            </div>
+                            <div class="school_proud_button sriticharon_button">
+                                <a href="<?php echo get_permalink('278'); ?>">
+                                    <button>আরও দেখতে</button>
+                                </a>
+                            </div>
+
+                            <?php 
+                                    $past_teacher_memmorys = new WP_Query(array(
                                         'post_type' => 'our_teacher',
                                         'posts_per_page' => 3,
                                         'teacher_type' => 'past_teachers_memmory'
@@ -365,7 +400,7 @@ Template Name: Home Page Template
                             <div class="area_practice_top_title school_proud_header">
                                     <h3>সাবেক ছাত্র-শিক্ষকদের স্মৃতিচারণ</h3>
                             </div>
-                            <div class="school_proud_sidebar teacher_list_sidebar">
+                            <div class="school_proud_sidebar teacher_list_sidebar past_teacher_list">
                                 <?php 
                                     if($past_teacher_memmorys ->have_posts()): 
                                     while($past_teacher_memmorys->have_posts()) :
@@ -389,27 +424,7 @@ Template Name: Home Page Template
                                     <button>আরও দেখতে</button>
                                 </a>
                             </div>
-                            <div class="area_practice_top_title school_proud_header">
-                                    <h3><a href="<?php echo the_permalink('227'); ?>">যারা নিবন্ধন করেছেন </a></h3>
-                            </div>
-                            <div class="school_proud_sidebar teacher_list_sidebar">
-                                <div class="student_registration_online" id="student_hover">
-                                    <a href="<?php echo get_permalink('227') ?>?reg_type=bkash_or_rocket">
-                                        <h2>বিকাশ এবং রকেটে যারা নিবন্ধন করেছেন</h2>
-                                    </a>
-                                </div>
-                                <div class="student_registration_online" id="student_hover">
-                                    <a href="<?php echo get_permalink('227') ?>?reg_type=bank">
-                                        <h2>ব্যংকে এবং অনলাইনে যারা নিবন্ধন করেছেন</h2>
-                                    </a>
-                                </div>
-                                <div class="student_registration_online" id="student_hover">
-                                    <a href="<?php echo get_permalink('227') ?>?reg_type=direct">
-                                        <h2>সরাসরি স্কুলে যারা নিবন্ধন করেছেন</h2>
-                                    </a>
-                                </div>
-                            </div>
-                            
+                           
                         </div>
                     </div>
                 </div>

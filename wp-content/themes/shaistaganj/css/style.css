@@ -302,10 +302,10 @@
     margin: 40px 0px;
 }
 .nibondhon_button{
-       width: 100%;
+        width: 100%;
     background: #F8F8F8;
-    padding: 15px 10px;
-        min-height: 162px;
+    padding: 35px 10px;
+    min-height: 219px;
     text-align: center;
     border-radius: 10px;
 }
@@ -314,12 +314,19 @@
     font-size: 25px;
     line-height: 25px;
 }
+.nibondhon_button_bottom{
+    min-height: 80px !important;
+    padding: 10px !important; 
+}
+.nibondhon_button_bottom a{
+
+}
 .nibondhon_margin_bottom{
     margin-bottom: 40px;
 }
 .nibondhon_button_link{
     
-       margin-top: 35px;
+    margin-top: 10px;
 }
 .nibondhon_button a:hover{
     text-decoration: none;
@@ -329,6 +336,9 @@
     margin-top: 0px;
     font-size: 26px;
     
+}
+.nibondhon_content{
+    padding: 20px 20px 5px 20px;
 }
 .banner_sidebar video{
     /*margin-bottom: 0px;*/
@@ -2978,9 +2988,10 @@ background: #3B5997;
 }
 .school_proud_sidebar_content{
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    overflow: hidden;
 }
-.‍school_proud_last{
+.school_proud_last{
     margin-bottom: 5px !important;
 }
 .school_good_student{
@@ -3039,8 +3050,11 @@ background: #3B5997;
 .teacher_list_header h3{
     font-size: 18px;
 }
+.past_teacher_list{
+    min-height: 353px !important;
+}
 .teacher_list_sidebar{
-        min-height: 256px;
+    min-height: 256px;
 }
 .school_proud_button{
     text-align: center;
@@ -3061,6 +3075,13 @@ background: #3B5997;
 }
 .teachers_images{
     width:27% !important; 
+}
+.upodesta_image{
+    /*margin-bottom: 10px;*/
+}
+.upodesta_image img{
+    
+
 }
 .past_teacher_pro img{
     min-height: 80px;
@@ -3143,15 +3164,17 @@ background: #3B5997;
     text-decoration: none;
 }
 .empty_div{
-    min-height: 468px;
+        min-height: 447px;
 }
 .student_registration_online h2{
     margin: 0px;
     color: #fff;
-        font-size: 16px;
+    font-size: 22px;
 }
 #student_hover{
     margin-bottom: 15px;
+    
+    padding: 20px 15px;
 }
 #student_hover a:hover{
     text-decoration: none;
@@ -3342,6 +3365,14 @@ background: #3B5997;
 }
 .registration_page_header_information p{
     color: #000;
+}
+.regi_image{
+    margin-bottom: 20px;
+}
+.regi_image img{
+    width: 50%;
+    min-height: 150px;
+    margin: 0 auto;
 }
 .registration_form_button{
         margin: 30px 0px;

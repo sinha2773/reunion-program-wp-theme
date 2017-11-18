@@ -124,43 +124,44 @@ if( isset($_POST['registration']) ){
       }?>
      <div class="main_registration_page">
       <div class="registration_page_all_information">
-         <div class="registration_page_header_information">
-           <h1>শতবর্ষ পূর্তি উৎসব</h1>
-           <h3>( ১৯১৮-২০১৮ )</h3>
-           <h2>শায়েস্তাগঞ্জ উচ্চ বিদ্যালয়</h2>
-           <p>ডাক ও থানা : শায়েস্তাগঞ্জ-৩৩০১, উপজেলা: হবিগঞ্জ সদর, জেলা : হবিগঞ্জ</p>
-           <p>মোবাইল : ০১৭১১-১৭৬৫৬৩, ই-মেইল : shaistaganjhs100@gmail.com</p>
+        <div class="registration_page_header_information">
+          <div class="regi_image">
+            <img src="<?php echo get_template_directory_uri();?>/images/reg.png">
+          </div>
+          <!-- <div class="regi_info">
+            <h1>শতবর্ষ পূর্তি উৎসব</h1>
+            <h3>( ১৯১৮-২০১৮ )</h3>
+            <h2>শায়েস্তাগঞ্জ উচ্চ বিদ্যালয়</h2>
+            <p>ডাক ও থানা : শায়েস্তাগঞ্জ-৩৩০১, উপজেলা: হবিগঞ্জ সদর, জেলা : হবিগঞ্জ</p>
+            <p>মোবাইল : ০১৭১১-১৭৬৫৬৩, ই-মেইল : shaistaganjhs100@gmail.com</p>
+          </div> -->
            <div class="download_or_scan">
-             <div class="download_form">
-                
-			  <div class="dropdown dowload_dropdown">
-				<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">রেজিষ্ট্রেশন ফরম ডাউনলোড করুন
-				<span class="caret"></span></button>
-				<ul class="dropdown-menu">
-          <?php 
-              $pdf_file_source = new WP_Query(array(
-                  'post_type' => 'page',
-                  
-                  'page_id' =>162
-              ));
-          ?>
-          <?php 
-              if($pdf_file_source->have_posts()): 
-              while($pdf_file_source->have_posts()): 
-              $pdf_file_source->the_post();  
-          ?>
-				  <li><a href="<?php echo get_post_meta(get_the_ID(),'pdf_file',true) ?>" target="_blank">ডাউনলোড PDF ফাইল</a></li>
-				  <li><a href="#">ডাউনলোড DOC ফাইল</a></li>
-				  <li><a href="<?php echo get_post_meta(get_the_ID(),'jpg_file',true) ?>" target="_blank">ডাউনলোড JPG ফাইল</a></li>
-          <?php endwhile; endif; ?>
-				</ul>
-			  </div>
-                 
-               
+            <div class="download_form">                
+      			  <div class="dropdown dowload_dropdown">
+        				<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">রেজিষ্ট্রেশন ফরম ডাউনলোড করুন
+        				<span class="caret"></span></button>
+        				<ul class="dropdown-menu">
+                  <?php 
+                      $pdf_file_source = new WP_Query(array(
+                          'post_type' => 'page',                  
+                          'page_id' =>162
+                      ));
+                  ?>
+                  <?php 
+                      if($pdf_file_source->have_posts()): 
+                      while($pdf_file_source->have_posts()): 
+                      $pdf_file_source->the_post();  
+                  ?>
+        				  <li><a href="<?php echo get_post_meta(get_the_ID(),'pdf_file',true) ?>" target="_blank">ডাউনলোড PDF ফাইল</a></li>
+        				  <li><a href="#">ডাউনলোড DOC ফাইল</a></li>
+        				  <li><a href="<?php echo get_post_meta(get_the_ID(),'jpg_file',true) ?>" target="_blank">ডাউনলোড JPG ফাইল</a></li>
+                  <?php endwhile; endif; ?>
+        				</ul>
+      			  </div>
               </div>
               <div class="scan_form">
                 <a href="<?php echo get_permalink('171'); ?>">
-                 <button class="btn-sm">রেজিষ্ট্রেশনের স্কেন কপি পাঠাতে</button>
+                 <button class="btn-sm">রেজিষ্ট্রেশনের স্ক্যান কপি পাঠাতে</button>
                 </a>
               </div>
             </div>
@@ -190,7 +191,7 @@ if( isset($_POST['registration']) ){
           				<div class="form-group registration_form_payment registration_payment_method">
           				  <label for="" class="label_bottom control-label">Registration Fee payment method <span class="red">*</span></label>
           				  <div class="label_bottom">
-          					<input type="radio" name="payment_method" checked class="radio_button_class" id="" value="bkash">bKash<br/>
+          					<input type="radio" name="payment_method" checked class="radio_button_class" id="payment_method" value="bkash">bKash<br/>
           					<input type="radio" name="payment_method" class="radio_button_class" id="payment_method" value="rocket">Rocket<br>
                     <input type="radio" name="payment_method" class="radio_button_class" id="payment_method" value="bank">Online / Bank
           				  </div>				  

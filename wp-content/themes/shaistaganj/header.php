@@ -38,7 +38,7 @@
                   <li><a href="<?php echo get_option('dribbble_url');?>"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
                   <li><a href="<?php echo get_option('linkedin_url');?>"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                   
-                  <li><span>October 24, 2017 11:52 AM</span></li>
+                  <li><span><?php date_default_timezone_set("Asia/Dhaka"); echo date('F d, Y h:s A'); ?></span></li>
                 </ul>
                
               </div>
