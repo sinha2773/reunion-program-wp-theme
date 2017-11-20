@@ -139,7 +139,7 @@ Template Name: Home Page Template
                                     <h3><?php the_title(); ?></h3>
                                 </div>
                                 <div class="hundred_years_content_images">
-                                    <?php echo the_post_thumbnail( 'ak_nojora_image'); ?>
+                                    <?php echo the_post_thumbnail( 'common_image_size'); ?>
                                 </div>
                                 
                                 <div class="hundred_years_another_content">
@@ -210,7 +210,7 @@ Template Name: Home Page Template
                             ?>
                             <div class="hundred_years_content">
                                 <div class="hundred_years_content_title">
-                                    <h3>শতবর্ষ স্মারক গ্রন্থ</h3>
+                                    <h3>শতবর্ষ পূর্তি উৎসব সভার সিদ্ধান্তসমূহ</h3>
                                 </div>
                                 <div class="hundred_years_content_images">
                                     <?php echo the_post_thumbnail( 'ak_nojora_image'); ?>
@@ -265,7 +265,7 @@ Template Name: Home Page Template
                                 <?php 
                                     $d = new WP_Query(array(
                                         'post_type' => 'our_committee',
-                                        'posts_per_page' => 6,
+                                        'posts_per_page' => 7,
                                         'committee_type' =>'school_management_committee'
                                         
                                     ));
@@ -278,7 +278,7 @@ Template Name: Home Page Template
                                 <div class="school_proud_sidebar_content">
                                     
                                     <div class="school_proud_sidebar_content_image">
-                                        <?php echo the_post_thumbnail('school_management_person_image'); ?>
+                                        <?php echo the_post_thumbnail('common_image_size'); ?>
                                     </div>
                                     <div class="school_proud_sidebar_content_image_text">
                                         <h4><?php the_title(); ?></h4>
@@ -323,7 +323,7 @@ Template Name: Home Page Template
                                 <?php 
                                     $dol = new WP_Query(array(
                                         'post_type' => 'our_committee',
-                                        'posts_per_page' => 6,
+                                        'posts_per_page' => 7,
                                         'committee_type' => 'sotoborsho_udjapon_committee'
                                     ));
                                 ?>
@@ -334,7 +334,7 @@ Template Name: Home Page Template
                                 ?>
                                 <div class="school_proud_sidebar_content">
                                     <div class="school_proud_sidebar_content_image">
-                                        <?php echo the_post_thumbnail('school_management_person_image'); ?>
+                                        <?php echo the_post_thumbnail('common_image_size'); ?>
                                     </div>
                                     <div class="school_proud_sidebar_content_image_text">
                                         <h4><?php the_title(); ?></h4>
@@ -358,7 +358,7 @@ Template Name: Home Page Template
                             <?php 
                                     $past_teacher_memmorys = new WP_Query(array(
                                         'post_type' => 'our_committee',
-                                        'posts_per_page' => 3,
+                                        'posts_per_page' => 4,
                                         'committee_type' => 'sotoborsho-purti-udsob-upodesta-mondoli'
                                     ));
                                 ?>
@@ -372,8 +372,8 @@ Template Name: Home Page Template
                                      $past_teacher_memmorys->the_post(); 
                                 ?>
                                 <div class="school_proud_sidebar_content">
-                                    <div class="school_proud_sidebar_content_image teacher_images upodesta_image">
-                                        <?php the_post_thumbnail('past_students_teachers_image'); ?>
+                                    <div class="school_proud_sidebar_content_image">
+                                        <?php echo the_post_thumbnail('common_image_size'); ?>
                                     </div>
                                     <div class="school_proud_sidebar_content_image_text">
                                        <h4><?php the_title(); ?></h4>
@@ -407,8 +407,8 @@ Template Name: Home Page Template
                                      $past_teacher_memmorys->the_post(); 
                                 ?>
                                 <div class="school_proud_sidebar_content">
-                                    <div class="school_proud_sidebar_content_image teacher_images past_teacher_pro">
-                                        <?php the_post_thumbnail('past_students_teachers_image'); ?>
+                                    <div class="school_proud_sidebar_content_image past_teacher_stu_images">
+                                        <?php echo the_post_thumbnail('common_image_size'); ?>
                                     </div>
                                     <div class="school_proud_sidebar_content_image_text">
                                         <h4><?php the_title(); ?></h4>
@@ -568,11 +568,12 @@ Template Name: Home Page Template
 
                                         if($school_sdudent_proud->have_posts()) :
 
-                                        while($school_sdudent_proud->have_posts()) : $school_sdudent_proud->the_post(); 
+                                        while($school_sdudent_proud->have_posts()) : 
+                                            $school_sdudent_proud->the_post(); 
                                     ?>
                                     <div class="school_proud_sidebar_content">
                                         <div class="school_proud_sidebar_content_image">
-                                            <?php echo the_post_thumbnail('school_proud_stu_image'); ?>
+                                            <?php echo the_post_thumbnail('common_image_size'); ?>
                                         </div>
                                         <div class="school_proud_sidebar_content_image_text">
                                             <h4><?php the_title(); ?></h4>
@@ -618,7 +619,7 @@ Template Name: Home Page Template
                                 ?>
                                 <div class="school_proud_sidebar_content">
                                     <div class="school_proud_sidebar_content_image">
-                                        <?php the_post_thumbnail('school_telent_student_image'); ?>
+                                        <?php the_post_thumbnail('common_image_size'); ?>
                                     </div>
                                     <div class="school_proud_sidebar_content_image_text">
                                         <h4><?php the_title(); ?></h4>
@@ -825,7 +826,7 @@ Template Name: Home Page Template
                         ?>
                         <div class="school_proud_sidebar_content">
                             <div class="school_proud_sidebar_content_image teacher_images past_teacher_pro">
-                                <?php the_post_thumbnail('lost_teachers_image'); ?>
+                                <?php the_post_thumbnail('common_image_size'); ?>
                             </div>
                             <div class="school_proud_sidebar_content_image_text">
                                 <h4><?php the_title(); ?></h4>
@@ -863,7 +864,7 @@ Template Name: Home Page Template
                         ?>
                         <div class="school_proud_sidebar_content">
                             <div class="school_proud_sidebar_content_image teacher_images past_teacher_pro">
-                                <?php the_post_thumbnail('another_past_teacher_image'); ?>
+                                <?php the_post_thumbnail('common_image_size'); ?>
                             </div>
                             <div class="school_proud_sidebar_content_image_text">
                                 <h4><?php the_title(); ?></h4>
@@ -903,7 +904,7 @@ Template Name: Home Page Template
                         ?>
                         <div class="school_proud_sidebar_content">
                             <div class="school_proud_sidebar_content_image teacher_images">
-                                <?php the_post_thumbnail('school_present_teachers_image'); ?>
+                                <?php the_post_thumbnail('common_image_size'); ?>
                             </div>
                             <div class="school_proud_sidebar_content_image_text">
                                 <h4><?php the_title(); ?></h4>
@@ -959,7 +960,7 @@ Template Name: Home Page Template
                                 ?>
                                 <div class="school_proud_sidebar_content">
                                     <div class="school_proud_sidebar_content_image teachers_images present_student">
-                                        <?php the_post_thumbnail('hundred_years_student_image'); ?>
+                                        <?php the_post_thumbnail('common_image_size'); ?>
                                     </div>
                                     <div class="school_proud_sidebar_content_image_text sotoborso_student">
                                         <h4><?php the_title(); ?></h4>

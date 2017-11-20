@@ -555,7 +555,7 @@
 .hotline_left_information li{
     list-style-type: none;
     float: left;
-    font-size: 18px;
+    font-size: 16px;
     margin-right: 20px;
     margin-bottom: 7px;
     
@@ -573,7 +573,7 @@
 .hotline_right_information li{
     list-style-type: none;
     float: left;
-    font-size: 18px;
+    font-size: 16px;
     margin-left: 20px;
 }
 .hotline_right_information li a{
@@ -642,6 +642,7 @@
     margin: 0px;
     font-size: 15px;
     font-weight: bold;
+        line-height: 20px;
 }
 .hundred_years_another_content{
         padding: 10px;
@@ -2642,6 +2643,9 @@ background: #3B5997;
    /* position: relative;
     z-index: 10;*/
 }
+.past_teacher_stu_images img{
+    /*min-height: 75px !important;*/
+}
 .good_student{
     margin-bottom: 30px;
 }
@@ -3014,6 +3018,7 @@ background: #3B5997;
 .school_proud_sidebar_content_image img{
     width: 100%;
     min-height: 70px;
+    height: auto;
 }
 .school_proud_sidebar_content_image_text{}
 .school_proud_sidebar_content_image_text p{
@@ -3051,7 +3056,7 @@ background: #3B5997;
     font-size: 18px;
 }
 .past_teacher_list{
-    min-height: 353px !important;
+    min-height: 362px !important;
 }
 .teacher_list_sidebar{
     min-height: 256px;
@@ -3370,7 +3375,7 @@ background: #3B5997;
     margin-bottom: 20px;
 }
 .regi_image img{
-    width: 50%;
+    width: 100%;
     min-height: 150px;
     margin: 0 auto;
 }

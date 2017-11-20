@@ -126,7 +126,7 @@ if( isset($_POST['registration']) ){
       <div class="registration_page_all_information">
         <div class="registration_page_header_information">
           <div class="regi_image">
-            <img src="<?php echo get_template_directory_uri();?>/images/reg.png">
+            <img src="<?php echo get_template_directory_uri();?>/images/reg_final.png">
           </div>
           <!-- <div class="regi_info">
             <h1>শতবর্ষ পূর্তি উৎসব</h1>
@@ -198,7 +198,7 @@ if( isset($_POST['registration']) ){
           				</div>
                   <div class="mobile_information">
                     <div class="form-group registration_form_payment registration_payment_method">
-                      <label for="" class="label_bottom control-label">bKash Number : +8801552322282 / Rocket Number : +8801770515151</label>
+                      <label for="" class="label_bottom control-label">bKash Number : +8801552322282 / Rocket Number : +88017705151518</label>
                                 
                     </div>
             				<div class="form-group registration_form_payment registration_payment_method">
