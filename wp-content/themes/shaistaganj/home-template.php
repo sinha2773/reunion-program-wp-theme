@@ -128,6 +128,44 @@ Template Name: Home Page Template
                     <div class="row">
                         <div class="col-md-4">
                             <?php 
+                                $q = new WP_Query(array(
+                                    'post_type' => 'our_program',
+                                    'posts_per_page' => 1,
+                                    'program_type'=>'sotoborsho-udjapon-committee-totporota'
+                                ));
+                           ?>
+                            <?php 
+                                if($q->have_posts()): 
+                                while($q->have_posts()): 
+                                $q->the_post(); 
+                            ?>
+                            <div class="hundred_years_content">
+                                <div class="hundred_years_content_title">
+                                    <h3>শতবর্ষ পূর্তি উৎসব কমিটির তৎপরতা</h3>
+                                </div>
+                                <div class="hundred_years_content_images">
+                                    <?php echo the_post_thumbnail( 'ak_nojora_image'); ?>
+                                </div>
+                                <div class="hundred_years_content_images_text">
+                                    <h3><?php the_title(); ?></h3>
+                                </div>
+                                <div class="hundred_years_another_content">
+                                    <div class="hundred_years_another_content_text hundred_years_top">
+                                        <p> <?php echo get_trim_content(40,true); ?> </p>
+                                    </div>
+                                  
+                                </div>
+                                
+                            </div>
+                            <div class="school_proud_button">
+                              <a href="<?php echo get_permalink('146');?>">
+                                <button>আরও দেখতে</button>
+                                </a>
+                            </div>
+                            <?php endwhile; endif; ?>
+                        </div>
+                        <div class="col-md-4">
+                            <?php 
                                 $p = new WP_Query(array(
                                     'post_type' => 'page',
                                     'posts_per_page' => 1,
@@ -162,44 +200,7 @@ Template Name: Home Page Template
                             </div>
                             
                         </div>
-                        <div class="col-md-4">
-                            <?php 
-                                $q = new WP_Query(array(
-                                    'post_type' => 'our_program',
-                                    'posts_per_page' => 1,
-                                    'program_type'=>'sotoborsho-udjapon-committee-totporota'
-                                ));
-                           ?>
-                            <?php 
-                                if($q->have_posts()): 
-                                while($q->have_posts()): 
-                                $q->the_post(); 
-                            ?>
-                            <div class="hundred_years_content">
-                                <div class="hundred_years_content_title">
-                                    <h3>শতবর্ষ উদযাপন কমিটির তৎপরতা</h3>
-                                </div>
-                                <div class="hundred_years_content_images">
-                                    <?php echo the_post_thumbnail( 'ak_nojora_image'); ?>
-                                </div>
-                                <div class="hundred_years_content_images_text">
-                                    <h3><?php the_title(); ?></h3>
-                                </div>
-                                <div class="hundred_years_another_content">
-                                    <div class="hundred_years_another_content_text hundred_years_top">
-                                        <p> <?php echo get_trim_content(40,true); ?> </p>
-                                    </div>
-                                  
-                                </div>
-                                
-                            </div>
-                            <div class="school_proud_button">
-                              <a href="<?php echo get_permalink('146');?>">
-                                <button>আরও দেখতে</button>
-                                </a>
-                            </div>
-                            <?php endwhile; endif; ?>
-                        </div>
+                        
                         <div class="col-md-4">
                             <?php 
                                 $book = new WP_Query(array(
@@ -287,7 +288,7 @@ Template Name: Home Page Template
                                     </div>
                                     <div class="school_proud_sidebar_content_image_text">
                                         <h4><?php the_title(); ?></h4>
-                                        <p>নাম : <?php echo get_post_meta(get_the_ID(),'committee_name',true) ?></p>
+                                        <p>পদবি : <?php echo get_post_meta(get_the_ID(),'designation',true) ?></p>
                                         <p>মোবাইল:  <?php echo get_post_meta(get_the_ID(),'mobile_no',true) ?></p>
                                     </div>
                                     
@@ -343,7 +344,7 @@ Template Name: Home Page Template
                                     </div>
                                     <div class="school_proud_sidebar_content_image_text">
                                         <h4><?php the_title(); ?></h4>
-                                        <p>নাম : <?php echo get_post_meta(get_the_ID(),'committee_name',true) ?></p>
+                                        <p>পদবি : <?php echo get_post_meta(get_the_ID(),'designation',true) ?></p>
                                         <p>মোবাইল: <?php echo get_post_meta(get_the_ID(),'mobile_no',true) ?></p>
                                     </div>
                                 </div>
@@ -382,7 +383,7 @@ Template Name: Home Page Template
                                     </div>
                                     <div class="school_proud_sidebar_content_image_text">
                                        <h4><?php the_title(); ?></h4>
-                                        <p>নাম : <?php echo get_post_meta(get_the_ID(),'committee_name',true) ?></p>
+                                        <p>পদবি : <?php echo get_post_meta(get_the_ID(),'designation',true) ?></p>
                                         <p>মোবাইল: <?php echo get_post_meta(get_the_ID(),'mobile_no',true) ?></p>
                                         
                                     </div>
@@ -417,8 +418,8 @@ Template Name: Home Page Template
                                     </div>
                                     <div class="school_proud_sidebar_content_image_text">
                                         <h4><?php the_title(); ?></h4>
-                                        <p>Designation : <?php echo get_post_meta(get_the_ID(),'designation',true) ?></p> 
-                                        <p>বিষয় : <?php echo get_post_meta(get_the_ID(),'subject',true) ?></p> 
+                                        <p>পেশা : <?php echo get_post_meta(get_the_ID(),'profession',true) ?></p> 
+                                        <p>ব্যাচ : <?php echo get_post_meta(get_the_ID(),'batch',true) ?></p> 
                                         <a href="<?php the_permalink(); ?>" class="details">[  বিস্তারিত ] </a>
                                     </div>
                                 </div>
@@ -679,9 +680,9 @@ Template Name: Home Page Template
                                             <div class="project-content-wrap">
                                                 <div class="project-title"><?php the_title(); ?></div>
                                                 <div class="project-content"><?php echo get_post_meta(get_the_ID(),'head_teacher_details',true) ?></div>
-                                                <!-- <div class="project-link-wrap">
+                                                <div class="project-link-wrap">
                                                     <a class="project-link" href="<?php the_permalink(); ?>">Details</a>
-                                                </div> -->
+                                                </div>
                                             </div>
                                             
                                         </div>
@@ -709,10 +710,10 @@ Template Name: Home Page Template
                                             <div class="project-content-wrap">
                                                 <div class="project-title"><?php the_title(); ?></div>
                                                 <div class="project-content"><?php echo get_post_meta(get_the_ID(),'head_teacher_details',true) ?></div>
-                                                <!-- <div class="project-link-wrap">
+                                                <div class="project-link-wrap">
                                                     
                                                     <a class="project-link" href="<?php the_permalink(); ?>">Details</a>
-                                                </div> -->
+                                                </div>
                                             </div>
                                         </div>
                                         <?php } ?>
@@ -739,10 +740,10 @@ Template Name: Home Page Template
                                             <div class="project-content-wrap">
                                                 <div class="project-title"><?php the_title(); ?></div>
                                                <div class="project-content"><?php echo get_post_meta(get_the_ID(),'head_teacher_details',true) ?></div>
-                                                <!-- <div class="project-link-wrap">
+                                                <div class="project-link-wrap">
                                                     
                                                     <a class="project-link" href="<?php the_permalink(); ?>">Details</a>
-                                                </div> -->
+                                                </div>
                                             </div>
                                         </div>
                                         <?php } ?>
@@ -769,10 +770,10 @@ Template Name: Home Page Template
                                             <div class="project-content-wrap">
                                                 <div class="project-title"><?php the_title(); ?></div>
                                                 <div class="project-content"><?php echo get_post_meta(get_the_ID(),'head_teacher_details',true) ?></div>
-                                                <!-- <div class="project-link-wrap">
+                                                <div class="project-link-wrap">
                                                     
                                                     <a class="project-link" href="<?php the_permalink(); ?>">Details</a>
-                                                </div> -->
+                                                </div>
                                             </div>
                                         </div>
                                         <?php } ?>

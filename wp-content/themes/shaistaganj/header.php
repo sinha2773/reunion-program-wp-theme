@@ -26,7 +26,7 @@
             <div class="hotline_information">
               <div class="hotline_left_information">
                 <ul>
-                   <li><i class="fa fa-phone" aria-hidden="true"></i>Hotline : +8801772269941 +8801772269946 +8801770515151</li>
+                   <li><i class="fa fa-phone" aria-hidden="true"></i>Hotline : +8801772269941, +8801772269946, +8801770515151</li>
                    <li><i class="fa fa-globe" aria-hidden="true"></i><a href="http://www.shaistaganjhighschool.edu.bd/" target="_blank">School Website</a></li>
                 </ul>
               </div>

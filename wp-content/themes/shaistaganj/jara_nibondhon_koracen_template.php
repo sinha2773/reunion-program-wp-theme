@@ -39,7 +39,7 @@
 	                            	
 	                            </div>	                            
                         		<div class="nibondhon_year">
-                        			<?php for( $I=1918; $I<=date('Y'); $I++ ) { ?>
+                        			<?php for( $I=1918; $I<=2023; $I++ ) { ?>
                             		<a href="" class="btn btn-info"><?php echo $I; ?></a>
                             		<?php } ?>
                         		</div>	                            
