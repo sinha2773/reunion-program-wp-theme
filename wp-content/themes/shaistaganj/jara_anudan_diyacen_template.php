@@ -39,7 +39,7 @@
 			                                    </div>
 			                                    <div class="school_proud_sidebar_content_image_text">
 			                                        <h4><?php the_title(); ?></h4>
-			                                        <p>পেশা :<?php echo get_post_meta(get_the_ID(),'designation',true) ?></p>
+			                                        <p>পেশা :<?php echo get_post_meta(get_the_ID(),'proffession',true) ?></p>
 			                                        <!-- <p>মোবাইল : <?php //echo get_post_meta(get_the_ID(),'mobile_no',true) ?></p> -->
 			                                        <p>টাকার পরিমান : <?php echo get_post_meta(get_the_ID(),'total_taka',true) ?></p>
 			                                    </div>

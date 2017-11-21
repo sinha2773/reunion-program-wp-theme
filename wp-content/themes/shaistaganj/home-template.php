@@ -80,7 +80,7 @@ Template Name: Home Page Template
                             </div>
                             <div class="nibondhon_button nibondhon_button_bottom">
                                 <h2 class="nibondhon_button_link">
-                                    <a href="<?php echo the_permalink('286'); ?>">যারা অনুদান দিয়েছেন</a>
+                                    <a href="<?php echo the_permalink('781'); ?>">যারা অনুদান দিয়েছেন</a>
                                 </h2>
                             </div>
                         </div>
