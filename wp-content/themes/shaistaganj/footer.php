@@ -23,7 +23,7 @@
               js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
               fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));</script>
-            <div class="fb-like-box" data-href="https://www.facebook.com/Shaistaganj-High-School-257512701108130/" data-width="290px" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
+            <div class="fb-like-box" data-href="https://www.facebook.com/Shaistaganj-High-School-163149040404810/" data-width="290px" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
             </div>
           </div>
           

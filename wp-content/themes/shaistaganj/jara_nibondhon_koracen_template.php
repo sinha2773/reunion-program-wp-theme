@@ -32,7 +32,7 @@
 	                            	<div class="col-sm-4 col-md-4">
 	                            		<div class="student_registration_online" id="student_hover">
 		                                    <a href="<?php echo get_permalink('227') ?>?reg_type=direct">
-		                                        <h2>সরাসরি স্কুলে যারা নিবন্ধন করেছেন</h2>
+		                                        <h2>সরাসরি যারা নিবন্ধন করেছেন</h2>
 		                                    </a>
 		                                </div>
 	                            	</div>
