@@ -149,7 +149,7 @@ Template Name: Home Page Template
                                 
                                 <div class="hundred_years_another_content">
                                     <div class="hundred_years_another_content_text hundred_years_top">
-                                        <p><?php echo get_trim_content(62,true); ?></p>
+                                        <p><?php echo get_trim_content(70,true); ?></p>
                                     </div>
                                    
                                 </div>
