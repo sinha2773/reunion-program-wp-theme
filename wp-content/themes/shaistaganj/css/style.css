@@ -304,14 +304,17 @@
 .nibondhon_button{
         width: 100%;
     background: #F8F8F8;
-    padding: 35px 10px;
-    min-height: 219px;
+    padding: 20px 10px;
+    min-height: 144px;
     text-align: center;
     border-radius: 10px;
 }
+.nibondhon_button h2{
+    margin: 0px;
+}
 .nibondhon_button a{
         color: red;
-    font-size: 25px;
+    font-size: 23px;
     line-height: 25px;
 }
 .nibondhon_button_bottom{
@@ -322,7 +325,7 @@
 
 }
 .nibondhon_margin_bottom{
-    margin-bottom: 40px;
+    margin-bottom: 24px;
 }
 .nibondhon_button_link{
     
@@ -373,6 +376,9 @@
     padding: 8px 20px;
     border: 1px solid #1BACB9;
     border-radius: 5px;
+}
+.committee_list{
+    min-height: 933px !important;
 }
 .banner_sidebar_header h2{
     color:red;
@@ -1455,13 +1461,13 @@ div.wpcf7 .screen-reader-response {
         margin-bottom: 3px;
 }
 .sideber_contact_form_icon{
-      width: 80px;
+        width: 80px;
     height: 80px;
     background: #333333;
     border: 1px solid #333333;
     color: #fff;
     font-size: 40px;
-    padding: 12px 0px 0px 19px;
+    padding: 12px 0px 0px 26px;
     border-radius: 50%;
     position: fixed;
     right: 8px;
@@ -3056,7 +3062,7 @@ background: #3B5997;
     font-size: 18px;
 }
 .past_teacher_list{
-    min-height: 362px !important;
+    /*min-height: 362px !important;*/
 }
 .teacher_list_sidebar{
     min-height: 256px;

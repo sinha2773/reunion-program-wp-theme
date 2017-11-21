@@ -37,9 +37,13 @@
 		                                </div>
 	                            	</div>
 	                            	
-	                            </div>
+	                            </div>	                            
+                        		<div class="nibondhon_year">
+                        			<?php for( $I=1918; $I<=date('Y'); $I++ ) { ?>
+                            		<a href="" class="btn btn-info"><?php echo $I; ?></a>
+                            		<?php } ?>
+                        		</div>	                            
 	                        </div>
-
 	                    </div>
 	                    <div class="col-md-12">
 	                        <div class="all_page_content_information">

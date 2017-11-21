@@ -73,9 +73,14 @@ Template Name: Home Page Template
                                     </a>
                                 </h2>
                             </div>
-                            <div class="nibondhon_button nibondhon_button_bottom">
+                            <div class="nibondhon_button nibondhon_button_bottom nibondhon_margin_bottom">
                                 <h2 class="nibondhon_button_link">
                                     <a href="<?php echo the_permalink('227'); ?>">যারা নিবন্ধন করেছেন</a>
+                                </h2>
+                            </div>
+                            <div class="nibondhon_button nibondhon_button_bottom">
+                                <h2 class="nibondhon_button_link">
+                                    <a href="<?php echo the_permalink('286'); ?>">যারা অনুদান দিয়েছেন</a>
                                 </h2>
                             </div>
                         </div>
@@ -139,12 +144,12 @@ Template Name: Home Page Template
                                     <h3><?php the_title(); ?></h3>
                                 </div>
                                 <div class="hundred_years_content_images">
-                                    <?php echo the_post_thumbnail( 'common_image_size'); ?>
+                                    <?php echo the_post_thumbnail( 'ak_nojora_image'); ?>
                                 </div>
                                 
                                 <div class="hundred_years_another_content">
                                     <div class="hundred_years_another_content_text hundred_years_top">
-                                        <p><?php echo get_trim_content(55,true); ?></p>
+                                        <p><?php echo get_trim_content(62,true); ?></p>
                                     </div>
                                    
                                 </div>
@@ -257,7 +262,7 @@ Template Name: Home Page Template
                             <div class="area_practice_top_title school_proud_header">
                                 <h3><?php the_title(); ?></h3>
                             </div>
-                            <div class="sotoborso_udjapon_comity_content_all">
+                            <div class="sotoborso_udjapon_comity_content_all committee_list">
                                 <div class="sotoborso_udjapon_comity_content_image">
                                     <?php echo the_post_thumbnail('school_management_image'); ?>
                                 </div>
@@ -265,7 +270,7 @@ Template Name: Home Page Template
                                 <?php 
                                     $d = new WP_Query(array(
                                         'post_type' => 'our_committee',
-                                        'posts_per_page' => 7,
+                                        'posts_per_page' => 6,
                                         'committee_type' =>'school_management_committee'
                                         
                                     ));
@@ -315,7 +320,7 @@ Template Name: Home Page Template
                             <div class="area_practice_top_title school_proud_header">
                                 <h3><?php the_title(); ?></h3>
                             </div>
-                            <div class="sotoborso_udjapon_comity_content_all">
+                            <div class="sotoborso_udjapon_comity_content_all committee_list">
                                 <div class="sotoborso_udjapon_comity_content_image">
                                     <?php echo the_post_thumbnail('school_management_image'); ?>
                                 </div>
@@ -323,7 +328,7 @@ Template Name: Home Page Template
                                 <?php 
                                     $dol = new WP_Query(array(
                                         'post_type' => 'our_committee',
-                                        'posts_per_page' => 7,
+                                        'posts_per_page' => 6,
                                         'committee_type' => 'sotoborsho_udjapon_committee'
                                     ));
                                 ?>
@@ -467,7 +472,7 @@ Template Name: Home Page Template
                                                     <div class="sotoborso_udjapon_comity_content margin_bottom">
                                                         <h2><?php the_title(); ?></h2>
                                                         
-                                                        <p><?php the_excerpt(); ?></p>
+                                                        <p><?php echo get_trim_content(8,true); ?></p>
                                                         
                                                          <a href="<?php the_permalink(); ?>" class="details">[  বিস্তারিত ] </a>
                                                         
@@ -498,7 +503,7 @@ Template Name: Home Page Template
                                                     <div class="sotoborso_udjapon_comity_content margin_bottom">
                                                         <h2><?php the_title(); ?></h2>
                                                         
-                                                        <p><?php the_excerpt(); ?></p>
+                                                        <p><?php echo get_trim_content(8,true); ?></p>
                                                         
                                                          <a href="<?php the_permalink(); ?>" class="details">[  বিস্তারিত ] </a>
                                                         
@@ -530,7 +535,7 @@ Template Name: Home Page Template
                                                     <div class="sotoborso_udjapon_comity_content margin_bottom">
                                                         <h2><?php the_title(); ?></h2>
                                                         
-                                                        <p><?php the_excerpt(); ?></p>
+                                                        <p><?php echo get_trim_content(8,true); ?></p>
                                                         
                                                          <a href="<?php the_permalink(); ?>" class="details">[  বিস্তারিত ] </a>
                                                         

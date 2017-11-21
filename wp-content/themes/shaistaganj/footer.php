@@ -11,27 +11,25 @@
         </footer>
         <div class="sideber_contact_form quote_form">
           <div class="sideber_contact_form_information">
-            <div class="sideber_contact_form_title common_title_color">
+            <!-- <div class="sideber_contact_form_title common_title_color">
                 <h3>Quick Enquiry Form</h3>
-            </div>
-            <div class="sideber_contact_form_body">
-              <form>
-                <p class="text_center">Free Enquiry, no obligation</p>
-                <h3 class="text_center">+8801XXXXXXXXX</h3>
-                <input type="text" class="form-control" name="" placeholder="Name">
-                <input type="email" class="form-control" name="" placeholder="E-mail">
-                <input type="text" class="form-control" name="" placeholder="Phone">
-                <textarea class="form-control" rows="4" placeholder="Details"></textarea>
-                <div class="sideber_submit_button">
-                    <button type="submit" class="">Submit</button>
-                </div>
-              </form>
+            </div> -->
+            <div class="sideber_contact_form_body">              
+            <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+            <div class="fb-like-box" data-href="https://www.facebook.com/Shaistaganj-High-School-257512701108130/" data-width="290px" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
             </div>
           </div>
           
         </div>
         <div class="sideber_contact_form_icon quote_form_button">
-            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
         </div>  
         <div class="scrolltoup" style="">
           <i class="fa fa-level-up" aria-hidden="true"></i>
