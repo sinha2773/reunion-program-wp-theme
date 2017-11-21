@@ -829,14 +829,14 @@ Template Name: Home Page Template
                             while($lost_teachers->have_posts()) : 
                                 $lost_teachers->the_post(); 
                         ?>
-                        <div class="school_proud_sidebar_content">
+                        <div class="school_proud_sidebar_content death_teacher">
                             <div class="school_proud_sidebar_content_image teacher_images past_teacher_pro">
                                 <?php the_post_thumbnail('common_image_size'); ?>
                             </div>
                             <div class="school_proud_sidebar_content_image_text">
                                 <h4><?php the_title(); ?></h4>
-                                <p><b>জন্ম : <?php echo get_post_meta(get_the_ID(),'date_of_birth',true) ?></b></p>
-                                <p><b>মৃত্যু : <?php echo get_post_meta(get_the_ID(),'date_of_death',true) ?></b></p>
+                                <p>জন্ম : <?php echo get_post_meta(get_the_ID(),'date_of_birth',true) ?></p>
+                                <p>মৃত্যু : <?php echo get_post_meta(get_the_ID(),'date_of_death',true) ?></p>
                                 <a href="<?php the_permalink(); ?>" class="details">[  বিস্তারিত ] </a>
                             </div>
                         </div>
@@ -871,7 +871,7 @@ Template Name: Home Page Template
                             <div class="school_proud_sidebar_content_image teacher_images past_teacher_pro">
                                 <?php the_post_thumbnail('common_image_size'); ?>
                             </div>
-                            <div class="school_proud_sidebar_content_image_text">
+                            <div class="school_proud_sidebar_content_image_text death_teacher">
                                 <h4><?php the_title(); ?></h4>
                                 <p>বিষয় : <?php echo get_post_meta(get_the_ID(),'subject',true) ?></p>
                                 <p><b><?php echo get_post_meta(get_the_ID(),'duration',true) ?></b></p>
@@ -907,7 +907,7 @@ Template Name: Home Page Template
                             while($school_present_teachers->have_posts()) : 
                                 $school_present_teachers->the_post(); 
                         ?>
-                        <div class="school_proud_sidebar_content">
+                        <div class="school_proud_sidebar_content death_teacher">
                             <div class="school_proud_sidebar_content_image teacher_images">
                                 <?php the_post_thumbnail('common_image_size'); ?>
                             </div>

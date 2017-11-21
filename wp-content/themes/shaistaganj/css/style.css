@@ -3035,6 +3035,14 @@ background: #3B5997;
     margin-top: 0px;
         margin-bottom: 5px;
 }
+.death_teacher h4{
+
+    font-size: 12px;
+    line-height: 18px;
+}
+.death_teacher p{
+    font-size: 12px;
+}
 .school_proud_section{
     background: #eee;
 }
