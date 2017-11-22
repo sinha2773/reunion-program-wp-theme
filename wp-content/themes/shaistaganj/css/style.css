@@ -235,7 +235,13 @@
 .video_list li{
     cursor: pointer;
 }
-.{}
+.beta_text{}
+.beta_text h2{
+    color: red;
+    margin: 0px;
+    font-size: 20px;
+    line-height: 28px;
+}
 #slider_arrow{
 	float: left;
     color: transparent;
@@ -912,6 +918,9 @@
 }
 .registration_information_image img{
     margin-bottom: 30px;
+    width: 100%;
+    height: auto;
+    min-height: 250px;
 }
 .registraion_table{
     width: 70%;

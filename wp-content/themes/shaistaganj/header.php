@@ -95,73 +95,7 @@
                                         'walker'            => new WP_Bootstrap_Navwalker())
                                     );
                                   ?>
-                                  <!-- <ul class="nav navbar-nav nvaber_margin_top">
-                                    
-									                   <li><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
-									                   <li class="dropdown">
-                                      <a href="<?php echo get_permalink('4');?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">একনজরে শায়েস্তাগঞ্জ উচ্চ বিদ্যালয়<span class="caret"></span></a>
-                                      <ul class="dropdown-menu dropdown_menu_background_color">                
-                                        <li class="dropdown-submenu">
-                                          <a href="<?php echo $base_url; ?>#about_school">সংক্ষিপ্ত  ইতিহাস</a>
-                                        </li>
-										                    <li class="dropdown-submenu">
-                                          <a href="<?php echo get_permalink('45');?>">বর্তমান স্কুল ব্যবস্থাপনা কমিটি </a>
-                                        </li>
-										                    <li class="dropdown-submenu">
-                                          <a href="<?php echo get_permalink('86');?>">প্রধান শিক্ষকবৃন্দ ক্রমানুযায়ী </a>
-                                        </li>
-										                    <li class="dropdown-submenu">
-                                          <a href="<?php echo get_permalink('120');?>">বর্তমান শিক্ষকমন্ডলী  </a>
-                                        </li>
-										                    <li class="dropdown-submenu">
-                                          <a href="past_teacher.php">সাবেক শিক্ষকবৃন্দ </a>
-                                        </li>
-										                    <li class="dropdown-submenu">
-                                          <a href="<?php echo get_permalink('113');?>">শিক্ষক যাদের হারিয়েছি </a>
-                                        </li>
-										                    <li class="dropdown-submenu">
-                                          <a href="<?php echo get_permalink('78');?>">স্কুলের মেধাবী ছাত্র-ছাত্রীরা </a>
-                                        </li>
-                                      </ul>
-                                    </li>
-                                    
-									                     <li class="dropdown">
-                                      <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">  শতবর্ষের  নানা আয়োজন<span class="caret"></span></a>
-                                      <ul class="dropdown-menu dropdown_menu_background_color">                
-                                        <li class="dropdown-submenu">
-                                          <a href="preparation.php">প্রস্তুতিসভা </a>
-                                        </li>
-										                    <li class="dropdown-submenu">
-                                          <a href="<?php echo get_permalink('130');?>">সাবেক ছাত্র-ছাত্রীদের স্মৃতিকথা</a>
-                                        </li>
-										                    <li class="dropdown-submenu">
-                                          <a href="<?php echo get_permalink('150');?>">স্মারক গ্রন্থ প্রকাশনা উপকমিটির তৎপরতা</a>
-                                        </li>
-										                    <li class="dropdown-submenu">
-                                          <a href="finalsial_committre.php">অর্থ উপকমিটির তৎপরতা</a>
-                                        </li>
-										                    <li class="dropdown-submenu">
-                                          <a href="donation_committre.php">ডোনেশন উপকমিটির  তৎপরতা</a>
-                                        </li>
-										                    <li class="dropdown-submenu">
-                                          <a href="promote_committre.php">প্রচার উপকমিটির   তৎপরতা</a>
-                                        </li>
-										                    <li class="dropdown-submenu">
-                                          <a href="honour_committre.php">সম্মাননা উপকমিটির কার্যক্রম</a>
-                                        </li>
-										                    <li class="dropdown-submenu">
-                                          <a href="information_search_committre.php">তথ্য অনুসন্ধান উপকমিটির তৎপরতা</a>
-                                        </li>
-										                    <li class="dropdown-submenu">
-                                          <a href="forener_communication_committre.php">বৈদেশিক যোগাযোগ উপকমিটির কার্যক্রম</a>
-                                        </li>
-										                    <li class="dropdown-submenu">
-                                          <a href="office_committre.php">অফিস ব্যবস্থাপনা উপকমিটির কার্যক্রম</a>
-                                        </li>
-                                      </ul>
-                                    </li>
-                                    <li><a class="scrollto" href="<?php echo $base_url; ?>#school_proud">শতবর্ষ স্মারক গ্রন্থ </a></li>
-                                  </ul> -->
+                                 
                                 </div><!-- /.navbar-collapse -->
                               </div><!-- /.container-fluid -->
                             </nav>
@@ -194,19 +128,12 @@
                                     );
                                   ?>
 
-                                  <ul class="nav navbar-nav bottom_navber_margin_top">
-									                   
-                                     
-									                  <!--  <li><a class="scrollto" href="<?php echo $base_url; ?>#event_committee">শতবর্ষ উদযাপন কমিটি ও উপকমিটি</a></li>
-                                    <li><a class="scrollto" href="<?php echo get_permalink('64');?>">স্কুলের গর্ব যারা</a></li>
-                  									<li><a href="blog.php">স্মরণিকার জন্য আপনার লেখা পোষ্ট করুন</a></li>
-                  									
-                  									<li><a class="" href="hotline.php">জরুরি নোটিশ</a></li>
-                  									<li><a class="" href="contact.php">যোগাযোগ</a></li> -->
-                                  </ul>
                                 </div><!-- /.navbar-collapse -->
                               </div><!-- /.container-fluid -->
                             </nav>
+                            <div class="beta_text">
+                              <h2><marquee> পরীক্ষামূলক সম্প্রচার</marquee></h2>
+                            </div>
                         </div>
                     </div>
             </div>

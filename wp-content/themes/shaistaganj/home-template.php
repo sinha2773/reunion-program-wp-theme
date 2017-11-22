@@ -730,7 +730,7 @@ Template Name: Home Page Template
                                         <div class="image_hover_effect image_hover_effect_margin_bottom">
                                             <div class="area_practice_top">
                                                 <div class="area_practice_image">
-                                                    <img src="<?php echo get_template_directory_uri();?>/images/head_teacher.jpg">
+                                                    <?php the_post_thumbnail('past_head_teacher_image'); ?>
                                                 </div>
                                                 <div class="area_practice_image_text">
                                                     <h4><?php the_title(); ?></h4>
@@ -760,7 +760,7 @@ Template Name: Home Page Template
                                         <div class="image_hover_effect image_hover_effect_margin_bottom">
                                             <div class="area_practice_top">
                                                 <div class="area_practice_image">
-                                                    <img src="<?php echo get_template_directory_uri();?>/images/head_teacher.jpg">
+                                                    <?php the_post_thumbnail('past_head_teacher_image'); ?>
                                                 </div>
                                                 <div class="area_practice_image_text">
                                                     <h4><?php the_title(); ?></h4>
