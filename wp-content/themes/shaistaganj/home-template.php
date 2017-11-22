@@ -739,9 +739,11 @@ Template Name: Home Page Template
                                             </div>
                                             <div class="project-content-wrap">
                                                 <div class="project-title"><?php the_title(); ?></div>
-                                               <div class="project-content"><?php echo get_post_meta(get_the_ID(),'head_teacher_details',true) ?></div>
-                                                <div class="project-link-wrap">
+                                               <div class="project-content">
+                                                <?php echo get_post_meta(get_the_ID(),'head_teacher_details',true) ?>
                                                     
+                                                </div>
+                                                <div class="project-link-wrap">                                        
                                                     <a class="project-link" href="<?php the_permalink(); ?>">Details</a>
                                                 </div>
                                             </div>
@@ -754,7 +756,7 @@ Template Name: Home Page Template
                                             $i=1;
                                             if($past_head_teacher->have_posts()) :
                                             while($past_head_teacher->have_posts()) : 
-                                                $past_head_teacher->the_post(); 
+                                            $past_head_teacher->the_post(); 
                                         ?>
                                         <?php if($i>6) { ?>
                                         <div class="image_hover_effect image_hover_effect_margin_bottom">
@@ -914,7 +916,7 @@ Template Name: Home Page Template
                             </div>
                             <div class="school_proud_sidebar_content_image_text">
                                 <h4><?php the_title(); ?></h4>
-                                <p><?php echo get_post_meta(get_the_ID(),'designation',true) ?></p>
+                                <p>পদবি :<?php echo get_post_meta(get_the_ID(),'designation',true) ?></p>
                                 <p>বিষয় : <?php echo get_post_meta(get_the_ID(),'subject',true) ?></p>
                                 
                             </div>
