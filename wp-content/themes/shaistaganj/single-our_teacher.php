@@ -37,7 +37,9 @@
 	                        		<p>বিষয় : <?php echo get_post_meta(get_the_ID(),'subject',true) ?></p>
 					                <p><b>Duration: <?php echo get_post_meta(get_the_ID(),'duration',true) ?></b></p>
 					                <?php endif; ?>
-
+					                <?php if ($diff_slag == 'past_head_teacher') : ?>
+					                <?php echo the_content(); ?>
+					                <?php endif; ?>
 	                        	</div>
 	                            
 	                        </div>

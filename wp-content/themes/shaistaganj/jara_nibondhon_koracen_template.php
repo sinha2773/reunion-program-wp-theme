@@ -78,7 +78,7 @@
 			                                		<?php the_post_thumbnail(); ?>
 			                                	</div>
 			                                	<div class="registraion_page_content_text">
-			                                		<h3><?php echo get_post_meta(get_the_ID(),'applicant_name_eng',true) ?></h3>
+			                                		<h3><?php echo get_post_meta(get_the_ID(),'applicant_name',true) ?></h3>
 			                                		<p>পেশা : <?php echo get_post_meta(get_the_ID(),'profession',true) ?></p>
 			                                		<p> এস এস সি সাল : <?php echo get_post_meta(get_the_ID(),'year_of_ssc',true) ?></p>
 			                                		<a href="<?php  the_permalink(); ?>" class="details">
@@ -92,7 +92,9 @@
 	                            	<div class="col-md-12">
                                         <div class="main-pagination pull-right">
                                             <?php 
-                                            if(function_exists('wp_pagenavi')) { wp_pagenavi( array( 'query' => $book )); }  
+                                            if(function_exists('wp_pagenavi')) { 
+                                            	wp_pagenavi( array( 'query' => $book )); 
+                                            }  
                                              
                                             ?>
                                         </div>

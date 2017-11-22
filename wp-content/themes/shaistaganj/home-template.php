@@ -679,7 +679,7 @@ Template Name: Home Page Template
                                             </div>
                                             <div class="project-content-wrap">
                                                 <div class="project-title"><?php the_title(); ?></div>
-                                                <div class="project-content"><?php echo get_post_meta(get_the_ID(),'head_teacher_details',true) ?></div>
+                                                <div class="project-content"><?php echo get_trim_content('7,true'); ?></div>
                                                 <div class="project-link-wrap">
                                                     <a class="project-link" href="<?php the_permalink(); ?>">Details</a>
                                                 </div>
