@@ -449,6 +449,9 @@
     background: #eee;
     /*padding: 30px;*/
 }
+.sorry_message{
+    padding: 20px 20px 20px 30px !important;
+}
 .banner_sidebar li a{
     background: red;
     padding: 8px 15px;
@@ -752,7 +755,10 @@
 
 
 /*area of practice section*/
-
+.registraion_page_content_image{}
+.registraion_page_content_image img{
+    width: 100%;
+}
 .area_of_practice_section{
 	    
 }
@@ -894,6 +900,7 @@
 }
 .registraion_page_content{
     padding: 20px 0px;
+    margin-bottom: 20px; 
 }
 .registraion_page_content_image{
     margin-bottom: 15px;
@@ -904,7 +911,7 @@
     max-height: 180px;
 }
 .registraion_page_content_text{
-    text-align: center;
+    text-align: center !important;
     padding: 10px;
 
 }
