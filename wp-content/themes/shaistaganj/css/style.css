@@ -449,6 +449,9 @@
     background: #eee;
     /*padding: 30px;*/
 }
+.sorry_message{
+    padding: 20px 20px 20px 30px !important;
+}
 .banner_sidebar li a{
     background: red;
     padding: 8px 15px;
@@ -688,10 +691,10 @@
     color: #000;
 }
 .sotoborso_udjapon_comity_content h2{
-       margin-top: 0px;
-    font-size: 15px;
+    margin-top: 0px;
+    font-size: 13px;
     font-weight: bold;
-    line-height: 22px;
+    line-height: 17px;
     margin-bottom: 8px;
 }
 .details{
@@ -707,7 +710,7 @@
 }
 .sotoborso_udjapon_comity_content p{
         margin: 0px;
-    font-size: 13px;
+    font-size: 12px;
     margin-bottom: 10px;
 }
 .comettree_totporota_content{
@@ -752,7 +755,10 @@
 
 
 /*area of practice section*/
-
+.registraion_page_content_image{}
+.registraion_page_content_image img{
+    width: 100%;
+}
 .area_of_practice_section{
 	    
 }
@@ -780,9 +786,10 @@
 }
 .area_practice_information_top{}
 .area_practice_top{
-	   border: 1px solid #F9F8F8;
-    min-height: 300px;
+	    border: 1px solid #F9F8F8;
+    height: 285px;
     overflow: hidden;
+    background: #f8f8f8;
 }
 .area_practice_image{}
 .area_practice_image img{
@@ -794,9 +801,13 @@
     padding: 10px 5px;
         text-align: center;
 }
+.area_practice_image_text h4{
+    margin: 5px 0px;
+    font-size: 14px;
+}
 .area_practice_image_text p{
 	margin: 0px;
-    font-size: 14px;
+    font-size: 13px;
 }
 .area_practice_information_middle{
 	margin: 20px 0px;
@@ -846,13 +857,12 @@
 .{}
 .{}
 .project-content-wrap .project-title {
-    color: #ffffff;
-    line-height: 22px;
+        color: #ffffff;
+    line-height: 20px;
     text-align: center;
     background: none;
     padding-top: 60px;
-    font-size: 20px;
-}
+    font-size: 15px;
 .project-content-wrap .project_title_middle{
 	color: #ffffff;
     line-height: 22px;
@@ -890,6 +900,7 @@
 }
 .registraion_page_content{
     padding: 20px 0px;
+    margin-bottom: 20px; 
 }
 .registraion_page_content_image{
     margin-bottom: 15px;
@@ -897,15 +908,16 @@
 .registraion_page_content_image img{
         width: 100%;
     height: auto;
-    max-height: 120px;
+    max-height: 180px;
 }
 .registraion_page_content_text{
-    text-align: center;
+    text-align: center !important;
     padding: 10px;
 
 }
 .registraion_page_content_text h3{
     margin: 0px;
+    font-size: 17px;
 }
 .registraion_page_content_text p{
     margin:5px 0px;
@@ -921,13 +933,23 @@
 .registration_information_image img{
     margin-bottom: 30px;
     width: 100%;
-    height: auto;
-    min-height: 250px;
+    
+    height: 250px;
 }
 .registraion_table{
     width: 70%;
     margin: 0 auto;
 }
+.print_button{
+    position: absolute;
+    top: 0;
+    right: 16px;
+}
+.blog_print{
+    top: 20px !important;
+    right: 20px !important;
+}
+.print_button a{}
 .registration_odd td{
     width: 50%;
     border: 1px solid #ccc;
@@ -947,7 +969,9 @@
     background: #D8EAD4;
 }
 
-.registration_all_data{}
+.registration_all_data{
+    position: relative;
+}
 .registration_all_data h4{}
 .communiation_content_information{
     padding: 20px;
@@ -1474,8 +1498,8 @@ div.wpcf7 .screen-reader-response {
 .sideber_contact_form_icon{
         width: 80px;
     height: 80px;
-    background: #333333;
-    border: 1px solid #333333;
+    background: #3b5998;
+    border: 1px solid #3b5998;
     color: #fff;
     font-size: 40px;
     padding: 12px 0px 0px 26px;
@@ -1491,9 +1515,9 @@ div.wpcf7 .screen-reader-response {
 }
 .sideber_contact_form_icon:hover{
     cursor: pointer;
-    background:#444444;
+    background:#3b5998;
     color: #fff;
-    border: 1px solid #444444;
+    border: 1px solid #3b5998;
 
 }
 .sideber_submit_button{
@@ -3041,12 +3065,13 @@ background: #3B5997;
 .school_proud_sidebar_content_image_text p{
     text-align: justify;
         margin-bottom: 4px;
+        font-size: 12px;
 }
 .school_proud_sidebar_content_image_text h4{
         margin-top: 0px;
     margin-bottom: 5px;
-    line-height: 27px;
-    font-size: 18px;
+    line-height: 18px;
+    font-size: 14px;
 }
 .death_teacher h4{
 
@@ -3201,7 +3226,7 @@ background: #3B5997;
 .student_registration_online h2{
     margin: 0px;
     color: #fff;
-    font-size: 22px;
+    font-size: 26px;
 }
 #student_hover{
     margin-bottom: 15px;

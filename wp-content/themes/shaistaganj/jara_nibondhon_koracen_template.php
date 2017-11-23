@@ -1,7 +1,9 @@
 <?php 
 	//Template Name: Jara Nibondhon Koracen
  ?>
-<?php get_header(); ?>
+<?php get_header(); 
+$sign = empty(get_option('permalink_structure')) ? '&' : '?';
+?>
 
         <div class="default-page-container all_page_content">
             <div class="container">
@@ -17,39 +19,47 @@
 	                            <div class="row">	                       
 	                            	<div class="col-sm-4 col-md-4">
 	                            		<div class="student_registration_online" id="student_hover">
-		                                    <a href="<?php echo get_permalink('227') ?>?reg_type=bkash_or_rocket">
+		                                    <a href="<?php echo get_permalink('227') ?><?php echo $sign;?>member_type=bkash_or_rocket">
 		                                        <h2>বিকাশ এবং রকেটে যারা নিবন্ধন করেছেন</h2>
 		                                    </a>
 		                                </div>
 	                            	</div>
 	                            	<div class="col-sm-4 col-md-4">
 	                            		<div class="student_registration_online" id="student_hover">
-		                                    <a href="<?php echo get_permalink('227') ?>?reg_type=bank">
+		                                    <a href="<?php echo get_permalink('227') ?><?php echo $sign;?>member_type=bank">
 		                                        <h2>ব্যংকে এবং অনলাইনে যারা নিবন্ধন করেছেন</h2>
 		                                    </a>
 		                                </div>
 	                            	</div>
 	                            	<div class="col-sm-4 col-md-4">
 	                            		<div class="student_registration_online" id="student_hover">
-		                                    <a href="<?php echo get_permalink('227') ?>?reg_type=direct">
+		                                    <a href="<?php echo get_permalink('227') ?><?php echo $sign;?>member_type=direct">
 		                                        <h2>সরাসরি যারা নিবন্ধন করেছেন</h2>
 		                                    </a>
 		                                </div>
 	                            	</div>
 	                            	
-	                            </div>	                            
+	                            </div>	    
+								<?php 
+								
+								$member_type= isset($_GET['member_type']) ? $_GET['member_type'] : ''; ?>
+								
+								<?php if ( !empty($member_type) ) : ?>
                         		<div class="nibondhon_year">
-                        			<?php for( $I=1918; $I<=2023; $I++ ) { ?>
-                            		<a href="" class="btn btn-info"><?php echo $I; ?></a>
+                        			<?php 
+									
+									for( $I=1918; $I<=2023; $I++ ) { ?>
+                            		<a href="<?php echo get_permalink('227') ?><?php echo $sign;?>member_type=<?php echo $member_type;?>&year=<?php echo $I;?>" class="btn btn-info"><?php echo $I; ?></a>
                             		<?php } ?>
-                        		</div>	                            
+                        		</div>	                  
+								<?php endif;?>
 	                        </div>
 	                    </div>
 	                    <div class="col-md-12">
-	                        <div class="all_page_content_information">
+	                        <div class="all_page_content_information sorry_message" >
 	                            <div class="row">
 	                        <?php
-								$member_type= isset($_GET['reg_type']) ? $_GET['reg_type'] : '';
+								
 
 								$paged = get_query_var('paged') ? get_query_var('paged') : 1; 
 								$args = array(
@@ -63,7 +73,21 @@
 								 $args['member_type'] = array('bkash','rocket');
 
 								}
-
+								
+								$year= isset($_GET['year']) ? $_GET['year'] : '';
+								if ( !empty($year) ){
+									$args['meta_query'] = array(
+										array(
+											'key'     => 'year_of_ssc',
+											'value'   => array( $year ),
+											'compare' => 'IN',
+										),
+									);
+								}
+								
+								if ( empty($member_type) || empty($year) )  {
+									// nothing
+								}else {
 								$book = new WP_Query($args);
 							?>
                            	<?php 
@@ -78,7 +102,8 @@
 			                                		<?php the_post_thumbnail(); ?>
 			                                	</div>
 			                                	<div class="registraion_page_content_text">
-			                                		<h3><?php echo get_post_meta(get_the_ID(),'applicant_name',true) ?></h3>
+			                                		<h3><?php the_title();
+			                                		//echo get_post_meta(get_the_ID(),'applicant_name',true) ?></h3>
 			                                		<p>পেশা : <?php echo get_post_meta(get_the_ID(),'profession',true) ?></p>
 			                                		<p> এস এস সি সাল : <?php echo get_post_meta(get_the_ID(),'year_of_ssc',true) ?></p>
 			                                		<a href="<?php  the_permalink(); ?>" class="details">
@@ -88,7 +113,12 @@
 			                                </div>			                                
 			                            </div>
 	                            	</div>
-	                            	<?php endwhile; endif; ?>
+	                            	<?php endwhile;
+
+									else: 
+									echo "Sorry no any member";
+									
+									endif; ?>
 	                            	<div class="col-md-12">
                                         <div class="main-pagination pull-right">
                                             <?php 
@@ -99,6 +129,7 @@
                                             ?>
                                         </div>
                                     </div>
+							<?php } ?>
 	                            </div>
 	                        </div>
 

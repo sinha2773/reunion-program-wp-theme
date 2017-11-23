@@ -24,7 +24,7 @@ if( isset($_POST['post_registration']) ){
     //add_post_meta($post_id, $meta_key, $meta_value, $unique);
   
     
-  	add_post_meta($post_id, 'name', wp_strip_all_tags($_POST['name']));
+  	add_post_meta($post_id, 'your_name', wp_strip_all_tags($_POST['your_name']));
     add_post_meta($post_id, 'email', wp_strip_all_tags($_POST['email']));
 
     add_post_meta($post_id, 'mobile_no', wp_strip_all_tags($_POST['mobile_no']));
@@ -40,8 +40,8 @@ if( isset($_POST['post_registration']) ){
       require_once( ABSPATH . 'wp-admin/includes/file.php' );
       require_once( ABSPATH . 'wp-admin/includes/media.php' );
 
-      // $attachment_id = media_handle_upload( 'feature_image', $post_id );
-      // set_post_thumbnail( $post_id, $attachment_id );
+       $attachment_id = media_handle_upload( 'feature_image', $post_id );
+      set_post_thumbnail( $post_id, $attachment_id );
     }
 
     $msg = "<div style='margin:5px 0; color:green;' class='alert alert-success'>Your post has been submitted </div>";
@@ -69,11 +69,11 @@ if( isset($_POST['post_registration']) ){
 	                    <div class="col-md-12">
 	                        <div class="blog_write_all_content">
 	                        	<div class="blog_write_content_info">
-	                        		<form class="form-horizontal" action="" method="post" accept-charset="utf-8">
+	                        		<form class="form-horizontal" action="" method="post" accept-charset="utf-8" enctype="multipart/form-data">
 					    				<div class="form-group registration_form_payment registration_payment_method ">
 					    				  <label for="name" class="label_bottom control-label">Name</label>
 					    				  <div class="">
-					    					   <input type="text" name="name" class="form-control" id="name" placeholder="">
+					    					   <input type="text" name="your_name" class="form-control" id="name" placeholder="">
 					    				  </div>				  
 					    				</div>
 					    				<div class="form-group registration_form_payment registration_payment_method ">
@@ -97,8 +97,15 @@ if( isset($_POST['post_registration']) ){
 					    				<div class="form-group registration_form_payment registration_payment_method ">
 					    				  <label for="description" class="label_bottom control-label">Description</label>
 					    				  <div class="">
-					    				  	<?php wp_editor( '', 'description' ); ?>
-					    					   <!-- <textarea class="form-control" name="description" id="description" rows="5"></textarea> -->
+					    				  	
+					    					  <textarea class="form-control" name="description" id="description" rows="5"></textarea>
+					    				  </div>				  
+					    				</div>
+					    				<div class="form-group registration_form_payment registration_payment_method ">
+					    				  <label for="description" class="label_bottom control-label">Your Image</label>
+					    				  <div class="">
+					    				  	
+					    					  <input type="file" name="feature_image">
 					    				  </div>				  
 					    				</div>
 						            	<div class="form-group police_report_div scan_button">	

@@ -25,6 +25,8 @@ if( isset($_POST['registration']) ){
   
     add_post_meta($post_id, 'bkash_or_rocket', wp_strip_all_tags($_POST['bkash_or_rocket']));
 
+    add_post_meta($post_id, 'transection_id', wp_strip_all_tags($_POST['transection_id']));
+
     add_post_meta($post_id, 'bank_name', wp_strip_all_tags($_POST['bank_name']));
 
     add_post_meta($post_id, 'branch_name', wp_strip_all_tags($_POST['branch_name']));
@@ -106,7 +108,7 @@ if( isset($_POST['registration']) ){
       set_post_thumbnail( $post_id, $attachment_id );
     }
 
-    $msg = "<div style='margin:5px 0; color:green;' class='alert alert-success'>Registration successfully</div>";
+    $msg = "<div style='margin:5px 0; color:green;' class='alert alert-success'>Registration successfull</div>";
   }else{
     $msg = "<div style='margin:5px 0; color:red;' class='alert alert-danger'>Registration failed</div>";
   }
@@ -202,11 +204,17 @@ if( isset($_POST['registration']) ){
                                 
                     </div>
             				<div class="form-group registration_form_payment registration_payment_method">
-            				  <label for="bkah_or_rocket" class="label_bottom control-label">In which bKash/Rocket number you have sent your Registration Fee (include Transaction ID within brackets)<span class="red">*</span></label>
+            				  <label for="bkah_or_rocket" class="label_bottom control-label">Please mention your name (main part) as Bkash reference<span class="red">*</span></label>
             				  <div class="">
             					<input type="text" class="form-control" name="bkash_or_rocket" id="bkah_or_rocket" placeholder="">
             				  </div>				  
             				</div>
+                    <div class="form-group registration_form_payment registration_payment_method">
+                      <label for="transection_id" class="label_bottom control-label">Transaction Id<span class="red">*</span></label>
+                      <div class="">
+                      <input type="text" class="form-control" name="transection_id" id="transection_id" placeholder="" required>
+                      </div>          
+                    </div>
                   </div>
                   <div class="bank_information" style="display: none;">
                     <div class="form-group registration_form_payment registration_payment_method">
@@ -411,7 +419,7 @@ if( isset($_POST['registration']) ){
                   </div>
               </div>
 			  <div class="form-group inpur_tag_margin_bottom">
-                <label for="profile_picture" class="col-md-4 control-label">তোমার ছবি<span class="red">*</span> </label>
+                <label for="profile_picture" class="col-md-4 control-label">আপনার ছবি<span class="red">*</span> </label>
                   <div class="col-md-8">
                     <input type="file" name="feature_image" class="form-control" id="profile_picture" placeholder="" required>
                   </div>
@@ -420,7 +428,7 @@ if( isset($_POST['registration']) ){
 			       <div class="form-group inpur_tag_margin_bottom">
                 <label for="" class="col-md-4 control-label">রেজিষ্ট্রেশন ফি (  শিক্ষার্থী )</label>
                   <div class="col-md-8">
-                    <strong>২00/- দুইশত টাকা মাত্র।, <p class="bishes_drostobo">(  বি:দ্র: পরিবারের অন্যান্য সদস্যদের অংশগ্রহনের ক্ষেতে জন প্রতি ফি ১০০০/- )  </p></strong>
+                    <strong>২00/- দুইশত টাকা মাত্র।, <p class="bishes_drostobo">(  বি.দ্র. স্মামী/স্ত্রী ৫০০/-, প্রতি সন্তান ৩০০/-, ড্রাইভার ২০০/- )  </p></strong>
                   </div>
               </div>
 			        <div class="form-group inpur_tag_margin_bottom">

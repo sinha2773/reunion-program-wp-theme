@@ -418,8 +418,7 @@ Template Name: Home Page Template
                                     </div>
                                     <div class="school_proud_sidebar_content_image_text">
                                         <h4><?php the_title(); ?></h4>
-                                        <p>পেশা : <?php echo get_post_meta(get_the_ID(),'profession',true) ?></p> 
-                                        <p>ব্যাচ : <?php echo get_post_meta(get_the_ID(),'batch',true) ?></p> 
+                                        <p><?php echo get_trim_content(10,true); ?></p>
                                         <a href="<?php the_permalink(); ?>" class="details">[  বিস্তারিত ] </a>
                                     </div>
                                 </div>
@@ -583,7 +582,7 @@ Template Name: Home Page Template
                                         </div>
                                         <div class="school_proud_sidebar_content_image_text">
                                             <h4><?php the_title(); ?></h4>
-                                            <p>Designation :<?php echo get_post_meta(get_the_ID(),'designation',true) ?></p> 
+                                            <p>পদবি :<?php echo get_post_meta(get_the_ID(),'designation',true) ?></p> 
 											<a href="<?php the_permalink(); ?>" class="details">[  বিস্তারিত ]</a>
                                         </div>
                                        
@@ -610,7 +609,7 @@ Template Name: Home Page Template
                         <?php 
                             $school_telent_student = new WP_Query(array(
                                 'post_type' => 'our_student',
-                                'posts_per_page' =>5,
+                                'posts_per_page' =>6,
                                 'student_type' =>'telented_student'
                             ));
                         ?>
@@ -679,7 +678,7 @@ Template Name: Home Page Template
                                             </div>
                                             <div class="project-content-wrap">
                                                 <div class="project-title"><?php the_title(); ?></div>
-                                                <div class="project-content"><?php echo get_trim_content('7,true'); ?></div>
+                                                <div class="project-content"><?php echo get_trim_content(16,true); ?></div>
                                                 <div class="project-link-wrap">
                                                     <a class="project-link" href="<?php the_permalink(); ?>">Details</a>
                                                 </div>
@@ -709,7 +708,7 @@ Template Name: Home Page Template
                                             </div>
                                             <div class="project-content-wrap">
                                                 <div class="project-title"><?php the_title(); ?></div>
-                                                <div class="project-content"><?php echo get_post_meta(get_the_ID(),'head_teacher_details',true) ?></div>
+                                                <div class="project-content"><?php echo get_trim_content(16,true); ?></div>
                                                 <div class="project-link-wrap">
                                                     
                                                     <a class="project-link" href="<?php the_permalink(); ?>">Details</a>
@@ -739,10 +738,7 @@ Template Name: Home Page Template
                                             </div>
                                             <div class="project-content-wrap">
                                                 <div class="project-title"><?php the_title(); ?></div>
-                                               <div class="project-content">
-                                                <?php echo get_post_meta(get_the_ID(),'head_teacher_details',true) ?>
-                                                    
-                                                </div>
+                                               <div class="project-content"><?php echo get_trim_content(16,true); ?></div>
                                                 <div class="project-link-wrap">                                        
                                                     <a class="project-link" href="<?php the_permalink(); ?>">Details</a>
                                                 </div>
@@ -771,7 +767,7 @@ Template Name: Home Page Template
                                             </div>
                                             <div class="project-content-wrap">
                                                 <div class="project-title"><?php the_title(); ?></div>
-                                                <div class="project-content"><?php echo get_post_meta(get_the_ID(),'head_teacher_details',true) ?></div>
+                                                <div class="project-content"><?php echo get_trim_content(16,true); ?></div>
                                                 <div class="project-link-wrap">
                                                     
                                                     <a class="project-link" href="<?php the_permalink(); ?>">Details</a>
