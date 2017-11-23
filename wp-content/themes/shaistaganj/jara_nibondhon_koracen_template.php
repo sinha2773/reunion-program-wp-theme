@@ -1,7 +1,9 @@
 <?php 
 	//Template Name: Jara Nibondhon Koracen
  ?>
-<?php get_header(); ?>
+<?php get_header(); 
+$sign = '&';
+?>
 
         <div class="default-page-container all_page_content">
             <div class="container">
@@ -17,35 +19,37 @@
 	                            <div class="row">	                       
 	                            	<div class="col-sm-4 col-md-4">
 	                            		<div class="student_registration_online" id="student_hover">
-		                                    <a href="<?php echo get_permalink('227') ?>?reg_type=bkash_or_rocket">
+		                                    <a href="<?php echo get_permalink('227'); ?>&reg_type=bkash_or_rocket">
 		                                        <h2>বিকাশ এবং রকেটে যারা নিবন্ধন করেছেন</h2>
 		                                    </a>
 		                                </div>
 	                            	</div>
 	                            	<div class="col-sm-4 col-md-4">
 	                            		<div class="student_registration_online" id="student_hover">
-		                                    <a href="<?php echo get_permalink('227') ?>?reg_type=bank">
+		                                    <a href="<?php echo get_permalink('227'); ?>&reg_type=bank">
 		                                        <h2>ব্যংকে এবং অনলাইনে যারা নিবন্ধন করেছেন</h2>
 		                                    </a>
 		                                </div>
 	                            	</div>
 	                            	<div class="col-sm-4 col-md-4">
 	                            		<div class="student_registration_online" id="student_hover">
-		                                    <a href="<?php echo get_permalink('227') ?>?reg_type=direct">
+		                                    <a href="<?php echo get_permalink('227'); ?>&reg_type=direct">
 		                                        <h2>সরাসরি যারা নিবন্ধন করেছেন</h2>
 		                                    </a>
 		                                </div>
 	                            	</div>
 	                            	
 	                            </div>	    
-								<?php $member_type= isset($_GET['reg_type']) ? $_GET['reg_type'] : ''; ?>
+								<?php 
+								
+								$member_type= isset($_GET['reg_type']) ? $_GET['reg_type'] : ''; ?>
 								
 								<?php if ( !empty($member_type) ) : ?>
                         		<div class="nibondhon_year">
                         			<?php 
 									
 									for( $I=1918; $I<=2023; $I++ ) { ?>
-                            		<a href="<?php echo get_permalink('227') ?>?reg_type=<?php echo $member_type;?>&year=<?php echo $I;?>" class="btn btn-info"><?php echo $I; ?></a>
+                            		<a href="<?php echo get_permalink('227') ?><?php echo $sign;?>reg_type=<?php echo $member_type;?>&year=<?php echo $I;?>" class="btn btn-info"><?php echo $I; ?></a>
                             		<?php } ?>
                         		</div>	                  
 								<?php endif;?>
