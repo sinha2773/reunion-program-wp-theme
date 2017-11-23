@@ -418,8 +418,7 @@ Template Name: Home Page Template
                                     </div>
                                     <div class="school_proud_sidebar_content_image_text">
                                         <h4><?php the_title(); ?></h4>
-                                        <p>পেশা : <?php echo get_post_meta(get_the_ID(),'profession',true) ?></p> 
-                                        <p>ব্যাচ : <?php echo get_post_meta(get_the_ID(),'batch',true) ?></p> 
+                                        <?php the_content(6,true); ?>
                                         <a href="<?php the_permalink(); ?>" class="details">[  বিস্তারিত ] </a>
                                     </div>
                                 </div>
@@ -583,7 +582,7 @@ Template Name: Home Page Template
                                         </div>
                                         <div class="school_proud_sidebar_content_image_text">
                                             <h4><?php the_title(); ?></h4>
-                                            <p>Designation :<?php echo get_post_meta(get_the_ID(),'designation',true) ?></p> 
+                                            <p>পদবি :<?php echo get_post_meta(get_the_ID(),'designation',true) ?></p> 
 											<a href="<?php the_permalink(); ?>" class="details">[  বিস্তারিত ]</a>
                                         </div>
                                        

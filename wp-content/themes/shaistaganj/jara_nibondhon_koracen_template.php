@@ -37,19 +37,25 @@
 		                                </div>
 	                            	</div>
 	                            	
-	                            </div>	                            
+	                            </div>	    
+								<?php $member_type= isset($_GET['reg_type']) ? $_GET['reg_type'] : ''; ?>
+								
+								<?php if ( !empty($member_type) ) : ?>
                         		<div class="nibondhon_year">
-                        			<?php for( $I=1918; $I<=2023; $I++ ) { ?>
-                            		<a href="" class="btn btn-info"><?php echo $I; ?></a>
+                        			<?php 
+									
+									for( $I=1918; $I<=2023; $I++ ) { ?>
+                            		<a href="<?php echo get_permalink('227') ?>?reg_type=<?php echo $member_type;?>&year=<?php echo $I;?>" class="btn btn-info"><?php echo $I; ?></a>
                             		<?php } ?>
-                        		</div>	                            
+                        		</div>	                  
+								<?php endif;?>
 	                        </div>
 	                    </div>
 	                    <div class="col-md-12">
 	                        <div class="all_page_content_information">
 	                            <div class="row">
 	                        <?php
-								$member_type= isset($_GET['reg_type']) ? $_GET['reg_type'] : '';
+								
 
 								$paged = get_query_var('paged') ? get_query_var('paged') : 1; 
 								$args = array(
@@ -63,7 +69,21 @@
 								 $args['member_type'] = array('bkash','rocket');
 
 								}
-
+								
+								$year= isset($_GET['year']) ? $_GET['year'] : '';
+								if ( !empty($year) ){
+									$args['meta_query'] = array(
+										array(
+											'key'     => 'year_of_ssc',
+											'value'   => array( $year ),
+											'compare' => 'IN',
+										),
+									);
+								}
+								
+								if ( empty($member_type) || empty($year) )  {
+									// nothing
+								}else {
 								$book = new WP_Query($args);
 							?>
                            	<?php 
@@ -89,7 +109,12 @@
 			                                </div>			                                
 			                            </div>
 	                            	</div>
-	                            	<?php endwhile; endif; ?>
+	                            	<?php endwhile;
+
+									else: 
+									echo "Sorry no any member";
+									
+									endif; ?>
 	                            	<div class="col-md-12">
                                         <div class="main-pagination pull-right">
                                             <?php 
@@ -100,6 +125,7 @@
                                             ?>
                                         </div>
                                     </div>
+							<?php } ?>
 	                            </div>
 	                        </div>
 
