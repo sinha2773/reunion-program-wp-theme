@@ -202,7 +202,7 @@ if( isset($_POST['registration']) ){
                                 
                     </div>
             				<div class="form-group registration_form_payment registration_payment_method">
-            				  <label for="bkah_or_rocket" class="label_bottom control-label">In which bKash/Rocket number you have sent your Registration Fee (include Transaction ID within brackets)<span class="red">*</span></label>
+            				  <label for="bkah_or_rocket" class="label_bottom control-label">Please mention your name (main part) as Bkash reference <!-- In which bKash/Rocket number you have sent your Registration Fee (include Transaction ID within brackets) --><span class="red">*</span></label>
             				  <div class="">
             					<input type="text" class="form-control" name="bkash_or_rocket" id="bkah_or_rocket" placeholder="">
             				  </div>				  
