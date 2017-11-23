@@ -1474,8 +1474,8 @@ div.wpcf7 .screen-reader-response {
 .sideber_contact_form_icon{
         width: 80px;
     height: 80px;
-    background: #333333;
-    border: 1px solid #333333;
+    background: #3b5998;
+    border: 1px solid #3b5998;
     color: #fff;
     font-size: 40px;
     padding: 12px 0px 0px 26px;
@@ -1491,9 +1491,9 @@ div.wpcf7 .screen-reader-response {
 }
 .sideber_contact_form_icon:hover{
     cursor: pointer;
-    background:#444444;
+    background:#3b5998;
     color: #fff;
-    border: 1px solid #444444;
+    border: 1px solid #3b5998;
 
 }
 .sideber_submit_button{

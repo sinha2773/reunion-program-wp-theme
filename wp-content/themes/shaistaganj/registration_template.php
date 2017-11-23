@@ -411,7 +411,7 @@ if( isset($_POST['registration']) ){
                   </div>
               </div>
 			  <div class="form-group inpur_tag_margin_bottom">
-                <label for="profile_picture" class="col-md-4 control-label">তোমার ছবি<span class="red">*</span> </label>
+                <label for="profile_picture" class="col-md-4 control-label">আপনার ছবি<span class="red">*</span> </label>
                   <div class="col-md-8">
                     <input type="file" name="feature_image" class="form-control" id="profile_picture" placeholder="" required>
                   </div>
@@ -420,7 +420,7 @@ if( isset($_POST['registration']) ){
 			       <div class="form-group inpur_tag_margin_bottom">
                 <label for="" class="col-md-4 control-label">রেজিষ্ট্রেশন ফি (  শিক্ষার্থী )</label>
                   <div class="col-md-8">
-                    <strong>২00/- দুইশত টাকা মাত্র।, <p class="bishes_drostobo">(  বি:দ্র: পরিবারের অন্যান্য সদস্যদের অংশগ্রহনের ক্ষেতে জন প্রতি ফি ১০০০/- )  </p></strong>
+                    <strong>২00/- দুইশত টাকা মাত্র।, <p class="bishes_drostobo">(  বি.দ্র. স্মামী/স্ত্রী ৫০০/-, প্রতি সন্তান ৩০০/-, ড্রাইভার ২০০/- )  </p></strong>
                   </div>
               </div>
 			        <div class="form-group inpur_tag_margin_bottom">
