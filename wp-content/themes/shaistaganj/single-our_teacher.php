@@ -31,6 +31,7 @@
 	                        		<?php if ($diff_slag == 'lost_teachers') : ?>
 	                        			<p><b>জন্ম : <?php echo get_post_meta(get_the_ID(),'date_of_birth',true) ?></b></p>
 	                        			<p><b>মৃত্যু : <?php echo get_post_meta(get_the_ID(),'date_of_death',true)?></b></p>
+	                        			<?php the_content(); ?>
 	                        		<?php endif; ?>
 
 	                        		<?php if ($diff_slag == 'another_past_teachers') : ?>

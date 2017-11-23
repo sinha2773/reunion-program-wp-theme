@@ -1,5 +1,29 @@
 <?php get_header(); ?>
 
+<style type="text/css">
+	@media print {
+   	.header_section{
+   		display: none;
+   	}
+   	.hotline_header{
+   		display: none;
+   	}
+   	.print_button{
+   		display: none;
+   	}
+   	.footer_bottom_section{
+   		display: none;
+   	}
+   	.sideber_contact_form_icon {
+   		display: none;
+   	}
+   	.scrolltoup{
+   		display: none;
+   	}
+
+	}
+</style>
+
 <?php if (have_posts()): the_post(); ?>	
 
         <div class="default-page-container all_page_content">
@@ -18,9 +42,14 @@
 	                        			<div class="registration_information_image">
 	                        				<?php the_post_thumbnail(); ?>
 	                        			</div>
+	                        			<div class="print_button">
+	                        				<a href="javascript::void();" class="btn btn-info" onclick="window.print();">Print</a>
+	                        			</div>
 	                        			<tr class="registration_odd">
 	                        				<td>Applicant Name (Bangla):</td>
-	                        				<td><?php echo get_post_meta(get_the_ID(),'applicant_name',true) ?></td>
+	                        				<td><?php the_title();
+	                        				//echo get_post_meta(get_the_ID(),'applicant_name',true) 
+	                        				?></td>
 	                        			</tr>
 	                        			<tr class="registration_even">
 	                        				<td>Applicant Name (English)</td>
@@ -111,47 +140,51 @@
 	                        				<td><?php echo get_post_meta(get_the_ID(),'bkash_or_rocket',true) ?></td>
 	                        			</tr>
 	                        			<tr class="registration_even">
-	                        				<td>In which bkash or Rocket No</td>
+	                        				<td>Please mention your name as Bkash reference</td>
 	                        				<td><?php echo get_post_meta(get_the_ID(),'bkash_or_rocket',true) ?></td>
 	                        			</tr>
 	                        			<tr class="registration_odd">
+	                        				<td>Transection Id</td>
+	                        				<td><?php echo get_post_meta(get_the_ID(),'transection_id',true) ?></td>
+	                        			</tr>
+	                        			<tr class="registration_even">
 	                        				<td>Total Amount of taka</td>
 	                        				<td><?php echo get_post_meta(get_the_ID(),'total_amount_of_money',true) ?></td>
 	                        			</tr>
-	                        			<tr class="registration_even">
+	                        			<tr class="registration_odd">
 	                        				<td>Bank Name</td>
 	                        				<td><?php echo get_post_meta(get_the_ID(),'bank_name',true) ?></td>
 	                        			</tr>
-	                        			<tr class="registration_odd">
+	                        			<tr class="registration_even">
 	                        				<td>Account Name</td>
 	                        				<td><?php echo get_post_meta(get_the_ID(),'account_name',true) ?></td>
 	                        			</tr>
-	                        			<tr class="registration_even">
+	                        			<tr class="registration_odd">
 	                        				<td>Branch Name</td>
 	                        				<td><?php echo get_post_meta(get_the_ID(),'branch_name',true) ?></td>
 	                        			</tr>
-	                        			<tr class="registration_odd">
+	                        			<tr class="registration_even">
 	                        				<td>Submission Date </td>
 	                        				<td><?php echo get_post_meta(get_the_ID(),'submission_date',true) ?></td>
 	                        			</tr>
-	                        			<tr class="registration_even">
+	                        			<tr class="registration_odd">
 	                        				<td>Account Number</td>
 	                        				<td><?php echo get_post_meta(get_the_ID(),'account_number',true) ?></td>
 	                        			</tr>
-	                        			<tr class="registration_odd">
+	                        			<tr class="registration_even">
 	                        				<td>No of Child</td>
 	                        				<td><?php echo get_post_meta(get_the_ID(),'no_of_child',true) ?></td>
 	                        			</tr>
-	                        			<tr class="registration_even">
+	                        			<tr class="registration_odd">
 	                        				<td>Spouse</td>
 	                        				<td><?php echo get_post_meta(get_the_ID(),'click_spouse',true) ?></td>
 	                        			</tr>
 	                        			
-	                        			<tr class="registration_odd">
+	                        			<tr class="registration_even">
 	                        				<td>Driver</td>
 	                        				<td><?php echo get_post_meta(get_the_ID(),'click_driver',true) ?></td>
 	                        			</tr>
-	                        			<tr class="registration_even">
+	                        			<tr class="registration_odd">
 	                        				<td>Total Number of Participant</td>
 	                        				<td><?php echo get_post_meta(get_the_ID(),'total_number_of_participant',true) ?></td>
 	                        			</tr>

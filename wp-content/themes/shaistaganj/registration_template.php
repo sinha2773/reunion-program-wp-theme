@@ -25,6 +25,8 @@ if( isset($_POST['registration']) ){
   
     add_post_meta($post_id, 'bkash_or_rocket', wp_strip_all_tags($_POST['bkash_or_rocket']));
 
+    add_post_meta($post_id, 'transection_id', wp_strip_all_tags($_POST['transection_id']));
+
     add_post_meta($post_id, 'bank_name', wp_strip_all_tags($_POST['bank_name']));
 
     add_post_meta($post_id, 'branch_name', wp_strip_all_tags($_POST['branch_name']));
@@ -106,7 +108,7 @@ if( isset($_POST['registration']) ){
       set_post_thumbnail( $post_id, $attachment_id );
     }
 
-    $msg = "<div style='margin:5px 0; color:green;' class='alert alert-success'>Registration successfully</div>";
+    $msg = "<div style='margin:5px 0; color:green;' class='alert alert-success'>Registration successfull</div>";
   }else{
     $msg = "<div style='margin:5px 0; color:red;' class='alert alert-danger'>Registration failed</div>";
   }
@@ -202,11 +204,17 @@ if( isset($_POST['registration']) ){
                                 
                     </div>
             				<div class="form-group registration_form_payment registration_payment_method">
-            				  <label for="bkah_or_rocket" class="label_bottom control-label">Please mention your name (main part) as Bkash reference <!-- In which bKash/Rocket number you have sent your Registration Fee (include Transaction ID within brackets) --><span class="red">*</span></label>
+            				  <label for="bkah_or_rocket" class="label_bottom control-label">Please mention your name (main part) as Bkash reference<span class="red">*</span></label>
             				  <div class="">
             					<input type="text" class="form-control" name="bkash_or_rocket" id="bkah_or_rocket" placeholder="">
             				  </div>				  
             				</div>
+                    <div class="form-group registration_form_payment registration_payment_method">
+                      <label for="transection_id" class="label_bottom control-label">Transaction Id<span class="red">*</span></label>
+                      <div class="">
+                      <input type="text" class="form-control" name="transection_id" id="transection_id" placeholder="" required>
+                      </div>          
+                    </div>
                   </div>
                   <div class="bank_information" style="display: none;">
                     <div class="form-group registration_form_payment registration_payment_method">

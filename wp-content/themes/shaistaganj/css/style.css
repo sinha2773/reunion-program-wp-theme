@@ -780,9 +780,10 @@
 }
 .area_practice_information_top{}
 .area_practice_top{
-	   border: 1px solid #F9F8F8;
-    min-height: 300px;
+	    border: 1px solid #F9F8F8;
+    height: 285px;
     overflow: hidden;
+    background: #f8f8f8;
 }
 .area_practice_image{}
 .area_practice_image img{
@@ -897,7 +898,7 @@
 .registraion_page_content_image img{
         width: 100%;
     height: auto;
-    max-height: 120px;
+    max-height: 180px;
 }
 .registraion_page_content_text{
     text-align: center;
@@ -906,6 +907,7 @@
 }
 .registraion_page_content_text h3{
     margin: 0px;
+    font-size: 17px;
 }
 .registraion_page_content_text p{
     margin:5px 0px;
@@ -928,6 +930,16 @@
     width: 70%;
     margin: 0 auto;
 }
+.print_button{
+    position: absolute;
+    top: 0;
+    right: 16px;
+}
+.blog_print{
+    top: 20px !important;
+    right: 20px !important;
+}
+.print_button a{}
 .registration_odd td{
     width: 50%;
     border: 1px solid #ccc;
@@ -947,7 +959,9 @@
     background: #D8EAD4;
 }
 
-.registration_all_data{}
+.registration_all_data{
+    position: relative;
+}
 .registration_all_data h4{}
 .communiation_content_information{
     padding: 20px;
@@ -3201,7 +3215,7 @@ background: #3B5997;
 .student_registration_online h2{
     margin: 0px;
     color: #fff;
-    font-size: 22px;
+    font-size: 26px;
 }
 #student_hover{
     margin-bottom: 15px;

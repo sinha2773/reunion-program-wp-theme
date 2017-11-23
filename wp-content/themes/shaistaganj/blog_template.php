@@ -79,7 +79,7 @@
              <div class="col-md-4">
                <div class="blog_right_sidebar">
                  <div class="blog_post_button">
-                   <button><a href="<?php echo get_permalink('246') ?>">
+                   <button><a href="<?php echo get_permalink('259') ?>">
                     আপনার লেখাটি পোষ্ট করতে এখানে ক্লিক করুন
                     </a>
                   </button>
