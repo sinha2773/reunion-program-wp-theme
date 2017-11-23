@@ -1,8 +1,9 @@
 <?php 
 	//Template Name: Jara Nibondhon Koracen
  ?>
-<?php get_header(); 
-$sign = empty(get_option('permalink_structure')) ? '&' : '?';
+<?php 
+	get_header(); 
+	$sign = empty(get_option('permalink_structure')) ? '&' : '?';
 ?>
 
         <div class="default-page-container all_page_content">
@@ -128,7 +129,7 @@ $sign = empty(get_option('permalink_structure')) ? '&' : '?';
                                             ?>
                                         </div>
                                     </div>
-							<?php } ?>
+									<?php } ?>
 	                            </div>
 	                        </div>
 

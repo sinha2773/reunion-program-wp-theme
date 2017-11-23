@@ -24,8 +24,7 @@
 	                        		<?php  
 	                        			if($diff_slag == 'past_teachers_memmory') :
 	                        		?>
-	                        		<p>Designation : <?php echo get_post_meta(get_the_ID(),'designation',true) ?></p> 
-	                        		<p>বিষয় : <?php echo get_post_meta(get_the_ID(),'subject',true) ?></p>
+	                        		<?php the_content(); ?>
 	                        		<?php endif; ?>
 
 	                        		<?php if ($diff_slag == 'lost_teachers') : ?>
