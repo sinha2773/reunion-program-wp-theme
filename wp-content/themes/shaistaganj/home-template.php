@@ -289,7 +289,7 @@ Template Name: Home Page Template
                                     <div class="school_proud_sidebar_content_image_text">
                                         <h4><?php the_title(); ?></h4>
                                         <p>পদবি : <?php echo get_post_meta(get_the_ID(),'designation',true) ?></p>
-                                        <p>মোবাইল:  <?php echo get_post_meta(get_the_ID(),'mobile_no',true) ?></p>
+                                        <p>কমিটি :  <?php echo get_post_meta(get_the_ID(),'committee_name',true) ?></p>
                                     </div>
                                     
                                 </div>
@@ -345,7 +345,7 @@ Template Name: Home Page Template
                                     <div class="school_proud_sidebar_content_image_text">
                                         <h4><?php the_title(); ?></h4>
                                         <p>পদবি : <?php echo get_post_meta(get_the_ID(),'designation',true) ?></p>
-                                        <p>মোবাইল: <?php echo get_post_meta(get_the_ID(),'mobile_no',true) ?></p>
+                                        <p>কমিটি :  <?php echo get_post_meta(get_the_ID(),'committee_name',true) ?></p>
                                     </div>
                                 </div>
                                 <?php endwhile; endif; ?>
@@ -384,7 +384,7 @@ Template Name: Home Page Template
                                     <div class="school_proud_sidebar_content_image_text">
                                        <h4><?php the_title(); ?></h4>
                                         <p>পদবি : <?php echo get_post_meta(get_the_ID(),'designation',true) ?></p>
-                                        <p>মোবাইল: <?php echo get_post_meta(get_the_ID(),'mobile_no',true) ?></p>
+                                        <p>কমিটি :  <?php echo get_post_meta(get_the_ID(),'committee_name',true) ?></p>
                                         
                                     </div>
                                 </div>
@@ -600,12 +600,11 @@ Template Name: Home Page Template
                 </div>
             </div>
         </section>
-         <section id="about_school" class="about_section">
+        <section id="about_school" class="about_section">
             <div class="container">
-              <div class="main_about">
-                
-                <div class="row">
-                   <div class="col-md-4">
+                <div class="main_about">                
+                    <div class="row">
+                        <div class="col-md-4">
                         <?php 
                             $school_telent_student = new WP_Query(array(
                                 'post_type' => 'our_student',
@@ -629,13 +628,11 @@ Template Name: Home Page Template
                                     <div class="school_proud_sidebar_content_image_text">
                                         <h4><?php the_title(); ?></h4>
                                         <p>পাশের সাল : <?php echo get_post_meta(get_the_ID(),'passing_year',true) ?></p>
-                                        <p>বর্তমান অবস্থান : <?php echo get_post_meta(get_the_ID(),'state',true) ?></p>
-                                        
+                                        <p>বর্তমান অবস্থান : <?php echo get_post_meta(get_the_ID(),'state',true) ?></p>                                       
                                         
                                     </div>
                                 </div>
-                                <?php endwhile; endif; ?>
-                                
+                                <?php endwhile; endif; ?>                                
                             </div>
                             <div class="school_proud_button">
                                 <a href="<?php echo get_permalink('78'); ?>">
@@ -708,9 +705,10 @@ Template Name: Home Page Template
                                             </div>
                                             <div class="project-content-wrap">
                                                 <div class="project-title"><?php the_title(); ?></div>
-                                                <div class="project-content"><?php echo get_trim_content(16,true); ?></div>
+                                                <div class="project-content">
+                                                    <?php echo get_trim_content(16,true); ?>               
+                                                </div>
                                                 <div class="project-link-wrap">
-                                                    
                                                     <a class="project-link" href="<?php the_permalink(); ?>">Details</a>
                                                 </div>
                                             </div>
@@ -739,7 +737,7 @@ Template Name: Home Page Template
                                             <div class="project-content-wrap">
                                                 <div class="project-title"><?php the_title(); ?></div>
                                                <div class="project-content"><?php echo get_trim_content(16,true); ?></div>
-                                                <div class="project-link-wrap">                                        
+                                                <div class="project-link-wrap">        
                                                     <a class="project-link" href="<?php the_permalink(); ?>">Details</a>
                                                 </div>
                                             </div>
@@ -769,15 +767,13 @@ Template Name: Home Page Template
                                                 <div class="project-title"><?php the_title(); ?></div>
                                                 <div class="project-content"><?php echo get_trim_content(16,true); ?></div>
                                                 <div class="project-link-wrap">
-                                                    
                                                     <a class="project-link" href="<?php the_permalink(); ?>">Details</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <?php } ?>
                                         <?php $i++; endwhile; endif; ?>
-                                    </div>
-                                    
+                                    </div>                                    
                                 </div>
                                 <div class="school_proud_button past_teacher_button">
                                     <a href="<?php echo get_permalink('86'); ?>">
@@ -786,8 +782,8 @@ Template Name: Home Page Template
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </div>
-              </div>
             </div>
         </section>
         <section id="died_teacher" class="blog_section late_teacher_section">
