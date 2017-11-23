@@ -29,7 +29,7 @@ if( isset($_POST['post_registration']) ){
 
     add_post_meta($post_id, 'mobile_no', wp_strip_all_tags($_POST['mobile_no']));
 
-     add_post_meta($post_id, 'description', wp_strip_all_tags($_POST['description'])); 
+    // add_post_meta($post_id, 'description', wp_strip_all_tags($_POST['description'])); 
 
 
     // wp_set_object_terms( $post_id, $_POST['payment_method'], 'post', false);

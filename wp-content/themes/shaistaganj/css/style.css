@@ -801,7 +801,7 @@
 }
 .area_practice_image_text p{
 	margin: 0px;
-    font-size: 12px;
+    font-size: 13px;
 }
 .area_practice_information_middle{
 	margin: 20px 0px;
@@ -851,13 +851,12 @@
 .{}
 .{}
 .project-content-wrap .project-title {
-    color: #ffffff;
-    line-height: 22px;
+        color: #ffffff;
+    line-height: 20px;
     text-align: center;
     background: none;
     padding-top: 60px;
-    font-size: 20px;
-}
+    font-size: 15px;
 .project-content-wrap .project_title_middle{
 	color: #ffffff;
     line-height: 22px;

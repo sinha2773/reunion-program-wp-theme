@@ -418,7 +418,7 @@ Template Name: Home Page Template
                                     </div>
                                     <div class="school_proud_sidebar_content_image_text">
                                         <h4><?php the_title(); ?></h4>
-                                        <?php echo get_trim_content(10,true); ?>
+                                        <p><?php echo get_trim_content(10,true); ?></p>
                                         <a href="<?php the_permalink(); ?>" class="details">[  বিস্তারিত ] </a>
                                     </div>
                                 </div>
