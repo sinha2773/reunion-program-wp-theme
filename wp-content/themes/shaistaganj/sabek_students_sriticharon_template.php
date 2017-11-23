@@ -24,11 +24,11 @@
 	                                        'teacher_type' => 'past_teachers_memmory'
 	                                    ));
 	                                ?>
-                            			<?php 
-		                                    if($past_teacher_memmorys ->have_posts()): 
-		                                    while($past_teacher_memmorys->have_posts()) :
-		                                     $past_teacher_memmorys->the_post(); 
-		                                ?>
+                        			<?php 
+	                                    if($past_teacher_memmorys ->have_posts()): 
+	                                    while($past_teacher_memmorys->have_posts()) :
+	                                     $past_teacher_memmorys->the_post(); 
+	                                ?>
 	                            	<div class="col-sm-4 col-md-4">
 	                            		
 			                            <div class="school_proud_sidebar teacher_list_sidebar min_height_unset">

@@ -235,7 +235,13 @@
 .video_list li{
     cursor: pointer;
 }
-.{}
+.beta_text{}
+.beta_text h2{
+    color: red;
+    margin: 0px;
+    font-size: 20px;
+    line-height: 28px;
+}
 #slider_arrow{
 	float: left;
     color: transparent;
@@ -302,21 +308,46 @@
     margin: 40px 0px;
 }
 .nibondhon_button{
-    width: 100%;
+        width: 100%;
     background: #F8F8F8;
     padding: 20px 10px;
-        min-height: 366px;
+    min-height: 144px;
     text-align: center;
     border-radius: 10px;
+}
+.nibondhon_button h2{
+    margin: 0px;
+}
+.nibondhon_button a{
+        color: red;
+    font-size: 23px;
+    line-height: 25px;
+}
+.nibondhon_button_bottom{
+    min-height: 80px !important;
+    padding: 10px !important; 
+}
+.nibondhon_button_bottom a{
+
+}
+.nibondhon_margin_bottom{
+    margin-bottom: 24px;
+}
+.nibondhon_button_link{
+    
+    margin-top: 10px;
 }
 .nibondhon_button a:hover{
     text-decoration: none;
 }
 .nibondhon_button a h2{
-       color: red; 
-    margin-top: 65px;
-    font-size: 30px;
-    line-height: 45px;
+    color: red;
+    margin-top: 0px;
+    font-size: 26px;
+    
+}
+.nibondhon_content{
+    padding: 20px 20px 5px 20px;
 }
 .banner_sidebar video{
     /*margin-bottom: 0px;*/
@@ -351,6 +382,9 @@
     padding: 8px 20px;
     border: 1px solid #1BACB9;
     border-radius: 5px;
+}
+.committee_list{
+    min-height: 933px !important;
 }
 .banner_sidebar_header h2{
     color:red;
@@ -533,7 +567,7 @@
 .hotline_left_information li{
     list-style-type: none;
     float: left;
-    font-size: 18px;
+    font-size: 16px;
     margin-right: 20px;
     margin-bottom: 7px;
     
@@ -551,7 +585,7 @@
 .hotline_right_information li{
     list-style-type: none;
     float: left;
-    font-size: 18px;
+    font-size: 16px;
     margin-left: 20px;
 }
 .hotline_right_information li a{
@@ -620,6 +654,7 @@
     margin: 0px;
     font-size: 15px;
     font-weight: bold;
+        line-height: 20px;
 }
 .hundred_years_another_content{
         padding: 10px;
@@ -745,7 +780,9 @@
 }
 .area_practice_information_top{}
 .area_practice_top{
-	    border: 1px solid #F9F8F8;
+	   border: 1px solid #F9F8F8;
+    min-height: 300px;
+    overflow: hidden;
 }
 .area_practice_image{}
 .area_practice_image img{
@@ -883,6 +920,9 @@
 }
 .registration_information_image img{
     margin-bottom: 30px;
+    width: 100%;
+    height: auto;
+    min-height: 250px;
 }
 .registraion_table{
     width: 70%;
@@ -931,6 +971,18 @@
     line-height: 17px;
     margin: 10px 0;
     padding: 0 10px;
+}
+.communication_div{
+    padding: 20px;
+}
+.communication_div h3{
+    margin-top: 0px;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.communication_div p{
+    text-align: justify;
+    font-size: 14px;
 }
 .image_hover_effect{
 	position: relative;
@@ -1420,13 +1472,13 @@ div.wpcf7 .screen-reader-response {
         margin-bottom: 3px;
 }
 .sideber_contact_form_icon{
-      width: 80px;
+        width: 80px;
     height: 80px;
     background: #333333;
     border: 1px solid #333333;
     color: #fff;
     font-size: 40px;
-    padding: 12px 0px 0px 19px;
+    padding: 12px 0px 0px 26px;
     border-radius: 50%;
     position: fixed;
     right: 8px;
@@ -2030,10 +2082,11 @@ div.wpcf7 .screen-reader-response {
 .copyright{
 	padding: 10px 0px;
 	border-top: 1px solid #BABABA;
+    text-align: center;
 }
 
 .all_reserved{
-    float: left !important;
+  
 }
 .design_develop{
     float: right;
@@ -2607,6 +2660,9 @@ background: #3B5997;
    /* position: relative;
     z-index: 10;*/
 }
+.past_teacher_stu_images img{
+    /*min-height: 75px !important;*/
+}
 .good_student{
     margin-bottom: 30px;
 }
@@ -2766,14 +2822,30 @@ background: #3B5997;
 .blog_post_list{
     background: #F8F8F8;
         padding: 30px 10px;
+        overflow: hidden;
 }
 .blog_post_item{
         border: 1px solid #ccc;
+        margin-bottom: 20px;
 }
+
 .blog_post_item_images{}
 .blog_post_item_images img{
     width: 100%;
+    min-height: 150px;
 }
+.all_category_content{
+    background: #f8f8f8;
+    padding: 20px;
+}
+.blog_right_sidebar_content p{
+    font-size: 22px;
+}
+.blog_right_sidebar_content ul{
+    margin-top: 15px;
+    list-style-image: url(../images/blue-tick-icon-1.png);
+}
+.blog_right_sidebar_content ul li{}
 .blog_post_item_images_text{}
 .blog_post_item_images_text_title{
         border-bottom: 1px solid #ccc;
@@ -2833,12 +2905,27 @@ background: #3B5997;
     border: 1px solid #1BACB9;
     border-radius: 5px;
 }
+.blog_post_button a{
+    color: #fff;
+}
+.blog_post_button a:hover{
+    text-decoration: none;
+}
 .blog_post_date{
     float: right;
 }
 .blog_post_a_tag {
     /*float: right;*/
 }
+.blog_write_all_content{
+    background: #F8F8F8;
+    padding: 20px;
+}
+.blog_write_content_info{
+    width: 70%;
+    margin: 0 auto;
+}
+
 
 /*blog style end*/
 
@@ -2922,9 +3009,10 @@ background: #3B5997;
 }
 .school_proud_sidebar_content{
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    overflow: hidden;
 }
-.‍school_proud_last{
+.school_proud_last{
     margin-bottom: 5px !important;
 }
 .school_good_student{
@@ -2947,6 +3035,7 @@ background: #3B5997;
 .school_proud_sidebar_content_image img{
     width: 100%;
     min-height: 70px;
+    height: auto;
 }
 .school_proud_sidebar_content_image_text{}
 .school_proud_sidebar_content_image_text p{
@@ -2954,8 +3043,18 @@ background: #3B5997;
         margin-bottom: 4px;
 }
 .school_proud_sidebar_content_image_text h4{
-    margin-top: 0px;
-        margin-bottom: 5px;
+        margin-top: 0px;
+    margin-bottom: 5px;
+    line-height: 27px;
+    font-size: 18px;
+}
+.death_teacher h4{
+
+    font-size: 12px;
+    line-height: 18px;
+}
+.death_teacher p{
+    font-size: 12px;
 }
 .school_proud_section{
     background: #eee;
@@ -2970,6 +3069,12 @@ background: #3B5997;
     margin-bottom: 10px;
     color: #fff;
 }
+.school_proud_header a{
+    color: #fff;
+}
+.school_proud_header a:hover{
+    text-decoration: none;
+}
 .school_proud_header h3{
     font-size: 22px;
     margin: 0px;
@@ -2977,8 +3082,11 @@ background: #3B5997;
 .teacher_list_header h3{
     font-size: 18px;
 }
+.past_teacher_list{
+    /*min-height: 362px !important;*/
+}
 .teacher_list_sidebar{
-        min-height: 256px;
+    min-height: 256px;
 }
 .school_proud_button{
     text-align: center;
@@ -2995,10 +3103,17 @@ background: #3B5997;
     border-radius: 5px;
 }
 .teacher_images{
-    width:35% !important; 
+    width:30% !important; 
 }
 .teachers_images{
-    width:27% !important; 
+    width:20% !important; 
+}
+.upodesta_image{
+    /*margin-bottom: 10px;*/
+}
+.upodesta_image img{
+    
+
 }
 .past_teacher_pro img{
     min-height: 80px;
@@ -3081,15 +3196,17 @@ background: #3B5997;
     text-decoration: none;
 }
 .empty_div{
-    min-height: 468px;
+        min-height: 447px;
 }
 .student_registration_online h2{
     margin: 0px;
     color: #fff;
-        font-size: 16px;
+    font-size: 22px;
 }
 #student_hover{
     margin-bottom: 15px;
+    
+    padding: 20px 15px;
 }
 #student_hover a:hover{
     text-decoration: none;
@@ -3280,6 +3397,14 @@ background: #3B5997;
 }
 .registration_page_header_information p{
     color: #000;
+}
+.regi_image{
+    margin-bottom: 20px;
+}
+.regi_image img{
+    width: 100%;
+    min-height: 150px;
+    margin: 0 auto;
 }
 .registration_form_button{
         margin: 30px 0px;

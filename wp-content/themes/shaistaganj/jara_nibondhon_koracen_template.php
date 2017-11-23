@@ -12,6 +12,39 @@
 	                			<h2><?php the_title(); ?></h2>
 	                		</div>
 	                	</div>
+	                	<div class="col-md-12">
+	                        <div class="all_page_content_information nibondhon_content">
+	                            <div class="row">	                       
+	                            	<div class="col-sm-4 col-md-4">
+	                            		<div class="student_registration_online" id="student_hover">
+		                                    <a href="<?php echo get_permalink('227') ?>?reg_type=bkash_or_rocket">
+		                                        <h2>বিকাশ এবং রকেটে যারা নিবন্ধন করেছেন</h2>
+		                                    </a>
+		                                </div>
+	                            	</div>
+	                            	<div class="col-sm-4 col-md-4">
+	                            		<div class="student_registration_online" id="student_hover">
+		                                    <a href="<?php echo get_permalink('227') ?>?reg_type=bank">
+		                                        <h2>ব্যংকে এবং অনলাইনে যারা নিবন্ধন করেছেন</h2>
+		                                    </a>
+		                                </div>
+	                            	</div>
+	                            	<div class="col-sm-4 col-md-4">
+	                            		<div class="student_registration_online" id="student_hover">
+		                                    <a href="<?php echo get_permalink('227') ?>?reg_type=direct">
+		                                        <h2>সরাসরি যারা নিবন্ধন করেছেন</h2>
+		                                    </a>
+		                                </div>
+	                            	</div>
+	                            	
+	                            </div>	                            
+                        		<div class="nibondhon_year">
+                        			<?php for( $I=1918; $I<=2023; $I++ ) { ?>
+                            		<a href="" class="btn btn-info"><?php echo $I; ?></a>
+                            		<?php } ?>
+                        		</div>	                            
+	                        </div>
+	                    </div>
 	                    <div class="col-md-12">
 	                        <div class="all_page_content_information">
 	                            <div class="row">
@@ -22,18 +55,22 @@
 								$args = array(
 								  'post_type' => 'our_member',
 								  "paged" => $paged,
-								  'posts_per_page' => 9,
-								  'member_type'=>'bkash'
-								 );
+								  'posts_per_page' => 18
+								);
 								if ( !empty($member_type) ){
 								 $args['member_type'] = $member_type;
-								 if ( $member_type=='bkash_or_rocket' )
+								 if ( $member_type=='bkash_or_rocket')
 								 $args['member_type'] = array('bkash','rocket');
+
 								}
+
 								$book = new WP_Query($args);
 							?>
-                           <?php if($book->have_posts()): while($book->have_posts()): $book->the_post(); ?>
-                            
+                           	<?php 
+                           		if($book->have_posts()):
+                            	while($book->have_posts()):
+                             	$book->the_post(); 
+                            ?>
 	                            	<div class="col-sm-4 col-md-2">
 	                            		<div class="hundred_years_content">
 			                                <div class="registraion_page_content">
@@ -41,10 +78,10 @@
 			                                		<?php the_post_thumbnail(); ?>
 			                                	</div>
 			                                	<div class="registraion_page_content_text">
-			                                		<h3><?php echo get_post_meta(get_the_ID(),'applicant_name_eng',true) ?></h3>
+			                                		<h3><?php echo get_post_meta(get_the_ID(),'applicant_name',true) ?></h3>
 			                                		<p>পেশা : <?php echo get_post_meta(get_the_ID(),'profession',true) ?></p>
 			                                		<p> এস এস সি সাল : <?php echo get_post_meta(get_the_ID(),'year_of_ssc',true) ?></p>
-			                                		<a href="<?php  the_permalink(); ?>">
+			                                		<a href="<?php  the_permalink(); ?>" class="details">
 			                                			বিস্তারিত
 			                                		</a>
 			                                	</div>
@@ -55,7 +92,9 @@
 	                            	<div class="col-md-12">
                                         <div class="main-pagination pull-right">
                                             <?php 
-                                            if(function_exists('wp_pagenavi')) { wp_pagenavi( array( 'query' => $book )); }  
+                                            if(function_exists('wp_pagenavi')) { 
+                                            	wp_pagenavi( array( 'query' => $book )); 
+                                            }  
                                              
                                             ?>
                                         </div>

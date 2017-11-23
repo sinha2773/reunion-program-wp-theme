@@ -15,8 +15,8 @@
            <div class="row">
              <div class="col-md-12">
                <div class="blog_header_content">
-                  <h2>বিগত পোষ্ট গুলো</h2>
-                  <p>ছাত্র-ছাত্রীদের করা বিগত পোষ্ট সমুহ এবং চাইলে নতুন পোষ্ট ও করতে পারবো</p>                 
+                  <h2><?php the_title(); ?></h2>
+                                  
                </div>
              </div>
            </div>
@@ -26,97 +26,68 @@
              <div class="col-md-8">
                <div class="blog_post_list">
                  <div class="row">
+                  <?php
+                    $paged = get_query_var('paged') ? get_query_var('paged') : 1; 
+                      $all_blog_post = new WP_Query(array(
+                        'post_type' => 'post',
+                        "paged" => $paged,
+                        'posts_per_page' => 9
+                        
+                    ));
+                  ?>
+                  <?php 
+                    if($all_blog_post ->have_posts()): 
+                    while($all_blog_post->have_posts()) :
+                     $all_blog_post->the_post(); 
+                  ?>
                    <div class="col-md-4">
                      <div class="blog_post_item">
                        <div class="blog_post_item_images">
-                         <img src="<?php echo get_template_directory_uri();?>/images/Benefits-of-Technology-in-the-Classroom.jpg">
+                         <?php the_post_thumbnail('all_post_image'); ?>
                        </div>
                        <div class="blog_post_item_images_text">
                          <div class="blog_post_item_images_text_title">
-                           <h3>Digital technologies</h3>
+                           <h3><?php the_title(); ?></h3>
                          </div>
                          <div class="blog_post_item_images_text_body">
-                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore atque officiis maxime suscipit expedita obcaecati nulla in ducimus iure quos quam recusa</p>
+                           <p><?php echo get_trim_content(25,true); ?></p>
                            
                          </div>
                          <div class="blog_post_item_images_text_body_details">
-                           <a class="blog_post_a_tag" href="">Details</a>
+                           <a class="blog_post_a_tag" href="<?php the_permalink(); ?>">Details</a>
                          </div>
                          <div class="blog_post_item_images_text_date_time">
-                           <span>16 Sep, 2017</span>
-                           <span class="blog_post_date">7:00 AM</span>
+                           <span><?php echo get_the_date(); ?></span>
+                           <span class="blog_post_date"><?php echo get_the_time(); ?></span>
                          </div>
                        </div>
                      </div>
                    </div>
-                   <div class="col-md-4">
-                     <div class="blog_post_item">
-                       <div class="blog_post_item_images">
-                         <img src="<?php echo get_template_directory_uri();?>/images/Benefits-of-Technology-in-the-Classroom.jpg">
-                       </div>
-                       <div class="blog_post_item_images_text">
-                         <div class="blog_post_item_images_text_title">
-                           <h3>Digital technologies</h3>
-                         </div>
-                         <div class="blog_post_item_images_text_body">
-                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore atque officiis maxime suscipit expedita obcaecati nulla in ducimus iure quos quam recusa</p>
-                           
-                         </div>
-                         <div class="blog_post_item_images_text_body_details">
-                           <a class="blog_post_a_tag" href="">Details</a>
-                         </div>
-                         <div class="blog_post_item_images_text_date_time">
-                           <span>16 Sep, 2017</span>
-                           <span class="blog_post_date">7:00 AM</span>
-                         </div>
-                       </div>
-                     </div>
-                   </div>
-                   <div class="col-md-4">
-                     <div class="blog_post_item">
-                       <div class="blog_post_item_images">
-                         <img src="<?php echo get_template_directory_uri();?>/images/Benefits-of-Technology-in-the-Classroom.jpg">
-                       </div>
-                       <div class="blog_post_item_images_text">
-                         <div class="blog_post_item_images_text_title">
-                           <h3>Digital technologies</h3>
-                         </div>
-                         <div class="blog_post_item_images_text_body">
-                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore atque officiis maxime suscipit expedita obcaecati nulla in ducimus iure quos quam recusa</p>
-                           
-                         </div>
-                         <div class="blog_post_item_images_text_body_details">
-                           <a class="blog_post_a_tag" href="">Details</a>
-                         </div>
-                         <div class="blog_post_item_images_text_date_time">
-                           <span>16 Sep, 2017</span>
-                           <span class="blog_post_date">7:00 AM</span>
-                         </div>
-                       </div>
-                     </div>
-                   </div>
+                 <?php endwhile; endif; ?>
+                 
                  </div>
+                 <div class="main-pagination pull-right">
+                  <?php 
+                  if(function_exists('wp_pagenavi')) { wp_pagenavi( array( 'query' => $all_blog_post )); }  
+                  // if(function_exists('wp_pagenavi')) { wp_pagenavi(); }  
+                  ?>
+              </div>
                </div>
+               
              </div>
+            
              <div class="col-md-4">
                <div class="blog_right_sidebar">
                  <div class="blog_post_button">
-                   <button>আপনার লেখাটি পোষ্ট করতে এখানে ক্লিক করুন</button>
+                   <button><a href="<?php echo get_permalink('246') ?>">
+                    আপনার লেখাটি পোষ্ট করতে এখানে ক্লিক করুন
+                    </a>
+                  </button>
                  </div>
-                 <h3>Categories</h3>
-                 <ul>
-                   <li>Uncategories</li>
-                 </ul>
-                 <h3>Latest Blog Post</h3>
+                 <div class="blog_right_sidebar_content">
+                   <?php dynamic_sidebar('blog_right_sidebar'); ?>
+                 </div>
                  
-                 <h3>Tags</h3>
-                 <ul>
-                   <li>school</li>
-                 </ul>
-                 <h3>Archive</h3>
-                 <ul>
-                   <li>October 17</li>
-                 </ul>
                </div>
              </div>
            </div>

@@ -24,11 +24,13 @@
 			                            'teacher_type' =>'lost_teachers'
 			                        ));
 			                    ?>
+			                    
 		                        <?php
 		                        
 		                            if($lost_teachers->have_posts()) :
 		                            while($lost_teachers->have_posts()) : 
 		                                $lost_teachers->the_post(); 
+		                            
 		                        ?>
                             
 	                            	<div class="col-sm-4 col-md-3">

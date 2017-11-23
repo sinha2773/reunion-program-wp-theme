@@ -112,7 +112,7 @@
 	                        			</tr>
 	                        			<tr class="registration_even">
 	                        				<td>In which bkash or Rocket No</td>
-	                        				<td><?php echo get_post_meta(get_the_ID(),'',true) ?></td>
+	                        				<td><?php echo get_post_meta(get_the_ID(),'bkash_or_rocket',true) ?></td>
 	                        			</tr>
 	                        			<tr class="registration_odd">
 	                        				<td>Total Amount of taka</td>

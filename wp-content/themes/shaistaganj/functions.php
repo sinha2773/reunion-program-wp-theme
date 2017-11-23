@@ -26,6 +26,10 @@
     	else
         return wp_trim_words( get_the_content(), $num_words, ' <a href="'.get_permalink().'">বিস্তারিত</a>' );
     }
+    add_filter( 'postmeta_form_limit', 'meta_limit_increase' );
+		function meta_limit_increase( $limit ) {
+		    return 50;
+	}
 	
 
 ?>
