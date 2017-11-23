@@ -450,7 +450,7 @@
     /*padding: 30px;*/
 }
 .sorry_message{
-    padding: 20px 20px 20px 30px !important;
+    text-align: center !important;
 }
 .banner_sidebar li a{
     background: red;
@@ -482,7 +482,7 @@
 }
 .item img{
 	width: 100%;
-        height: 311px !important;
+    height: 311px !important;
 	
 }
 .carousel-caption {
@@ -538,13 +538,7 @@
     margin-top: 0px !important;
     margin-bottom: 0px;
 }
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
+
 
 /*bottom header style end*/
 
@@ -594,19 +588,6 @@
 .hotline_right_information li a{
     color: #fff;
 }
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
 
 /*hotline header style end*/
 
@@ -740,17 +721,7 @@
 .donation_comettre{
     margin-bottom: 15px;
 }
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
+
 /*hundred years style end*/
 
 
@@ -852,10 +823,7 @@
 	    font-size: 20px !important;
     padding: 4px 25px !important;
 }
-.{}
-.{}
-.{}
-.{}
+
 .project-content-wrap .project-title {
         color: #ffffff;
     line-height: 20px;
@@ -863,6 +831,7 @@
     background: none;
     padding-top: 60px;
     font-size: 15px;
+}
 .project-content-wrap .project_title_middle{
 	color: #ffffff;
     line-height: 22px;
@@ -911,7 +880,7 @@
     max-height: 180px;
 }
 .registraion_page_content_text{
-    text-align: center !important;
+    text-align: center;
     padding: 10px;
 
 }
