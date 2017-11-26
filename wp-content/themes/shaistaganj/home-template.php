@@ -673,7 +673,7 @@ Template Name: Home Page Template
                                                 </div>
                                                 <div class="area_practice_image_text">
                                                     <h4><?php the_title(); ?></h4>
-                                                    <p>মেয়াদকাল : <?php echo get_post_meta(get_the_ID(),'duration',true) ?></p>
+                                                    <p>মেয়াদকাল : <?php echo get_post_meta(get_the_ID(),'duration',true); ?></p>
                                                 </div>
                                             </div>
                                             <div class="project-content-wrap">
@@ -703,7 +703,7 @@ Template Name: Home Page Template
                                                 </div>
                                                 <div class="area_practice_image_text">
                                                     <h4><?php the_title(); ?></h4>
-                                                    <p>মেয়াদকাল : <?php echo get_post_meta(get_the_ID(),'duration',true) ?></p>
+                                                    <p>মেয়াদকাল : <?php echo get_post_meta(get_the_ID(),'duration',true); ?></p>
                                                 </div>
                                             </div>
                                             <div class="project-content-wrap">

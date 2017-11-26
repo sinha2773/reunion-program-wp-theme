@@ -1,25 +1,24 @@
 <!doctype html>
-<html <?php language_attributes(); ?>
+<html <?php language_attributes(); ?>>
     <head>
-        <meta charset="<?php bloginfo( 'charset' ); ?>>
+        <meta charset="<?php bloginfo( 'charset' ); ?>">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-		<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/bootstrap.min.css">
+		    <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/normalize.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/main.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/style.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/font-awesome.min.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/smart_wizard.css">
-      <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/smart_wizard_theme_dots.css">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/smart_wizard_theme_dots.css">
         <script src="<?php echo get_template_directory_uri();?>/js/vendor/modernizr-2.8.3.min.js"></script>
         <?php wp_head(); ?>
     </head>
     <body>
-		<?php $base_url = "http://localhost/reunion-program-wp-theme/index.php"; ?> 
       <div class="hotline_header">
         <div class="container">
           <div class="main_hotline_header">
