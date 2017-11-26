@@ -35,11 +35,11 @@
 		                                    
 		                                    <div class="school_proud_sidebar_content">
 		                                        <div class="school_proud_sidebar_content_image">
-		                                            <?php echo the_post_thumbnail('school_proud_stu_image'); ?>
+		                                            <?php echo the_post_thumbnail('common_image_size'); ?>
 		                                        </div>
 		                                        <div class="school_proud_sidebar_content_image_text">
 		                                            <h4><?php the_title(); ?></h4>
-		                                            <p>Designation :<?php echo get_post_meta(get_the_ID(),'designation',true) ?></p> 
+		                                            <p>পদবি :<?php echo get_post_meta(get_the_ID(),'designation',true) ?></p> 
 													<a href="<?php the_permalink(); ?>" class="details">[  বিস্তারিত ]</a>
 		                                        </div>
 		                                       

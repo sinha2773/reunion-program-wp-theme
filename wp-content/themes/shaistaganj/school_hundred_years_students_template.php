@@ -35,7 +35,7 @@
 	                            		<div class="school_proud_sidebar teacher_list_sidebar min_height_unset">
 		                            		<div class="school_proud_sidebar_content">
 			                                    <div class="school_proud_sidebar_content_image teachers_images present_student">
-			                                        <?php the_post_thumbnail('hundred_years_student_image'); ?>
+			                                        <?php the_post_thumbnail('common_image_size'); ?>
 			                                    </div>
 			                                    <div class="school_proud_sidebar_content_image_text sotoborso_student">
 			                                        <h4><?php the_title(); ?></h4>

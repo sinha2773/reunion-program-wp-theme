@@ -447,7 +447,7 @@
 }
 .all_page_content_information{
     background: #eee;
-    /*padding: 30px;*/
+    padding: 20px 10px 0px 10px;
 }
 .sorry_message{
     text-align: center !important;
@@ -664,9 +664,10 @@
 }
 .sotoborso_udjapon_comity{}
 .sotoborso_udjapon_comity_content_all{
-    background:#F8F8F8;
-    padding: 15px 10px; 
-    /*border-radius: 5px;*/
+    background: #f8f8f8;
+    padding: 15px 10px;
+    /* border-radius: 5px; */
+    margin-bottom: 10px;
 }
 .sotoborso_udjapon_comity_content{
     color: #000;
@@ -693,6 +694,7 @@
         margin: 0px;
     font-size: 12px;
     margin-bottom: 10px;
+    text-align: justify;
 }
 .comettree_totporota_content{
     background: #F8F8F8;
@@ -2999,6 +3001,7 @@ background: #3B5997;
         padding: 20px 20px 1px 20px;
     background: #F8F8F8;
     min-height: 597px;
+    margin-bottom: 10px;
 }
 .school_proud_sidebar_content{
     width: 100%;

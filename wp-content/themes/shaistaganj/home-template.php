@@ -452,19 +452,13 @@ Template Name: Home Page Template
                                             'program_type' =>'sotoborsho_nana_ayojon'
                                         ));
                                     ?>
-                                    
-
                                     <div class="col-md-4">
                                         <div class="sotoborso_udjapon_comity_content_all">
                                         
-                                            <?php $i=1; 
-
+                                            <?php $i=1;
                                             if($nana_ayojon->have_posts()) :
-
                                             while($nana_ayojon->have_posts()) : $nana_ayojon->the_post(); ?>
-
                                             <?php if ($i<3){ ?>
-                                            
                                                 <div class="sotoborso_udjapon_comity_content_all_information margin_bottom">
                                                     <div class="sotoborso_udjapon_comity_content_image school_management_committee_image">
                                                         <?php echo the_post_thumbnail('nana_ayojon_image'); ?>
@@ -628,8 +622,7 @@ Template Name: Home Page Template
                                     <div class="school_proud_sidebar_content_image_text">
                                         <h4><?php the_title(); ?></h4>
                                         <p>পাশের সাল : <?php echo get_post_meta(get_the_ID(),'passing_year',true) ?></p>
-                                        <p>বর্তমান অবস্থান : <?php echo get_post_meta(get_the_ID(),'state',true) ?></p>                                       
-                                        
+                                        <p>বর্তমান অবস্থান : <?php echo get_post_meta(get_the_ID(),'present_state',true) ?></p>
                                     </div>
                                 </div>
                                 <?php endwhile; endif; ?>                                
@@ -869,9 +862,6 @@ Template Name: Home Page Template
                             <div class="school_proud_sidebar_content_image_text death_teacher">
                                 <h4><?php the_title(); ?></h4>
                                 <p>বিষয় : <?php echo get_post_meta(get_the_ID(),'subject',true) ?></p>
-                                <p><b><?php echo get_post_meta(get_the_ID(),'duration',true) ?></b></p>
-                                
-                                
                                 <a href="<?php the_permalink(); ?>" class="details">[  বিস্তারিত ] </a>
                             </div>
                         </div>

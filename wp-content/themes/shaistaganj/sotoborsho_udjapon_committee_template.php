@@ -20,7 +20,7 @@
 	                                    $dol = new WP_Query(array(
 	                                        'post_type' => 'our_committee',
 	                                        "paged" => $paged,
-	                                        'posts_per_page' => 5,
+	                                        'posts_per_page' => 15,
 	                                        'committee_type' => 'sotoborsho_udjapon_committee'
 	                                    ));
 	                                ?>
@@ -35,12 +35,12 @@
 			                                
 			                                <div class="school_proud_sidebar_content">
 			                                    <div class="school_proud_sidebar_content_image">
-			                                        <?php echo the_post_thumbnail('school_management_person_image'); ?>
+			                                        <?php echo the_post_thumbnail('common_image_size'); ?>
 			                                    </div>
 			                                    <div class="school_proud_sidebar_content_image_text">
 			                                        <h4><?php the_title(); ?></h4>
-			                                        <p>কমিটির নাম : <?php echo get_post_meta(get_the_ID(),'committee_name',true) ?></p>
-			                                        <p>মোবাইল: <?php echo get_post_meta(get_the_ID(),'mobile_no',true) ?></p>
+			                                        <p>পদবি : <?php echo get_post_meta(get_the_ID(),'designation',true) ?></p>
+                                        			<p>কমিটি :  <?php echo get_post_meta(get_the_ID(),'committee_name',true) ?></p>
 			                                    </div>
 			                                </div>
 			                                

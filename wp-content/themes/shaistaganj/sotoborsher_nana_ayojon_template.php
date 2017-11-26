@@ -41,11 +41,7 @@
                                                     </div>
                                                     <div class="sotoborso_udjapon_comity_content margin_bottom">
                                                         <h2><?php the_title(); ?></h2>
-                                                        
-                                                        <p><?php the_excerpt(); ?></p>
-                                                        
-                                                         <a href="<?php the_permalink(); ?>" class="details">[  বিস্তারিত ] </a>
-                                                        
+                                                        <p><?php echo get_trim_content(20); ?></p>
                                                     </div>
                                                 </div>
                                         </div>

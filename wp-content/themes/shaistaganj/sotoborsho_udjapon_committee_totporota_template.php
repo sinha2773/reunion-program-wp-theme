@@ -27,8 +27,7 @@
 		                            <?php if($q->have_posts()): while($q->have_posts()): $q->the_post(); ?>
                             
 	                            	<div class="col-sm-4 col-md-4">
-	                            		<div class="hundred_years_content">
-			                                
+	                            		<div class="hundred_years_content">			                                
 			                                <div class="hundred_years_content_images">
 			                                    <?php echo the_post_thumbnail( 'ak_nojora_image'); ?>
 			                                </div>
@@ -38,10 +37,8 @@
 			                                <div class="hundred_years_another_content">
 			                                    <div class="hundred_years_another_content_text hundred_years_top">
 			                                        <p> <?php echo get_trim_content(); ?> </p>
-			                                    </div>
-			                                  
-			                                </div>
-			                                
+			                                    </div>			                                  
+			                                </div>			                                
 			                            </div>
 	                            	</div>
 	                            	<?php endwhile; endif; ?>
