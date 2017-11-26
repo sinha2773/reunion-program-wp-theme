@@ -1,0 +1,145 @@
+@media screen and (max-width: 1024px) {
+	.hotline_left_information li {
+	    font-size: 14px;	    
+	}
+	.hotline_right_information li {
+	    
+	    font-size: 13px;
+	    margin-left: 8px;
+	}
+	.heaer_images{
+		display: none;
+	}
+	.nav>li>a {
+	    font-size: 13px;
+	    
+	}
+	.banner_sidebar_header h2 {
+	    
+	    font-size: 22px;
+	}
+	.nibondhon_button a {
+	    
+	    font-size: 20px;
+	    
+	}
+	.hundred_years_content_title h3 {
+	    
+	    font-size: 17px;
+	}
+	.school_proud_header h3 {
+	    font-size: 17px;
+	    
+	}
+	
+}
+@media screen and (max-width:991px) {
+	.hotline_right_information {
+	    
+	    display: none;
+	}
+	.hotline_left_information li {
+	    font-size: 16px;
+	}
+	.nav>li>a {
+	    font-size: 11px;
+	}
+	.navbar-default .navbar-nav>li>a {
+	    
+	    margin: 0px 2px;
+	   
+	}
+	.banner_section_banner {
+	    
+	    margin-bottom: 20px;
+	}
+	.nibondhon_button a {
+	    font-size: 30px;
+	}
+	.nibondhon_button {
+	    
+	    min-height: unset;
+	    padding: 10px; 
+	    
+	}
+	.nibondhon_button_bottom {
+	     min-height: unset !important; 
+	    
+	}
+	.banner_sidebar_header {
+	    
+	    margin-top: 20px;
+	}
+	.banner_sidebar ul li {
+	    
+	    width: 8%;
+	    margin: 0px 5%;
+	}
+	.response_margin_top {
+		margin-top: 20px;
+	}
+	.response_margin_bottom{
+		margin-bottom: 20px;
+	}
+	.hundred_years_content_title h3 {
+	    font-size: 21px;
+	}
+	.school_proud_header h3 {
+	    font-size: 21px;
+	}
+	.school_proud_sidebar_content_image_text h4 {
+	    
+	    font-size: 16px;
+	}
+	.school_proud_sidebar_content_image_text p {
+	    
+	    font-size: 16px;
+	}
+	.sotoborso_udjapon_comity_content h2 {
+	    
+	    font-size: 16px;
+	    
+	}
+	.sotoborso_udjapon_comity_content p {
+	   
+	    font-size: 14px;
+	    
+	}
+	.responsive_image_size img{
+
+	}
+	.empty_div {
+    min-height: 445px;
+}
+
+}
+
+@media screen and (max-width: 799px){
+
+}
+
+@media screen and (max-width:768px) {
+	
+	
+}
+@media screen and (max-width: 767px){
+	
+}
+
+@media screen and (max-width: 640px){
+	
+}
+
+@media screen and (max-width: 480px){
+	
+}
+
+@media only screen and (max-width: 360px) {
+	
+	
+}
+
+@media only screen and (max-width: 320px) {
+	
+	
+}
