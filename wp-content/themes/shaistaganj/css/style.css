@@ -467,6 +467,11 @@
 .sorry_message{
     text-align: center !important;
 }
+.sorry_message h2{
+    color: red;
+    margin:0px;
+    font-size: 30px;
+}
 .banner_sidebar li a{
     background: red;
     padding: 8px 15px;
@@ -683,6 +688,18 @@
     padding: 15px 10px;
     /* border-radius: 5px; */
     margin-bottom: 10px;
+}
+.school_committee_height{
+    height: 130px;
+}
+.sotoborsho_nana_ayojon_height{
+   height: 340px;
+}
+.teacher_student_died_height{
+    height: 150px;
+}
+.another_ex_teacher_height{
+    height: 150px;
 }
 .sotoborso_udjapon_comity_content{
     color: #000;

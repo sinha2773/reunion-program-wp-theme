@@ -116,7 +116,7 @@
 	                            	<?php endwhile;
 
 									else: 
-									echo "Sorry no any member";
+									echo "<h2>"."Sorry no any member"."</h2>";
 									
 									endif; ?>
 	                            	<div class="col-md-12">

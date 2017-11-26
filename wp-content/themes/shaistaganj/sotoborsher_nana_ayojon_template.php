@@ -34,7 +34,7 @@
                                         $nana_ayojon->the_post(); 
                                     ?>
                                     <div class="col-md-3">
-                                        <div class="sotoborso_udjapon_comity_content_all">
+                                        <div class="sotoborso_udjapon_comity_content_all sotoborsho_nana_ayojon_height">
                                                 <div class="sotoborso_udjapon_comity_content_all_information margin_bottom">
                                                     <div class="sotoborso_udjapon_comity_content_image school_management_committee_image">
                                                         <?php echo the_post_thumbnail('nana_ayojon_image'); ?>

@@ -30,8 +30,7 @@
 	                                     $past_teacher_memmorys->the_post(); 
 	                                ?>
 	                            	<div class="col-sm-4 col-md-4">
-	                            		
-			                            <div class="school_proud_sidebar teacher_list_sidebar min_height_unset">
+			                            <div class="school_proud_sidebar teacher_list_sidebar min_height_unset school_committee_height">
 			                                
 			                                <div class="school_proud_sidebar_content">
 			                                    <div class="school_proud_sidebar_content_image teacher_images past_teacher_pro">
@@ -43,16 +42,13 @@
                                         			<p>কমিটি :  <?php echo get_post_meta(get_the_ID(),'committee_name',true) ?></p>
 			                                    </div>
 			                                </div>
-			                                
 		                            	</div>
-		                            	
 		                            </div>
 	                            <?php endwhile; endif; ?>
 	                            <div class="col-md-12">
                                     <div class="main-pagination pull-right">
                                         <?php 
                                         if(function_exists('wp_pagenavi')) { wp_pagenavi( array( 'query' => $past_teacher_memmorys )); }  
-                                         
                                         ?>
                                     </div>
                                 </div>

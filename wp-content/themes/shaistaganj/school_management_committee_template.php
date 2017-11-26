@@ -15,7 +15,6 @@
 	                    <div class="col-md-12">
 	                        <div class="all_page_content_information">
 	                            <div class="row">
-	                            	
                             	<?php 
                             		$paged = get_query_var('paged') ? get_query_var('paged') : 1;
                                     $d = new WP_Query(array(
@@ -23,19 +22,12 @@
                                         "paged" => $paged,
                                         'posts_per_page' => 12,
                                         'committee_type' =>'school_management_committee'
-                                        
                                     ));
                                ?>
 			                    <?php if($d->have_posts()): while ($d->have_posts()):$d->the_post(); ?>
 	                            	<div class="col-sm-4 col-md-4">
-	                            		 
-			                            
-			                            <div class="sotoborso_udjapon_comity_content_all">
-			                                
-			                              
-			                                
+			                            <div class="sotoborso_udjapon_comity_content_all school_committee_height">
 			                                <div class="school_proud_sidebar_content">
-			                                    
 			                                    <div class="school_proud_sidebar_content_image">
 			                                        <?php echo the_post_thumbnail('common_image_size'); ?>
 			                                    </div>
@@ -44,20 +36,14 @@
 			                                        <p>পদবি : <?php echo get_post_meta(get_the_ID(),'designation',true) ?></p>
                                         			<p>কমিটি :  <?php echo get_post_meta(get_the_ID(),'committee_name',true) ?></p>
 			                                    </div>
-			                                    
 			                                </div>
-			                                
-			                                
-			                                
 			                            </div>
-			                            
 	                            	</div>
 	                            	<?php endwhile; endif; ?>
 	                            	<div class="col-md-12">
                                         <div class="main-pagination pull-right">
                                             <?php 
-                                            if(function_exists('wp_pagenavi')) { wp_pagenavi( array( 'query' => $d )); }  
-                                             
+                                            if(function_exists('wp_pagenavi')) { wp_pagenavi( array( 'query' => $d )); } 
                                             ?>
                                         </div>
                                     </div>

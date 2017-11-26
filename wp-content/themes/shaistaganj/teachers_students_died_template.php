@@ -23,18 +23,16 @@
 			                            'posts_per_page' =>9,
 			                            'teacher_type' =>'lost_teachers'
 			                        ));
-			                    ?>
-			                    
+			                    ?>			                    
 		                        <?php
 		                        
 		                            if($lost_teachers->have_posts()) :
 		                            while($lost_teachers->have_posts()) : 
 		                                $lost_teachers->the_post(); 
 		                            
-		                        ?>
-                            
+		                        ?>                           
 	                            	<div class="col-sm-4 col-md-3">
-	                            		<div class="school_proud_sidebar teacher_list_sidebar min_height_unset">
+	                            		<div class="school_proud_sidebar teacher_list_sidebar min_height_unset teacher_student_died_height">
 		                            		<div class="school_proud_sidebar_content">
 					                            <div class="school_proud_sidebar_content_image teacher_images past_teacher_pro">
 					                                <?php the_post_thumbnail('lost_teachers_image'); ?>

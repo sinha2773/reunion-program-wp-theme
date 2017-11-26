@@ -25,14 +25,12 @@
 			                            ));
 			                        ?>
 	                           		<?php
-			                                    if($school_telent_student->have_posts()) :
-			                                    while($school_telent_student->have_posts()) : 
-			                                        $school_telent_student->the_post(); 
-			                                ?>
-                            
+	                                    if($school_telent_student->have_posts()) :
+	                                    while($school_telent_student->have_posts()) : 
+	                                        $school_telent_student->the_post(); 
+	                                ?>
 	                            	<div class="col-sm-4 col-md-4">
-	                            		<div class="school_proud_sidebar school_good_student2">
-			                                
+	                            		<div class="school_proud_sidebar school_good_student2 school_committee_height">
 			                                <div class="school_proud_sidebar_content">
 			                                    <div class="school_proud_sidebar_content_image">
 			                                        <?php the_post_thumbnail('school_telent_student_image'); ?>
@@ -41,20 +39,15 @@
 			                                        <h4><?php the_title(); ?></h4>
 			                                        <p>পাশের সাল : <?php echo get_post_meta(get_the_ID(),'passing_year',true) ?></p>
 			                                        <p>বর্তমান অবস্থান : <?php echo get_post_meta(get_the_ID(),'state',true) ?></p>
-			                                        
-			                                        
 			                                    </div>
 			                                </div>
-			                                
-			                                
 			                            </div>
 	                            	</div>
 	                            	<?php endwhile; endif; ?>
 	                            	<div class="col-md-12">
 	                                    <div class="main-pagination pull-right">
 	                                        <?php 
-	                                        if(function_exists('wp_pagenavi')) { wp_pagenavi( array( 'query' => $school_telent_student )); }  
-	                                         
+	                                        if(function_exists('wp_pagenavi')) { wp_pagenavi( array( 'query' => $school_telent_student )); } 
 	                                        ?>
 	                                    </div>
                                 	</div>

@@ -31,7 +31,7 @@
 	                                ?>
 	                            	<div class="col-sm-4 col-md-4">
 	                            		
-			                            <div class="school_proud_sidebar teacher_list_sidebar min_height_unset">
+			                            <div class="school_proud_sidebar teacher_list_sidebar min_height_unset school_committee_height">
 			                                
 			                                <div class="school_proud_sidebar_content">
 			                                    <div class="school_proud_sidebar_content_image teacher_images past_teacher_pro">
@@ -39,7 +39,7 @@
 			                                    </div>
 			                                    <div class="school_proud_sidebar_content_image_text">
 			                                        <h4><?php the_title(); ?></h4>
-			                                        <p><?php echo get_trim_content(); ?></p>
+			                                        <p><?php echo get_trim_content(12); ?></p>
 			                                        
 			                                        
 			                                    </div>
