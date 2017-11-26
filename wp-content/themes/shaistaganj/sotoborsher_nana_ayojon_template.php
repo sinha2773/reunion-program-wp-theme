@@ -34,18 +34,14 @@
                                         $nana_ayojon->the_post(); 
                                     ?>
                                     <div class="col-md-3">
-                                        <div class="sotoborso_udjapon_comity_content_all">
+                                        <div class="sotoborso_udjapon_comity_content_all sotoborsho_nana_ayojon_height">
                                                 <div class="sotoborso_udjapon_comity_content_all_information margin_bottom">
                                                     <div class="sotoborso_udjapon_comity_content_image school_management_committee_image">
                                                         <?php echo the_post_thumbnail('nana_ayojon_image'); ?>
                                                     </div>
                                                     <div class="sotoborso_udjapon_comity_content margin_bottom">
                                                         <h2><?php the_title(); ?></h2>
-                                                        
-                                                        <p><?php the_excerpt(); ?></p>
-                                                        
-                                                         <a href="<?php the_permalink(); ?>" class="details">[  বিস্তারিত ] </a>
-                                                        
+                                                        <p><?php echo get_trim_content(20); ?></p>
                                                     </div>
                                                 </div>
                                         </div>

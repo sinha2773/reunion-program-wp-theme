@@ -1,8 +1,9 @@
 <?php 
 	//Template Name: Jara Nibondhon Koracen
  ?>
-<?php get_header(); 
-$sign = empty(get_option('permalink_structure')) ? '&' : '?';
+<?php 
+	get_header(); 
+	$sign = empty(get_option('permalink_structure')) ? '&' : '?';
 ?>
 
         <div class="default-page-container all_page_content">
@@ -27,7 +28,7 @@ $sign = empty(get_option('permalink_structure')) ? '&' : '?';
 	                            	<div class="col-sm-4 col-md-4">
 	                            		<div class="student_registration_online" id="student_hover">
 		                                    <a href="<?php echo get_permalink('227') ?><?php echo $sign;?>member_type=bank">
-		                                        <h2>ব্যংকে এবং অনলাইনে যারা নিবন্ধন করেছেন</h2>
+		                                        <h2>ব্যাংকে এবং অনলাইনে যারা নিবন্ধন করেছেন</h2>
 		                                    </a>
 		                                </div>
 	                            	</div>
@@ -56,7 +57,7 @@ $sign = empty(get_option('permalink_structure')) ? '&' : '?';
 	                        </div>
 	                    </div>
 	                    <div class="col-md-12">
-	                        <div class="all_page_content_information sorry_message" >
+	                        <div class="all_page_content_information sorry_message">
 	                            <div class="row">
 	                        <?php
 								
@@ -80,7 +81,7 @@ $sign = empty(get_option('permalink_structure')) ? '&' : '?';
 										array(
 											'key'     => 'year_of_ssc',
 											'value'   => array( $year ),
-											'compare' => 'IN',
+											'compare' => 'IN'
 										),
 									);
 								}
@@ -102,8 +103,7 @@ $sign = empty(get_option('permalink_structure')) ? '&' : '?';
 			                                		<?php the_post_thumbnail(); ?>
 			                                	</div>
 			                                	<div class="registraion_page_content_text">
-			                                		<h3><?php the_title();
-			                                		//echo get_post_meta(get_the_ID(),'applicant_name',true) ?></h3>
+			                                		<h3><?php the_title(); ?></h3>
 			                                		<p>পেশা : <?php echo get_post_meta(get_the_ID(),'profession',true) ?></p>
 			                                		<p> এস এস সি সাল : <?php echo get_post_meta(get_the_ID(),'year_of_ssc',true) ?></p>
 			                                		<a href="<?php  the_permalink(); ?>" class="details">
@@ -116,7 +116,7 @@ $sign = empty(get_option('permalink_structure')) ? '&' : '?';
 	                            	<?php endwhile;
 
 									else: 
-									echo "Sorry no any member";
+									echo "<h2>"."Sorry no any member"."</h2>";
 									
 									endif; ?>
 	                            	<div class="col-md-12">
@@ -129,7 +129,7 @@ $sign = empty(get_option('permalink_structure')) ? '&' : '?';
                                             ?>
                                         </div>
                                     </div>
-							<?php } ?>
+									<?php } ?>
 	                            </div>
 	                        </div>
 

@@ -24,8 +24,7 @@
 	                        		<?php  
 	                        			if($diff_slag == 'past_teachers_memmory') :
 	                        		?>
-	                        		<p>Designation : <?php echo get_post_meta(get_the_ID(),'designation',true) ?></p> 
-	                        		<p>বিষয় : <?php echo get_post_meta(get_the_ID(),'subject',true) ?></p>
+	                        		<?php the_content(); ?>
 	                        		<?php endif; ?>
 
 	                        		<?php if ($diff_slag == 'lost_teachers') : ?>
@@ -35,9 +34,9 @@
 	                        		<?php endif; ?>
 
 	                        		<?php if ($diff_slag == 'another_past_teachers') : ?>
-	                        		<p>বিষয় : <?php echo get_post_meta(get_the_ID(),'subject',true) ?></p>
-					                <p><b>Duration: <?php echo get_post_meta(get_the_ID(),'duration',true) ?></b></p>
+	                        		<?php the_content(); ?>
 					                <?php endif; ?>
+					                
 					                <?php if ($diff_slag == 'past_head_teacher') : ?>
 					                <?php echo the_content(); ?>
 					                <?php endif; ?>

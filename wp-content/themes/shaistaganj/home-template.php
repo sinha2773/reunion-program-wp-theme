@@ -126,7 +126,7 @@ Template Name: Home Page Template
                 <div class="main_hundred_years">
                     
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6">
                             <?php 
                                 $q = new WP_Query(array(
                                     'post_type' => 'our_program',
@@ -164,7 +164,7 @@ Template Name: Home Page Template
                             </div>
                             <?php endwhile; endif; ?>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6">
                             <?php 
                                 $p = new WP_Query(array(
                                     'post_type' => 'page',
@@ -201,7 +201,7 @@ Template Name: Home Page Template
                             
                         </div>
                         
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-12">
                             <?php 
                                 $book = new WP_Query(array(
                                     'post_type' => 'our_program',
@@ -214,7 +214,7 @@ Template Name: Home Page Template
                                 while($book->have_posts()):
                                 $book->the_post(); 
                             ?>
-                            <div class="hundred_years_content">
+                            <div class="hundred_years_content response_margin_top">
                                 <div class="hundred_years_content_title">
                                     <h3>শতবর্ষ পূর্তি উৎসব সভার সিদ্ধান্তসমূহ</h3>
                                 </div>
@@ -247,7 +247,7 @@ Template Name: Home Page Template
             <div class="container">
                 <div class="main_school_management_comitee">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6">
                             <?php 
                                 $school_committee = new WP_Query(array(
                                     'post_type' => 'page',
@@ -289,7 +289,7 @@ Template Name: Home Page Template
                                     <div class="school_proud_sidebar_content_image_text">
                                         <h4><?php the_title(); ?></h4>
                                         <p>পদবি : <?php echo get_post_meta(get_the_ID(),'designation',true) ?></p>
-                                        <p>মোবাইল:  <?php echo get_post_meta(get_the_ID(),'mobile_no',true) ?></p>
+                                        <p>কমিটি :  <?php echo get_post_meta(get_the_ID(),'committee_name',true) ?></p>
                                     </div>
                                     
                                 </div>
@@ -305,7 +305,7 @@ Template Name: Home Page Template
                             </div>
                              
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6">
                              <?php 
                                 $sotoborsho_committee = new WP_Query(array(
                                     'post_type' => 'page',
@@ -345,7 +345,7 @@ Template Name: Home Page Template
                                     <div class="school_proud_sidebar_content_image_text">
                                         <h4><?php the_title(); ?></h4>
                                         <p>পদবি : <?php echo get_post_meta(get_the_ID(),'designation',true) ?></p>
-                                        <p>মোবাইল: <?php echo get_post_meta(get_the_ID(),'mobile_no',true) ?></p>
+                                        <p>কমিটি :  <?php echo get_post_meta(get_the_ID(),'committee_name',true) ?></p>
                                     </div>
                                 </div>
                                 <?php endwhile; endif; ?>
@@ -360,7 +360,7 @@ Template Name: Home Page Template
                             </div>
                         
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-12">
                             <?php 
                                     $past_teacher_memmorys = new WP_Query(array(
                                         'post_type' => 'our_committee',
@@ -368,7 +368,7 @@ Template Name: Home Page Template
                                         'committee_type' => 'sotoborsho-purti-udsob-upodesta-mondoli'
                                     ));
                                 ?>
-                            <div class="area_practice_top_title school_proud_header">
+                            <div class="area_practice_top_title school_proud_header response_margin_top">
                                     <h3>শতবর্ষ পূর্তি উৎসব উপদেষ্টা মন্ডলী</h3>
                             </div>
                             <div class="school_proud_sidebar teacher_list_sidebar">
@@ -384,7 +384,7 @@ Template Name: Home Page Template
                                     <div class="school_proud_sidebar_content_image_text">
                                        <h4><?php the_title(); ?></h4>
                                         <p>পদবি : <?php echo get_post_meta(get_the_ID(),'designation',true) ?></p>
-                                        <p>মোবাইল: <?php echo get_post_meta(get_the_ID(),'mobile_no',true) ?></p>
+                                        <p>কমিটি :  <?php echo get_post_meta(get_the_ID(),'committee_name',true) ?></p>
                                         
                                     </div>
                                 </div>
@@ -452,19 +452,13 @@ Template Name: Home Page Template
                                             'program_type' =>'sotoborsho_nana_ayojon'
                                         ));
                                     ?>
-                                    
-
-                                    <div class="col-md-4">
+                                    <div class="col-md-4 col-sm-6">
                                         <div class="sotoborso_udjapon_comity_content_all">
                                         
-                                            <?php $i=1; 
-
+                                            <?php $i=1;
                                             if($nana_ayojon->have_posts()) :
-
                                             while($nana_ayojon->have_posts()) : $nana_ayojon->the_post(); ?>
-
                                             <?php if ($i<3){ ?>
-                                            
                                                 <div class="sotoborso_udjapon_comity_content_all_information margin_bottom">
                                                     <div class="sotoborso_udjapon_comity_content_image school_management_committee_image">
                                                         <?php echo the_post_thumbnail('nana_ayojon_image'); ?>
@@ -485,7 +479,7 @@ Template Name: Home Page Template
                                         </div>
                                        
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-4 col-sm-6">
                                         <div class="sotoborso_udjapon_comity_content_all ">
                                             
                                             <?php $i=1; 
@@ -516,7 +510,7 @@ Template Name: Home Page Template
                                         </div>
                                         
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-4 col-sm-12">
                                         <div class="sotoborso_udjapon_comity_content_all">
                                             
                                             <?php $i=1; 
@@ -529,7 +523,7 @@ Template Name: Home Page Template
                                             <?php if ($i>4){ ?>
                                             
                                                 <div class="sotoborso_udjapon_comity_content_all_information margin_bottom">
-                                                    <div class="sotoborso_udjapon_comity_content_image school_management_committee_image">
+                                                    <div class="sotoborso_udjapon_comity_content_image school_management_committee_image responsive_image_size">
                                                         <?php echo the_post_thumbnail('nana_ayojon_image'); ?>
                                                     </div>
                                                     <div class="sotoborso_udjapon_comity_content margin_bottom">
@@ -551,7 +545,7 @@ Template Name: Home Page Template
                                     
                                 </div>
                             </div>
-                            <div class="school_proud_button">
+                            <div class="school_proud_button response_margin_bottom">
                                <a href="<?php echo get_permalink('62'); ?>">
                                    <button>আরও দেখতে</button>
                                 </a>
@@ -600,12 +594,11 @@ Template Name: Home Page Template
                 </div>
             </div>
         </section>
-         <section id="about_school" class="about_section">
+        <section id="about_school" class="about_section">
             <div class="container">
-              <div class="main_about">
-                
-                <div class="row">
-                   <div class="col-md-4">
+                <div class="main_about">                
+                    <div class="row">
+                        <div class="col-md-4">
                         <?php 
                             $school_telent_student = new WP_Query(array(
                                 'post_type' => 'our_student',
@@ -629,13 +622,10 @@ Template Name: Home Page Template
                                     <div class="school_proud_sidebar_content_image_text">
                                         <h4><?php the_title(); ?></h4>
                                         <p>পাশের সাল : <?php echo get_post_meta(get_the_ID(),'passing_year',true) ?></p>
-                                        <p>বর্তমান অবস্থান : <?php echo get_post_meta(get_the_ID(),'state',true) ?></p>
-                                        
-                                        
+                                        <p>বর্তমান অবস্থান : <?php echo get_post_meta(get_the_ID(),'present_state',true) ?></p>
                                     </div>
                                 </div>
-                                <?php endwhile; endif; ?>
-                                
+                                <?php endwhile; endif; ?>                                
                             </div>
                             <div class="school_proud_button">
                                 <a href="<?php echo get_permalink('78'); ?>">
@@ -656,7 +646,7 @@ Template Name: Home Page Template
                                             'teacher_type' =>'past_head_teacher'
                                         ));
                                     ?>
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 col-sm-6">
                                         <?php
                                             $i=1;
                                             if($past_head_teacher->have_posts()) :
@@ -688,7 +678,7 @@ Template Name: Home Page Template
                                         <?php } ?>
                                         <?php $i++; endwhile; endif; ?>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 col-sm-6">
                                         <?php
                                             $i=1;
                                             if($past_head_teacher->have_posts()) :
@@ -708,9 +698,10 @@ Template Name: Home Page Template
                                             </div>
                                             <div class="project-content-wrap">
                                                 <div class="project-title"><?php the_title(); ?></div>
-                                                <div class="project-content"><?php echo get_trim_content(16,true); ?></div>
+                                                <div class="project-content">
+                                                    <?php echo get_trim_content(16,true); ?>               
+                                                </div>
                                                 <div class="project-link-wrap">
-                                                    
                                                     <a class="project-link" href="<?php the_permalink(); ?>">Details</a>
                                                 </div>
                                             </div>
@@ -718,7 +709,7 @@ Template Name: Home Page Template
                                         <?php } ?>
                                         <?php $i++; endwhile; endif; ?>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 col-sm-6">
                                         <?php
                                             $i=1;
                                             if($past_head_teacher->have_posts()) :
@@ -739,7 +730,7 @@ Template Name: Home Page Template
                                             <div class="project-content-wrap">
                                                 <div class="project-title"><?php the_title(); ?></div>
                                                <div class="project-content"><?php echo get_trim_content(16,true); ?></div>
-                                                <div class="project-link-wrap">                                        
+                                                <div class="project-link-wrap">        
                                                     <a class="project-link" href="<?php the_permalink(); ?>">Details</a>
                                                 </div>
                                             </div>
@@ -747,7 +738,7 @@ Template Name: Home Page Template
                                         <?php } ?>
                                         <?php $i++; endwhile; endif; ?>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 col-sm-6">
                                         <?php
                                             $i=1;
                                             if($past_head_teacher->have_posts()) :
@@ -769,15 +760,13 @@ Template Name: Home Page Template
                                                 <div class="project-title"><?php the_title(); ?></div>
                                                 <div class="project-content"><?php echo get_trim_content(16,true); ?></div>
                                                 <div class="project-link-wrap">
-                                                    
                                                     <a class="project-link" href="<?php the_permalink(); ?>">Details</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <?php } ?>
                                         <?php $i++; endwhile; endif; ?>
-                                    </div>
-                                    
+                                    </div>                                    
                                 </div>
                                 <div class="school_proud_button past_teacher_button">
                                     <a href="<?php echo get_permalink('86'); ?>">
@@ -786,8 +775,8 @@ Template Name: Home Page Template
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </div>
-              </div>
             </div>
         </section>
         <section id="died_teacher" class="blog_section late_teacher_section">
@@ -796,21 +785,43 @@ Template Name: Home Page Template
             <div class="all_blog_div">
               
               <div class="row">
-                 <div class="col-md-3">
+                 <div class="col-md-3 col-sm-6">
                     <div class="area_practice_top_title school_proud_header teacher_list_header past_teacher_header">
-                            <h3>Empty Text</h3>
+                            <h3>যারা অনুদান দিয়েছেন</h3>
                     </div>
                     <div class="school_proud_sidebar teacher_list_sidebar empty_div">
-
+                        <?php
+                            $jara_anudan = new WP_Query(array(
+                                'post_type' => 'our_committee',
+                                'posts_per_page' =>4,
+                                'committee_type' =>'jara_anudan_diyacen'
+                            ));
+                        ?>
+                        <?php
+                            if($jara_anudan->have_posts()) :
+                            while($jara_anudan->have_posts()) : 
+                                $jara_anudan->the_post(); 
+                        ?>
+                        <div class="school_proud_sidebar_content death_teacher">
+                            <div class="school_proud_sidebar_content_image teacher_images past_teacher_pro">
+                                <?php the_post_thumbnail('common_image_size'); ?>
+                            </div>
+                            <div class="school_proud_sidebar_content_image_text">
+                                <h4><?php the_title(); ?></h4>
+                                <p>পরিচয় :<?php echo get_post_meta(get_the_ID(),'proffession',true) ?></p>
+                                <p>টাকার পরিমান : <?php echo get_post_meta(get_the_ID(),'total_taka',true) ?></p>
+                            </div>
+                        </div>
+                        <?php endwhile; endif; ?>
                     </div>
-                    <div class="school_proud_button">
-                        <a href="<?php echo get_permalink(get_page_by_path('')); ?>">
+                    <div class="school_proud_button response_margin_bottom">
+                        <a href="<?php echo get_permalink(781); ?>">
                             <button>আরও দেখতে</button>
                         </a>
                     </div>
                 </div> 
                 
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <?php 
                         $lost_teachers = new WP_Query(array(
                             'post_type' => 'our_teacher',
@@ -842,13 +853,13 @@ Template Name: Home Page Template
                         <?php endwhile; endif; ?>
                        
                     </div>
-                    <div class="school_proud_button">
+                    <div class="school_proud_button response_margin_bottom">
                         <a href="<?php echo get_permalink('113'); ?>">
                             <button>আরও দেখতে</button>
                         </a>
                     </div>
                 </div> 
-                  <div class="col-md-3">
+                  <div class="col-md-3 col-sm-6">
                     <?php 
                         $another_past_teacher = new WP_Query(array(
                             'post_type' => 'our_teacher',
@@ -873,9 +884,6 @@ Template Name: Home Page Template
                             <div class="school_proud_sidebar_content_image_text death_teacher">
                                 <h4><?php the_title(); ?></h4>
                                 <p>বিষয় : <?php echo get_post_meta(get_the_ID(),'subject',true) ?></p>
-                                <p><b><?php echo get_post_meta(get_the_ID(),'duration',true) ?></b></p>
-                                
-                                
                                 <a href="<?php the_permalink(); ?>" class="details">[  বিস্তারিত ] </a>
                             </div>
                         </div>
@@ -888,7 +896,7 @@ Template Name: Home Page Template
                         </a>
                         </div>
                 </div> 
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <?php 
                         $school_present_teachers = new WP_Query(array(
                             'post_type' => 'our_teacher',
@@ -934,7 +942,7 @@ Template Name: Home Page Template
             <div class="container">
                 <div class="main_school_information">
                     <div class="row">
-                         <div class="col-md-4">
+                         <div class="col-md-4 col-sm-12">
                              <div class="area_practice_top_title school_proud_header teacher_list_header">
                                     <h3>জরুরি যোগাযোগ ও লিংক</h3>
                             </div>
@@ -944,7 +952,7 @@ Template Name: Home Page Template
                                 
                             </div>
                          </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6">
                             <?php 
                                 $hundred_years_student = new WP_Query(array(
                                     'post_type' => 'our_student',
@@ -983,7 +991,7 @@ Template Name: Home Page Template
                                 </a>
                             </div>
                         </div> 
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6">
                             <?php 
                                 $inportant_link = new WP_Query(array(
                                     'post_type' => 'page',

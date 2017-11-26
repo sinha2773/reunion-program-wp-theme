@@ -73,6 +73,18 @@
 .main-pagination{
     margin:20px;
 }
+.page_content{
+    padding: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+.page_content_image img{
+    width: auto;
+    height: auto;
+    float: left;
+    max-width: 400px;
+    margin-right: 10px;
+}
 .single_page_content{
     padding: 20px;
     width: 100%;
@@ -447,10 +459,18 @@
 }
 .all_page_content_information{
     background: #eee;
-    /*padding: 30px;*/
+    padding: 20px 10px 10px 10px;
+}
+.all_page_content_information img{
+    margin-bottom: 20px;
 }
 .sorry_message{
-    padding: 20px 20px 20px 30px !important;
+    text-align: center !important;
+}
+.sorry_message h2{
+    color: red;
+    margin:0px;
+    font-size: 30px;
 }
 .banner_sidebar li a{
     background: red;
@@ -482,7 +502,7 @@
 }
 .item img{
 	width: 100%;
-        height: 311px !important;
+    height: 311px !important;
 	
 }
 .carousel-caption {
@@ -538,13 +558,7 @@
     margin-top: 0px !important;
     margin-bottom: 0px;
 }
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
+
 
 /*bottom header style end*/
 
@@ -594,19 +608,6 @@
 .hotline_right_information li a{
     color: #fff;
 }
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
 
 /*hotline header style end*/
 
@@ -683,9 +684,22 @@
 }
 .sotoborso_udjapon_comity{}
 .sotoborso_udjapon_comity_content_all{
-    background:#F8F8F8;
-    padding: 15px 10px; 
-    /*border-radius: 5px;*/
+    background: #f8f8f8;
+    padding: 15px 10px;
+    /* border-radius: 5px; */
+    margin-bottom: 10px;
+}
+.school_committee_height{
+    height: 130px;
+}
+.sotoborsho_nana_ayojon_height{
+   height: 340px;
+}
+.teacher_student_died_height{
+    height: 150px;
+}
+.another_ex_teacher_height{
+    height: 150px;
 }
 .sotoborso_udjapon_comity_content{
     color: #000;
@@ -712,6 +726,7 @@
         margin: 0px;
     font-size: 12px;
     margin-bottom: 10px;
+    text-align: justify;
 }
 .comettree_totporota_content{
     background: #F8F8F8;
@@ -740,17 +755,7 @@
 .donation_comettre{
     margin-bottom: 15px;
 }
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
+
 /*hundred years style end*/
 
 
@@ -852,10 +857,7 @@
 	    font-size: 20px !important;
     padding: 4px 25px !important;
 }
-.{}
-.{}
-.{}
-.{}
+
 .project-content-wrap .project-title {
         color: #ffffff;
     line-height: 20px;
@@ -863,6 +865,7 @@
     background: none;
     padding-top: 60px;
     font-size: 15px;
+}
 .project-content-wrap .project_title_middle{
 	color: #ffffff;
     line-height: 22px;
@@ -911,7 +914,7 @@
     max-height: 180px;
 }
 .registraion_page_content_text{
-    text-align: center !important;
+    text-align: center;
     padding: 10px;
 
 }
@@ -3022,14 +3025,18 @@ background: #3B5997;
 .fixed_header .bottom_navber{
 
 }
-
+.{}
 /*school proud sidebar style*/
 
 .school_proud_sidebar{
        /* padding: 20px;*/
         padding: 20px 20px 1px 20px;
     background: #F8F8F8;
-    min-height: 597px;
+    
+    margin-bottom: 10px;
+}
+.school_ar_gorbo{
+    height: 130px;
 }
 .school_proud_sidebar_content{
     width: 100%;
@@ -3226,7 +3233,7 @@ background: #3B5997;
 .student_registration_online h2{
     margin: 0px;
     color: #fff;
-    font-size: 26px;
+    font-size: 27px;
 }
 #student_hover{
     margin-bottom: 15px;
@@ -3504,7 +3511,10 @@ background: #3B5997;
 }
 .registration_form_payment label{}
 .registration_form_payment input{}
-
+.nrb_color{
+    color: red;
+    font-size: 18px;
+}
 .person_all_information{
     background: #fff !important;
         width: 75%;

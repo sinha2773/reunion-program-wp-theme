@@ -20,7 +20,7 @@
 				                        $school_present_teachers = new WP_Query(array(
 				                            'post_type' => 'our_teacher',
 				                            "paged" => $paged,
-				                            'posts_per_page' =>16,
+				                            'posts_per_page' =>28,
 				                            'teacher_type' =>'school_present_teachers'
 				                        ));
 				                    ?>
@@ -32,14 +32,14 @@
 			                        ?>
                             
 	                            	<div class="col-sm-4 col-md-3">
-	                            		<div class="school_proud_sidebar teacher_list_sidebar min_height_unset">
+	                            		<div class="school_proud_sidebar teacher_list_sidebar min_height_unset school_committee_height">
 		                            		<div class="school_proud_sidebar_content">
 					                            <div class="school_proud_sidebar_content_image teacher_images">
-					                                <?php the_post_thumbnail('school_present_teachers_image'); ?>
+					                                <?php the_post_thumbnail('common_image_size'); ?>
 					                            </div>
 					                            <div class="school_proud_sidebar_content_image_text">
 					                                <h4><?php the_title(); ?></h4>
-					                                <p><?php echo get_post_meta(get_the_ID(),'designation',true) ?></p>
+					                                <p>পদবি :<?php echo get_post_meta(get_the_ID(),'designation',true) ?></p>
 					                                <p>বিষয় : <?php echo get_post_meta(get_the_ID(),'subject',true) ?></p>
 					                                
 					                            </div>

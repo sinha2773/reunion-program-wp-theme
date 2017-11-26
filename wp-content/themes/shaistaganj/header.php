@@ -9,16 +9,23 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 		    <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/bootstrap.min.css">
+		  <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/normalize.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/main.css">
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/style.css">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/style.css">        
         <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/font-awesome.min.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/smart_wizard.css">
+
         <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/smart_wizard_theme_dots.css">
+
+      <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/smart_wizard_theme_dots.css">
+      <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/responsive.css">
+
         <script src="<?php echo get_template_directory_uri();?>/js/vendor/modernizr-2.8.3.min.js"></script>
         <?php wp_head(); ?>
     </head>
     <body>
+
       <div class="hotline_header">
         <div class="container">
           <div class="main_hotline_header">
@@ -131,7 +138,7 @@
                               </div><!-- /.container-fluid -->
                             </nav>
                             <div class="beta_text">
-                              <h2><marquee> পরীক্ষামূলক সম্প্রচার</marquee></h2>
+                              <!-- <h2><marquee> পরীক্ষামূলক সম্প্রচার</marquee></h2> -->
                             </div>
                         </div>
                     </div>

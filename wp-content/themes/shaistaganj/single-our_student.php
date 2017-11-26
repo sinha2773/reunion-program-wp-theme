@@ -17,7 +17,7 @@
 	                        		<?php the_post_thumbnail(); ?>
 	                        	</div>
 	                        	<div class="single_page_content_image_text">
-	                        		<p>Designation : <?php echo get_post_meta(get_the_ID(),'designation',true) ?></p> 
+	                        		<?php the_content(); ?>
 	                        		
 	                        	</div>
 	                            

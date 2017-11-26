@@ -20,7 +20,7 @@
 	                                    $past_teacher_memmorys = new WP_Query(array(
 	                                        'post_type' => 'our_committee',
 	                                        "paged" => $paged,
-	                                        'posts_per_page' => 15,
+	                                        'posts_per_page' => 12,
 	                                        'committee_type' => 'sotoborsho-purti-udsob-upodesta-mondoli'
 	                                    ));
 	                                ?>
@@ -30,29 +30,25 @@
 	                                     $past_teacher_memmorys->the_post(); 
 	                                ?>
 	                            	<div class="col-sm-4 col-md-4">
-	                            		
-			                            <div class="school_proud_sidebar teacher_list_sidebar min_height_unset">
+			                            <div class="school_proud_sidebar teacher_list_sidebar min_height_unset school_committee_height">
 			                                
 			                                <div class="school_proud_sidebar_content">
 			                                    <div class="school_proud_sidebar_content_image teacher_images past_teacher_pro">
-			                                        <?php the_post_thumbnail('past_students_teachers_image'); ?>
+			                                        <?php the_post_thumbnail('common_image_size'); ?>
 			                                    </div>
 			                                    <div class="school_proud_sidebar_content_image_text">
 			                                        <h4><?php the_title(); ?></h4>
-			                                        <p>নাম : <?php echo get_post_meta(get_the_ID(),'committee_name',true) ?></p>
-                                        			<p>মোবাইল: <?php echo get_post_meta(get_the_ID(),'mobile_no',true) ?></p>
+			                                        <p>পদবি : <?php echo get_post_meta(get_the_ID(),'designation',true) ?></p>
+                                        			<p>কমিটি :  <?php echo get_post_meta(get_the_ID(),'committee_name',true) ?></p>
 			                                    </div>
 			                                </div>
-			                                
 		                            	</div>
-		                            	
 		                            </div>
 	                            <?php endwhile; endif; ?>
 	                            <div class="col-md-12">
                                     <div class="main-pagination pull-right">
                                         <?php 
                                         if(function_exists('wp_pagenavi')) { wp_pagenavi( array( 'query' => $past_teacher_memmorys )); }  
-                                         
                                         ?>
                                     </div>
                                 </div>

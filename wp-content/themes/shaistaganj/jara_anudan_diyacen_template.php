@@ -25,10 +25,10 @@
 			                            ));
 			                        ?>
 	                           		<?php
-			                                    if($jara_anudan->have_posts()) :
-			                                    while($jara_anudan->have_posts()) : 
-			                                        $jara_anudan->the_post(); 
-			                                ?>
+	                                    if($jara_anudan->have_posts()) :
+	                                    while($jara_anudan->have_posts()) : 
+	                                        $jara_anudan->the_post(); 
+	                                ?>
                             
 	                            	<div class="col-sm-4 col-md-4">
 	                            		<div class="school_proud_sidebar school_good_student2">

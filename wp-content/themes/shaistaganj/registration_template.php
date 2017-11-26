@@ -108,7 +108,7 @@ if( isset($_POST['registration']) ){
       set_post_thumbnail( $post_id, $attachment_id );
     }
 
-    $msg = "<div style='margin:5px 0; color:green;' class='alert alert-success'>Registration successfull</div>";
+    $msg = "<div style='margin:5px 0; color:green;' class='alert alert-success'>Registration successful</div>";
   }else{
     $msg = "<div style='margin:5px 0; color:red;' class='alert alert-danger'>Registration failed</div>";
   }
@@ -190,6 +190,10 @@ if( isset($_POST['registration']) ){
 
               <div id="step-1">
                 <div id="form-step-0" role="form" data-toggle="validator" class="first_step">
+                  <div class="form-group registration_form_payment registration_payment_method">
+                      <label class="label_bottom control-label nrb_color hide">Registration fee is not mandatory for NRB</label>
+                      <label class="label_bottom control-label nrb_color">রেজিষ্ট্রেশন ফি ২00/- ( বি.দ্র. স্মামী/স্ত্রী ৫০০/-, প্রতি সন্তান ৩০০/-, ড্রাইভার ২০০/- )</label>
+                    </div>
           				<div class="form-group registration_form_payment registration_payment_method">
           				  <label for="" class="label_bottom control-label">Registration Fee payment method <span class="red">*</span></label>
           				  <div class="label_bottom">
@@ -265,7 +269,7 @@ if( isset($_POST['registration']) ){
           				  <label for="" class="label_bottom control-label">Child (please mention the number of child)<span class="red">*</span></label>
           				   <div class="label_bottom">
           					<select class="form-control" name="no_of_child">
-          					  <option>Choose</option>
+          					  <option value="">Choose</option>
           					  <option value="0">0</option>
           					  <option value="1">1</option>
           					  <option value="2">2</option>
