@@ -31,7 +31,7 @@
                                     ?>
                             
 	                            	<div class="col-sm-4 col-md-4">
-	                            		<div class="school_proud_sidebar min_height_unset">
+	                            		<div class="school_proud_sidebar school_ar_gorbo">
 		                                    
 		                                    <div class="school_proud_sidebar_content">
 		                                        <div class="school_proud_sidebar_content_image">

@@ -28,7 +28,7 @@
 	                            	<div class="col-sm-4 col-md-4">
 	                            		<div class="student_registration_online" id="student_hover">
 		                                    <a href="<?php echo get_permalink('227') ?><?php echo $sign;?>member_type=bank">
-		                                        <h2>ব্যংকে এবং অনলাইনে যারা নিবন্ধন করেছেন</h2>
+		                                        <h2>ব্যাংকে এবং অনলাইনে যারা নিবন্ধন করেছেন</h2>
 		                                    </a>
 		                                </div>
 	                            	</div>

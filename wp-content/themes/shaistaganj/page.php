@@ -12,7 +12,10 @@
 	                		</div>
 	                	</div>
 	                    <div class="col-md-12">
-	                        <div class="all_page_content_information">
+	                        <div class="all_page_content_information page_content">
+	                        	<div class="page_content_image">
+	                        		<?php the_post_thumbnail(); ?>
+	                        	</div>
 	                            <?php the_content(); ?>
 	                        </div>
 
