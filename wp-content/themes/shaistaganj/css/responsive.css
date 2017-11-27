@@ -10,6 +10,11 @@
 	.heaer_images{
 		display: none;
 	}
+	.banner_sidebar ul li {
+	   
+	    padding: 8px 12px;
+	    
+	}
 	.nav>li>a {
 	    font-size: 13px;
 	    
@@ -29,6 +34,15 @@
 	}
 	.school_proud_header h3 {
 	    font-size: 17px;
+	    
+	}
+	.all_page_content_title h2 {
+	    margin: 0px;
+	    font-size: 24px;
+	}
+	.sotoborso_udjapon_comity_content h2 {
+	    margin-top: 0px;
+	    font-size: 12px;
 	    
 	}
 	
@@ -108,9 +122,13 @@
 	.responsive_image_size img{
 
 	}
-	.empty_div {
-    min-height: 445px;
-}
+		.empty_div {
+	    min-height: 445px;
+	}
+	
+	.school_committee_height {
+	    height: 170px;
+	}
 
 }
 
@@ -119,27 +137,132 @@
 }
 
 @media screen and (max-width:768px) {
-	
+		.school_proud_sidebar_content_image_text p {
+	    font-size: 13px;
+	}
 	
 }
 @media screen and (max-width: 767px){
-	
+	.logo_image img {
+	    height: 90px;
+	}
+	.school_management_committee_image img {
+	    
+	    height: auto;
+	}
+	.response_margin_bottom{
+		margin-bottom: 20px;
+	}
+	.main_comettree {
+	    margin: 0px 0px 20px 0px;
+	}
+	.main_about {
+	    margin: 0px 0px 20px 0px;
+	}
+	.main_school_management_comitee {
+	    margin-bottom: 20px;
+	}
+	.area_practice_image img {
+	    
+	    height: 200px;
+	}
+	.main_hundred_years {
+	    margin: 20px 0px;
+	}
+	.hundred_years_content_images img {
+	    
+	    height: auto;
+	}
+	.all_page_content_title h2 {
+	    
+	    font-size: 23px;
+	}
+	.school_committee_height {
+	    height: 210px;
+	}
+	.school_proud_sidebar_content_image_text h4 {
+	    font-size: 20px;
+	}
+	.school_management_committee_image img {
+	    height: 230px;
+	}
 }
 
 @media screen and (max-width: 640px){
-	
+	.hotline_left_information li {
+	    font-size: 13px;
+	}
+	.area_practice_image_text h4 {
+	    
+	    font-size: 16px;
+	}
+	.school_committee_height {
+	    height: 180px;
+	}
 }
 
 @media screen and (max-width: 480px){
-	
+	.hotline_left_information li {
+	    font-size: 9px;
+	}
+	.banner_sidebar ul li {
+	    
+	    margin: 0px 4%;
+	}
+	.banner_sidebar ul li {
+	   
+	    width: 12%;	    
+	    padding: 5px 30px 5px 14px;	    
+	    font-size: 13px;
+	}
+	.school_committee_height {
+	    height: 140px;
+	}
+	.sotoborsho_nana_ayojon_height {
+	    height: 380px;
+	}
 }
 
 @media only screen and (max-width: 360px) {
 	
-	
+	.hotline_left_information {
+	    
+	    display: none;
+	}
+	.banner_sidebar ul li {
+	  
+	    font-size: 12px;
+	}
+	.banner_sidebar ul li {
+	    margin: 0px 1%;
+	}
+		.all_page_content_title h2 {
+	    font-size: 18px;
+	}
+	.school_committee_height {
+	    height: 120px;
+	}
+	.school_proud_sidebar_content_image_text h4 {
+	    font-size: 17px;
+	}
 }
 
 @media only screen and (max-width: 320px) {
-	
-	
+	.nibondhon_button a {
+	    font-size: 19px;
+	}
+	.banner_sidebar_header h2 {
+	    font-size: 17px;
+	}
+	.banner_sidebar ul li {
+	    
+	    padding: 5px 25px 5px 11px;
+	    
+	}
+	.hundred_years_content_title h3 {
+	    font-size: 17px;
+	}
+	.school_proud_header h3 {
+	    font-size: 17px;
+	}
 }

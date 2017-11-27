@@ -157,7 +157,7 @@ Template Name: Home Page Template
                                 </div>
                                 
                             </div>
-                            <div class="school_proud_button">
+                            <div class="school_proud_button response_margin_bottom">
                               <a href="<?php echo get_permalink('146');?>">
                                 <button>আরও দেখতে</button>
                                 </a>
@@ -298,7 +298,7 @@ Template Name: Home Page Template
                                 
                             </div>
                             <?php endwhile; endif; ?> 
-                            <div class="school_proud_button">
+                            <div class="school_proud_button response_margin_bottom">
                                <a href="<?php echo get_permalink('45');?>">
                                    <button>আরও দেখতে</button>
                                 </a>
@@ -627,7 +627,7 @@ Template Name: Home Page Template
                                 </div>
                                 <?php endwhile; endif; ?>                                
                             </div>
-                            <div class="school_proud_button">
+                            <div class="school_proud_button response_margin_bottom">
                                 <a href="<?php echo get_permalink('78'); ?>">
                                     <button>আরও দেখতে</button>
                                 </a>    
@@ -890,7 +890,7 @@ Template Name: Home Page Template
                         <?php endwhile; endif; ?>
                         
                     </div>
-                    <div class="school_proud_button">
+                    <div class="school_proud_button response_margin_bottom">
                         <a href="<?php echo get_permalink('98'); ?>">
                             <button>আরও দেখতে</button>
                         </a>
@@ -985,7 +985,7 @@ Template Name: Home Page Template
                                 <?php endwhile; endif; ?>
                                 
                             </div>
-                            <div class="school_proud_button">
+                            <div class="school_proud_button response_margin_bottom">
                                 <a href="<?php echo get_permalink('105'); ?>">
                                     <button>আরও দেখতে</button>
                                 </a>

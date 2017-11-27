@@ -33,7 +33,7 @@
                                         while($nana_ayojon->have_posts()) : 
                                         $nana_ayojon->the_post(); 
                                     ?>
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 col-sm-6">
                                         <div class="sotoborso_udjapon_comity_content_all sotoborsho_nana_ayojon_height">
                                                 <div class="sotoborso_udjapon_comity_content_all_information margin_bottom">
                                                     <div class="sotoborso_udjapon_comity_content_image school_management_committee_image">

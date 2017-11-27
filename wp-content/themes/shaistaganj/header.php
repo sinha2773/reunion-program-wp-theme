@@ -55,7 +55,7 @@
         <header class="header_section">
             <div class="container">
                 <div class="row">
-                        <div class="col_thr col-xs-6 col-sm-2 col-md-2">
+                        <div class="col_thr col-sm-2 col-xs-6 col-md-2">
                             <div class="logo_image">
 
                                <a href="<?php echo home_url();?>">
@@ -70,7 +70,7 @@
                                </a>
                             </div>
                         </div>
-                        <div class="bg_col col-xs-12 col-sm-10 col-md-10 both_paddint">
+                        <div class="bg_col col-sm-10 col-md-10 col-xs-6 both_paddint">
                            <div class="heaer_images">
                               <img src="<?php echo get_template_directory_uri();?>/images/head2.png">
                             </div>
