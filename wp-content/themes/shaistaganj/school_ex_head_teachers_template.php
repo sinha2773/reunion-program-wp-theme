@@ -30,7 +30,7 @@
                                         while($past_head_teacher->have_posts()) : 
                                             $past_head_teacher->the_post(); 
                                     ?>
-	                            	<div class="col-md-3">
+	                            	<div class="col-md-3 col-sm-6">
                                         
                                         <div class="image_hover_effect image_hover_effect_margin_bottom">
                                             

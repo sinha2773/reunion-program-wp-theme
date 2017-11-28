@@ -45,6 +45,13 @@
 	    font-size: 12px;
 	    
 	}
+	.registrarion_step li {
+	    margin: 0px 93px;
+	}
+	.nrb_color {
+	    
+	    margin-top: 15px;
+	}
 	
 }
 @media screen and (max-width:991px) {
@@ -129,6 +136,19 @@
 	.school_committee_height {
 	    height: 170px;
 	}
+	.registrarion_step li {
+	    margin: 0px 60px;
+	}
+	.scan_form button {
+	    
+	    font-size: 17px;
+	    
+	}
+	.download_form button {
+	    
+	    font-size: 17px;
+	    
+	}
 
 }
 
@@ -186,6 +206,31 @@
 	.school_management_committee_image img {
 	    height: 230px;
 	}
+	.button_top button{
+		display: none;
+	}
+	.button_bottom button{
+		display: none;
+	}
+	.external_button{
+		display: block;
+	}
+	.external_button_icon{
+		position: fixed;
+	    right: 30px;
+	    top: 53px;
+	}
+	.external_button_icon i{
+		border: 2px solid #ddd;
+	    width: 50px;
+	    height: 50px;
+	    font-size: 35px;
+	    padding: 7px 7px 4px 8px;
+	    color: #ddd;
+	}
+	.external_button_icon i:hover{
+		background: #DCDCDC;
+	}
 }
 
 @media screen and (max-width: 640px){
@@ -198,6 +243,12 @@
 	}
 	.school_committee_height {
 	    height: 180px;
+	}
+	.download_form button {
+	    font-size: 15px;
+	}
+	.scan_form button {
+	    font-size: 15px;
 	}
 }
 
@@ -220,6 +271,16 @@
 	}
 	.sotoborsho_nana_ayojon_height {
 	    height: 380px;
+	}
+	.nrb_color {
+	    
+	    font-size: 14px;
+	}
+	.download_form button {
+	    font-size: 10px;
+	}
+	.scan_form button {
+	    font-size: 10px;
 	}
 }
 
@@ -245,6 +306,20 @@
 	.school_proud_sidebar_content_image_text h4 {
 	    font-size: 17px;
 	}
+	.download_form button {
+	    font-size: 14px;
+	}
+	.scan_form button {
+	    font-size: 16px;
+	}
+	.registration_text h2 {
+   	 	font-size: 30px;
+	    
+	}
+	.nrb_color {
+	    font-size: 14px;
+	    line-height: 24px;
+	}
 }
 
 @media only screen and (max-width: 320px) {
@@ -264,5 +339,14 @@
 	}
 	.school_proud_header h3 {
 	    font-size: 17px;
+	}
+	.download_form button {
+	    font-size: 12px;
+	}
+	.scan_form button {
+	    font-size: 13px;
+	}
+	.registration_text h2 {
+	    font-size: 25px;
 	}
 }

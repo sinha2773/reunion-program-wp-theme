@@ -57,8 +57,23 @@
 .dropdown-menu>li>a {
         color: #fff;
     padding: 8px 20px;
-
-    
+}
+.external_button{
+    padding: 8px 0px;
+    display: none;
+}
+.external_button ul{}
+.external_button ul li{
+       list-style-type: none;
+    margin: 9px 5px;
+    background: #B43E78;
+    border-radius: 5px;
+    padding: 8px 0px;
+}
+.external_button ul li a{
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: #000;
