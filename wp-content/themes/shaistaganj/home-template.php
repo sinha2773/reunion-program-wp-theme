@@ -78,9 +78,14 @@ Template Name: Home Page Template
                                     <a href="<?php echo the_permalink('227'); ?>">যারা নিবন্ধন করেছেন</a>
                                 </h2>
                             </div>
-                            <div class="nibondhon_button nibondhon_button_bottom">
+                            <div class="nibondhon_button nibondhon_button_bottom nibondhon_margin_bottom">
                                 <h2 class="nibondhon_button_link">
                                     <a href="<?php echo the_permalink('781'); ?>">যারা অনুদান দিয়েছেন</a>
+                                </h2>
+                            </div>
+                            <div class="nibondhon_button nibondhon_button_bottom">
+                                <h2 class="nibondhon_button_link">
+                                    <a href="<?php echo the_permalink('105'); ?>">স্কুলের শত বর্ষের ছাত্র-ছাত্রী </a>
                                 </h2>
                             </div>
                         </div>

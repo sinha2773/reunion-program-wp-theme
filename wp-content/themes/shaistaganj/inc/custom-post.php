@@ -112,6 +112,20 @@
 	  	)
 	    
 	  );
+		register_post_type( 'hundred_years',array(
+	  		'label'   => 'Hundred Years Students',
+	  		'labels'  => array(
+	  				'name' => 'Hundred Years Students',
+	  				'singular_name' => 'hundred',
+	  				'add_new' => 'New Students'
+	  				
+	  			),
+	  		'public' => true,
+	  		'menu_icon' => 'dashicons-images-alt',
+	  		'supports' => array('title','editor','thumbnail','custom-files','excerpt','custom-fields'),
+	  	)
+	    
+	  );
 
 	 
 

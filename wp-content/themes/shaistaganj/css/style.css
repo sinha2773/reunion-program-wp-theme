@@ -367,8 +367,8 @@
 .nibondhon_button{
         width: 100%;
     background: #F8F8F8;
-    padding: 20px 10px;
-    min-height: 144px;
+    padding: 10px 10px;
+    min-height: 86px;
     text-align: center;
     border-radius: 10px;
 }
@@ -376,19 +376,19 @@
     margin: 0px;
 }
 .nibondhon_button a{
-        color: red;
-    font-size: 23px;
-    line-height: 25px;
+       color: red;
+    font-size: 19px;
+    line-height: 12px;
 }
 .nibondhon_button_bottom{
-    min-height: 80px !important;
-    padding: 10px !important; 
+    min-height: 75px !important;
+    padding: 5px !important; 
 }
 .nibondhon_button_bottom a{
 
 }
 .nibondhon_margin_bottom{
-    margin-bottom: 24px;
+    margin-bottom: 17px;
 }
 .nibondhon_button_link{
     
@@ -719,7 +719,17 @@
 .hundred_years_top{
     margin-bottom: 15px;
 }
-
+.hundred_years_student_list{
+    padding: 20px;
+}
+.hundred_years_student_button{}
+.hundred_years_student_button a{
+    background: red;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
 
 .comettree_totporota_section{
     background: #ccc;

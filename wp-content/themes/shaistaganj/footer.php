@@ -45,6 +45,7 @@
         <script src="<?php echo get_template_directory_uri();?>/js/bootstrap.min.js"></script>
         <script src="<?php echo get_template_directory_uri();?>/js/validate.min.js"></script>
         <script src="<?php echo get_template_directory_uri();?>/js/validator.min.js"></script>
+        <script src="<?php echo get_template_directory_uri();?>/js/bootstrap-datepicker.js"></script>
         <script src="<?php echo get_template_directory_uri();?>/js/jquery.smartWizard.min.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

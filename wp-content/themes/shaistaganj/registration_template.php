@@ -401,7 +401,7 @@ if( isset($_POST['registration']) ){
 			  <div class="form-group inpur_tag_margin_bottom">
                 <label for="date_of_birth" class="col-md-4 control-label">জন্ম তারিখ</label>
                   <div class="col-md-8">
-                    <input type="text" class="form-control" name="date_of_birth" id="date_of_birth" placeholder="" required>
+                    <input type="text" class="form-control datePicker" name="date_of_birth" id="date_of_birth" placeholder="" required>
                   </div>
               </div>
 			  <div class="form-group inpur_tag_margin_bottom">

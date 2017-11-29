@@ -1,5 +1,5 @@
 <?php 
-	//Template Name: School Hundred Years Students
+	//Template Name: School Hundred 
  ?>
 <?php get_header(); ?>
 
@@ -18,10 +18,10 @@
 	                            <?php
 	                            	$paged = get_query_var('paged') ? get_query_var('paged') : 1;  
 	                                $hundred_years_student = new WP_Query(array(
-	                                    'post_type' => 'hundred_years',
+	                                    'post_type' => 'our_student',
 	                                    "paged" => $paged,
-	                                    'posts_per_page' =>-1
-	                                    
+	                                    'posts_per_page' =>24,
+	                                    'student_type' =>'hundread_years_student'
 	                                ));
 	                            ?>
                            		<?php
@@ -30,12 +30,21 @@
                                     while($hundred_years_student->have_posts()) : 
                                         $hundred_years_student->the_post(); 
                                 ?>
-	                            	<div class="col-sm-4 col-md-1">
-	                            		<div class="hundred_years_student_list">
-	                            			<div class="hundred_years_student_button">
-	                            				<a href="<?php echo get_post_meta(get_the_ID(),'student_list_pdf',true) ?>" target="_blank"><?php the_title(); ?></a>
-	                            			</div>
-	                            		</div>
+	                            	<div class="col-sm-4 col-md-4">
+	                            		<div class="school_proud_sidebar teacher_list_sidebar min_height_unset school_committee_height">
+		                            		<div class="school_proud_sidebar_content">
+			                                    <div class="school_proud_sidebar_content_image teachers_images present_student">
+			                                        <?php the_post_thumbnail('common_image_size'); ?>
+			                                    </div>
+			                                    <div class="school_proud_sidebar_content_image_text sotoborso_student">
+			                                        <h4><?php the_title(); ?></h4>
+			                                        <p><b>ব্যচ :<?php echo get_post_meta(get_the_ID(),'batch',true) ?></b></p>
+			                                        <p><?php the_excerpt(); ?></p>
+			                                        
+			                                        
+			                                    </div>
+			                                </div>
+		                            	</div>
 	                            	</div>
 	                            	<?php endwhile; endif; ?>
 	                            	<div class="col-md-12">
