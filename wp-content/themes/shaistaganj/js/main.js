@@ -38,6 +38,16 @@ jQuery(document).ready(function($){
     scrollTop:0},500)
    });
 
+    // initial hideen 
+    //   $('body #external_menu').each(function(){
+    //       $(this).hide();
+    //   });
+    // $('.se_menu').click(function(){
+    //   $(this).find('#external_menu').slideToggle();
+    // });
+
+    
+
    // sideber contact form
     var x=0;
     $(".quote_form_button").click(function(){

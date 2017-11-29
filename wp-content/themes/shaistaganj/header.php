@@ -65,9 +65,11 @@
               </div>
               <div class="external_button">
                 <div class="external_button_icon">
-                  <i class="fa fa-bars" aria-hidden="true"></i>
+                  <a href="javascript::void(0)">
+                    <i class="fa fa-bars se_menu" aria-hidden="true"></i>
+                  </a>
                 </div>
-                <ul>
+                <ul id="external_menu">
                   <li><a href="">Home</a></li>
                   <li><a href="">About</a></li>
                   <li><a href="">Contact</a></li>
