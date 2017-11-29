@@ -66,9 +66,9 @@
 
               <div class="external_button">
                 <div class="external_button_icon">
-                  <a href="javascript::void(0)">
+                  <span style="cursor: pointer;">
                     <i class="fa fa-bars se_menu" aria-hidden="true"></i>
-                  </a>
+                  </span>
                 </div>
                 <ul id="external_menu" style="display: none;">
                   <?php 
