@@ -17,13 +17,7 @@
         <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/smart_wizard_theme_dots.css">
       <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/smart_wizard_theme_dots.css">
       <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/responsive.css">
-      <style type="text/css">
-        @media print{
-          .external_button{
-            display: none;
-          }
-        }
-      </style>
+     
       <script src="<?php echo get_template_directory_uri();?>/js/vendor/modernizr-2.8.3.min.js"></script>
         <?php wp_head(); ?>
     </head>
