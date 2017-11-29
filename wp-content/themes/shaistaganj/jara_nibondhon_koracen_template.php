@@ -50,7 +50,7 @@
                         			<?php 
 									
 									for( $I=1918; $I<=2023; $I++ ) { ?>
-                            		<a href="<?php echo get_permalink('227') ?><?php echo $sign;?>member_type=<?php echo $member_type;?>&year=<?php echo $I;?>" class="btn btn-info"><?php echo $I; ?></a>
+                            		<a href="<?php echo get_permalink('227') ?><?php echo $sign;?>member_type=<?php echo $member_type;?>&p_year=<?php echo $I;?>" class="btn btn-info"><?php echo $I; ?></a>
                             		<?php } ?>
                         		</div>	                  
 								<?php endif;?>
@@ -75,18 +75,18 @@
 
 								}
 								
-								$year= isset($_GET['year']) ? $_GET['year'] : '';
-								if ( !empty($year) ){
+								$p_year= isset($_GET['p_year']) ? $_GET['p_year'] : '';
+								if ( !empty($p_year) ){
 									$args['meta_query'] = array(
 										array(
 											'key'     => 'year_of_ssc',
-											'value'   => array( $year ),
+											'value'   => array( $p_year ),
 											'compare' => 'IN'
 										),
 									);
 								}
 								
-								if ( empty($member_type) || empty($year) )  {
+								if ( empty($member_type) || empty($p_year) )  {
 									// nothing
 								}else {
 								$book = new WP_Query($args);
