@@ -63,16 +63,34 @@
                   </a>
                 </div>
               </div>
+
               <div class="external_button">
                 <div class="external_button_icon">
                   <a href="javascript::void(0)">
                     <i class="fa fa-bars se_menu" aria-hidden="true"></i>
                   </a>
                 </div>
-                <ul id="external_menu">
-                  <li><a href="">Home</a></li>
-                  <li><a href="">About</a></li>
-                  <li><a href="">Contact</a></li>
+                <ul id="external_menu" style="display: none;">
+                  <?php 
+                  $menuData = wp_get_nav_menu_items('Main Menu');
+                  if ( !empty($menuData) ):
+                    foreach($menuData as $menu): 
+                  ?>
+                    <li><a href="<?php echo $menu->url;?>"><?php echo $menu->title;?></a></li>
+                  <?php 
+                    endforeach;
+                  endif;
+                  ?>
+                  <?php 
+                  $menuData = wp_get_nav_menu_items('Main Menu Bottom');
+                  if ( !empty($menuData) ):
+                    foreach($menuData as $menu): 
+                  ?>
+                    <li><a href="<?php echo $menu->url;?>"><?php echo $menu->title;?></a></li>
+                  <?php 
+                    endforeach;
+                  endif;
+                  ?>
                 </ul>
               </div>
               <div class="bg_col col-sm-10 col-md-10 col-xs-6 both_paddint">

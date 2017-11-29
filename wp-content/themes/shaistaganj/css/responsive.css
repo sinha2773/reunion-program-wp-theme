@@ -217,8 +217,10 @@
 	}
 	.external_button_icon{
 		position: fixed;
-	    right: 30px;
-	    top: 53px;
+	    right: 10px;
+	    top: 10px;
+	    z-index: 9999;
+	    background: #303030;
 	}
 	.external_button_icon i{
 		border: 2px solid #ddd;

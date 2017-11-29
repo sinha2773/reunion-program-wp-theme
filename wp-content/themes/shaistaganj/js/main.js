@@ -39,12 +39,9 @@ jQuery(document).ready(function($){
    });
 
     // initial hideen 
-    //   $('body #external_menu').each(function(){
-    //       $(this).hide();
-    //   });
-    // $('.se_menu').click(function(){
-    //   $(this).find('#external_menu').slideToggle();
-    // });
+    $('.external_button_icon').click(function(){
+        $('#external_menu').slideToggle('fast');
+    });
 
     
 

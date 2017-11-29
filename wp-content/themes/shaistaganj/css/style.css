@@ -62,17 +62,27 @@
     padding: 8px 0px;
     display: none;
 }
-.external_button ul{}
+.external_button ul {
+    background: #fff;
+    position: fixed;
+    right: 0;
+    width: 300px;
+    z-index: 9999;
+    top: 60px;
+    height: 100%;
+    overflow: auto;
+    margin: 0;
+    padding: 10px 0 100px 0;
+}
 .external_button ul li{
     list-style-type: none;
-    margin-left: 60px;
-    border-radius: 5px;
-    padding: 15px 0px;
-    max-width: 320px;
+    padding: 5px;
+    width: 100%;
     text-align: center;
     background: #fff;
     border-bottom: 1px solid #C6CED9;
     color: #000;
+    font-size: 14px;
 }
 .external_button ul li:hover{
     background: #626D80;
@@ -84,8 +94,9 @@
     border-radius: 5px;
     font-size: 20px;
 }
+.external_button ul li:hover a,
 .external_button ul li a:hover{
-    /*color: #fff;*/
+    color: #fff;
     text-decoration: none;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
