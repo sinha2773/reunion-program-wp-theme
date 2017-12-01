@@ -30,7 +30,7 @@
                                     while($hundred_years_student->have_posts()) : 
                                         $hundred_years_student->the_post(); 
                                 ?>
-	                            	<div class="col-sm-4 col-md-1">
+	                            	<div class="">
 	                            		<div class="hundred_years_student_list">
 	                            			<div class="hundred_years_student_button">
 	                            				<a href="<?php echo get_post_meta(get_the_ID(),'student_list_pdf',true) ?>" target="_blank"><?php the_title(); ?></a>
