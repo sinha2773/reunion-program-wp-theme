@@ -792,7 +792,7 @@ Template Name: Home Page Template
               <div class="row">
                  <div class="col-md-3 col-sm-6">
                     <div class="area_practice_top_title school_proud_header teacher_list_header past_teacher_header">
-                            <h3>যারা অনুদান দিয়েছেন</h3>
+                            <h3>স্কুলের মুক্তিযোদ্ধা শিক্ষার্থীরা</h3>
                     </div>
                     <div class="school_proud_sidebar teacher_list_sidebar empty_div">
                         <?php
@@ -948,7 +948,7 @@ Template Name: Home Page Template
                 <div class="main_school_information">
                     <div class="row">
                          <div class="col-md-4 col-sm-12">
-                             <div class="area_practice_top_title school_proud_header teacher_list_header">
+                             <div class="area_practice_top_title school_proud_header teacher_list_header arjent_communication">
                                     <h3>জরুরি যোগাযোগ ও লিংক</h3>
                             </div>
                             <div class="communication_link_box">
@@ -966,7 +966,7 @@ Template Name: Home Page Template
                                 ));
                             ?>
                             <div class="area_practice_top_title school_proud_header teacher_list_header">
-                                    <h3>স্কুলের শত বর্ষের ছাত্র-ছাত্রী</h3>
+                                    <h3>স্কুল ম্যানেজিং কমিটির সাবেক সভাপতি / সহ-সভাপতিবৃন্দ</h3>
                             </div>
                             <div class="school_proud_sidebar teacher_list_sidebar">
                                 <?php
@@ -1003,7 +1003,7 @@ Template Name: Home Page Template
                                     'page_id' =>135
                                 ));
                             ?>
-                            <div class="area_practice_top_title school_proud_header teacher_list_header">
+                            <div class="area_practice_top_title school_proud_header teacher_list_header arjent_communication">
                                     <h3>গুরুত্বপূর্ন লিঙ্ক সমুহ</h3>
                             </div>
                             <div class="school_proud_sidebar link_list_sidebar">

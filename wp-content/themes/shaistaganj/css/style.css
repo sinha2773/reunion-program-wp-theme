@@ -720,9 +720,11 @@
     margin-bottom: 15px;
 }
 .hundred_years_student_list{
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
 }
-.hundred_years_student_button{}
+.hundred_years_student_button{
+        margin-bottom: 20px;
+}
 .hundred_years_student_button a{
     background: red;
     color: #fff;
@@ -3262,6 +3264,9 @@ background: #3B5997;
 }
 .main_school_information{
     margin-bottom: 60px;
+}
+.arjent_communication{
+        padding: 27px 5px;
 }
 .important_links{}
 .important_links ul{
