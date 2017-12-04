@@ -105,7 +105,7 @@
 			                                	<div class="registraion_page_content_text">
 			                                		<h3><?php the_title(); ?></h3>
 			                                		<p>পেশা : <?php echo get_post_meta(get_the_ID(),'profession',true) ?></p>
-			                                		<p> এস এস সি সাল : <?php echo get_post_meta(get_the_ID(),'year_of_ssc',true) ?></p>
+			                                		<p> ব্যাচ / এস এস সি : <?php echo get_post_meta(get_the_ID(),'year_of_ssc',true) ?></p>
 			                                		<a href="<?php  the_permalink(); ?>" class="details">
 			                                			বিস্তারিত
 			                                		</a>
