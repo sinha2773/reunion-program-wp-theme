@@ -3284,6 +3284,15 @@ background: #3B5997;
     border-radius: 10px;
 
 }
+.customer_box{
+    width: auto;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.active_box{
+    background: #B43E78;
+}
 .main_school_information .school_proud_sidebar .student_registration_online ‍a:hover{
     text-decoration: none;
 }
@@ -3302,6 +3311,12 @@ background: #3B5997;
 }
 #student_hover a:hover{
     text-decoration: none;
+}
+#student_hover:focus {
+    background: #B43E78 !important;
+}
+#student_hover:active {
+    background: #B43E78 !important;
 }
 .download_or_scan .download_form .dowload_dropdown {}
 .download_or_scan .download_form .dowload_dropdown button{

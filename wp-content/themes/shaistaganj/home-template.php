@@ -961,7 +961,7 @@ Template Name: Home Page Template
                             <?php 
                                 $hundred_years_student = new WP_Query(array(
                                     'post_type' => 'our_student',
-                                    'posts_per_page' =>4,
+                                    'posts_per_page' =>5,
                                     'student_type' =>'hundread_years_student'
                                 ));
                             ?>
@@ -981,8 +981,8 @@ Template Name: Home Page Template
                                     </div>
                                     <div class="school_proud_sidebar_content_image_text sotoborso_student">
                                         <h4><?php the_title(); ?></h4>
-                                        <p><b>ব্যচ :<?php echo get_post_meta(get_the_ID(),'batch',true) ?></b></p>
-                                        <p><?php the_excerpt(); ?></p>
+                                        <p>পদবি : <?php echo get_post_meta(get_the_ID(),'designation',true) ?></p>
+                                        <p>কমিটি :  <?php echo get_post_meta(get_the_ID(),'committee_name',true) ?></p>
                                         
                                         
                                     </div>
@@ -991,7 +991,7 @@ Template Name: Home Page Template
                                 
                             </div>
                             <div class="school_proud_button response_margin_bottom">
-                                <a href="<?php echo get_permalink('105'); ?>">
+                                <a href="<?php echo get_permalink('313'); ?>">
                                     <button>আরও দেখতে</button>
                                 </a>
                             </div>

@@ -5,6 +5,12 @@
 	get_header(); 
 	$sign = empty(get_option('permalink_structure')) ? '&' : '?';
 ?>
+<?php 
+								
+	$member_type= isset($_GET['member_type']) ? $_GET['member_type'] : '';
+
+	$p_year= isset($_GET['p_year']) ? $_GET['p_year'] : ''; 
+?>
 
         <div class="default-page-container all_page_content">
             <div class="container">
@@ -19,38 +25,36 @@
 	                        <div class="all_page_content_information nibondhon_content">
 	                            <div class="row">	                       
 	                            	<div class="col-sm-4 col-md-4">
-	                            		<div class="student_registration_online" id="student_hover">
-		                                    <a href="<?php echo get_permalink('227') ?><?php echo $sign;?>member_type=bkash_or_rocket">
+	                            		<div class="student_registration_online <?php echo $member_type=='bkash_or_rocket' ? 'active_box' : ''; ?>" id="student_hover">
+		                                    <a href="<?php echo get_permalink('227'); ?><?php echo $sign;?>member_type=bkash_or_rocket">
 		                                        <h2>বিকাশ এবং রকেটে যারা নিবন্ধন করেছেন</h2>
 		                                    </a>
 		                                </div>
 	                            	</div>
 	                            	<div class="col-sm-4 col-md-4">
-	                            		<div class="student_registration_online" id="student_hover">
-		                                    <a href="<?php echo get_permalink('227') ?><?php echo $sign;?>member_type=bank">
+	                            		<div class="student_registration_online <?php echo $member_type=='bank' ? 'active_box' : ''; ?>" id="student_hover">
+		                                    <a href="<?php echo get_permalink('227'); ?><?php echo $sign;?>member_type=bank">
 		                                        <h2>ব্যাংকে এবং অনলাইনে যারা নিবন্ধন করেছেন</h2>
 		                                    </a>
 		                                </div>
 	                            	</div>
 	                            	<div class="col-sm-4 col-md-4">
-	                            		<div class="student_registration_online" id="student_hover">
-		                                    <a href="<?php echo get_permalink('227') ?><?php echo $sign;?>member_type=direct">
+	                            		<div class="student_registration_online <?php echo $member_type=='direct' ? 'active_box' : ''; ?>" id="student_hover">
+		                                    <a href="<?php echo get_permalink('227'); ?><?php echo $sign;?>member_type=direct">
 		                                        <h2>সরাসরি যারা নিবন্ধন করেছেন</h2>
 		                                    </a>
 		                                </div>
 	                            	</div>
 	                            	
 	                            </div>	    
-								<?php 
 								
-								$member_type= isset($_GET['member_type']) ? $_GET['member_type'] : ''; ?>
 								
 								<?php if ( !empty($member_type) ) : ?>
                         		<div class="nibondhon_year">
                         			<?php 
 									
 									for( $I=1918; $I<=2023; $I++ ) { ?>
-                            		<a href="<?php echo get_permalink('227') ?><?php echo $sign;?>member_type=<?php echo $member_type;?>&p_year=<?php echo $I;?>" class="btn btn-info"><?php echo $I; ?></a>
+                            		<a href="<?php echo get_permalink('227') ?><?php echo $sign;?>member_type=<?php echo $member_type;?>&p_year=<?php echo $I;?>" class="btn btn-info <?php echo $p_year==$I ? 'active_box' : ''; ?>"><?php echo $I; ?></a>
                             		<?php } ?>
                         		</div>	                  
 								<?php endif;?>
@@ -75,7 +79,7 @@
 
 								}
 								
-								$p_year= isset($_GET['p_year']) ? $_GET['p_year'] : '';
+								
 								if ( !empty($p_year) ){
 									$args['meta_query'] = array(
 										array(
