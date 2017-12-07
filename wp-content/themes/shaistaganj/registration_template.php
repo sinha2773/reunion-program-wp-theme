@@ -191,8 +191,8 @@ if( isset($_POST['registration']) ){
               <div id="step-1">
                 <div id="form-step-0" role="form" data-toggle="validator" class="first_step">
                   <div class="form-group registration_form_payment registration_payment_method">
-                      <label class="label_bottom control-label nrb_color hide">Registration fee is not mandatory for NRB</label>
-                      <label class="label_bottom control-label nrb_color">রেজিষ্ট্রেশন ফি ২00/- ( বি.দ্র. স্মামী/স্ত্রী ৫০০/-,  প্রতি সন্তান ৩০০/-,  ড্রাইভার ২০০/- )</label>
+                      <label class="label_bottom control-label nrb_color">Registration fee is not mandatory for NRB</label>
+                      <label class="label_bottom control-label nrb_color">রেজিষ্ট্রেশন ফি ২00/- ( বি.দ্র. স্বামী/স্ত্রী ৫০০/-,  প্রতি সন্তান ৩০০/-,  ড্রাইভার ২০০/- )</label>
                     </div>
           				<div class="form-group registration_form_payment registration_payment_method">
           				  <label for="" class="label_bottom control-label">Registration Fee payment method <span class="red">*</span></label>
@@ -432,7 +432,7 @@ if( isset($_POST['registration']) ){
 			       <div class="form-group inpur_tag_margin_bottom">
                 <label for="" class="col-md-4 control-label">রেজিষ্ট্রেশন ফি (  শিক্ষার্থী )</label>
                   <div class="col-md-8">
-                    <strong>২00/- দুইশত টাকা মাত্র।, <p class="bishes_drostobo">(  বি.দ্র. স্মামী/স্ত্রী ৫০০/-, প্রতি সন্তান ৩০০/-, ড্রাইভার ২০০/- )  </p></strong>
+                    <strong>২00/- দুইশত টাকা মাত্র।, <p class="bishes_drostobo">(  বি.দ্র. স্বামী/স্ত্রী ৫০০/-, প্রতি সন্তান ৩০০/-, ড্রাইভার ২০০/- )  </p></strong>
                   </div>
               </div>
 			        <div class="form-group inpur_tag_margin_bottom">
