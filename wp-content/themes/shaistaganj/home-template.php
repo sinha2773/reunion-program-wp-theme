@@ -797,9 +797,9 @@ Template Name: Home Page Template
                     <div class="school_proud_sidebar teacher_list_sidebar empty_div">
                         <?php
                             $jara_anudan = new WP_Query(array(
-                                'post_type' => 'our_committee',
+                                'post_type' => 'our_student',
                                 'posts_per_page' =>4,
-                                'committee_type' =>'schooler_muktijoddha_students'
+                                'student_type' =>'schooler_muktijoddha_students'
                             ));
                         ?>
                         <?php
@@ -813,14 +813,14 @@ Template Name: Home Page Template
                             </div>
                             <div class="school_proud_sidebar_content_image_text">
                                 <h4><?php the_title(); ?></h4>
-                                <p>পরিচয় :<?php echo get_post_meta(get_the_ID(),'proffession',true) ?></p>
-                                <p>টাকার পরিমান : <?php echo get_post_meta(get_the_ID(),'total_taka',true) ?></p>
+                                <p>পরিচয় :<?php echo get_post_meta(get_the_ID(),'porichoy',true) ?></p>
+                                <p>ব্যাচ : <?php echo get_post_meta(get_the_ID(),'batch',true) ?></p>
                             </div>
                         </div>
                         <?php endwhile; endif; ?>
                     </div>
                     <div class="school_proud_button response_margin_bottom">
-                        <a href="<?php echo get_permalink(781); ?>">
+                        <a href="<?php echo get_permalink(1342); ?>">
                             <button>আরও দেখতে</button>
                         </a>
                     </div>
