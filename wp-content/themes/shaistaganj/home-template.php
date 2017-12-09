@@ -799,7 +799,7 @@ Template Name: Home Page Template
                             $jara_anudan = new WP_Query(array(
                                 'post_type' => 'our_committee',
                                 'posts_per_page' =>4,
-                                'committee_type' =>'jara_anudan_diyacen'
+                                'committee_type' =>'schooler_muktijoddha_students'
                             ));
                         ?>
                         <?php
