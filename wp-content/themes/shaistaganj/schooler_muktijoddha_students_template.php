@@ -41,6 +41,7 @@
 					                                <h4><?php the_title(); ?></h4>
 					                                <p>পরিচয় :<?php echo get_post_meta(get_the_ID(),'porichoy',true) ?></p>
                                 					<p>ব্যাচ : <?php echo get_post_meta(get_the_ID(),'batch',true) ?></p>
+                               						<a href="<?php the_permalink(); ?>" class="details">[  বিস্তারিত ] </a>
 					                                
 					                            </div>
 					                        </div>

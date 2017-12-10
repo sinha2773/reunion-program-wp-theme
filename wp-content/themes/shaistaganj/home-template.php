@@ -815,12 +815,13 @@ Template Name: Home Page Template
                                 <h4><?php the_title(); ?></h4>
                                 <p>পরিচয় :<?php echo get_post_meta(get_the_ID(),'porichoy',true) ?></p>
                                 <p>ব্যাচ : <?php echo get_post_meta(get_the_ID(),'batch',true) ?></p>
+                                <a href="<?php the_permalink(); ?>" class="details">[  বিস্তারিত ] </a>
                             </div>
                         </div>
                         <?php endwhile; endif; ?>
                     </div>
                     <div class="school_proud_button response_margin_bottom">
-                        <a href="<?php echo get_permalink(1342); ?>">
+                        <a href="<?php echo get_permalink(1869); ?>">
                             <button>আরও দেখতে</button>
                         </a>
                     </div>
@@ -958,17 +959,18 @@ Template Name: Home Page Template
                             </div>
                          </div>
                         <div class="col-md-4 col-sm-6">
-                            <?php 
-                                $hundred_years_student = new WP_Query(array(
-                                    'post_type' => 'our_student',
-                                    'posts_per_page' =>5,
-                                    'student_type' =>'hundread_years_student'
-                                ));
-                            ?>
+                            
                             <div class="area_practice_top_title school_proud_header teacher_list_header">
-                                    <h3>স্কুল ম্যানেজিং কমিটির সাবেক সভাপতি / সহ-সভাপতিবৃন্দ</h3>
+                                <h3>স্কুল ম্যানেজিং কমিটির সাবেক সভাপতি / সহ-সভাপতিবৃন্দ</h3>
                             </div>
                             <div class="school_proud_sidebar teacher_list_sidebar">
+                                <?php 
+                                    $hundred_years_student = new WP_Query(array(
+                                        'post_type' => 'our_committee',
+                                        'posts_per_page' =>5,
+                                        'committee_type' =>'school_ex_management_committee'
+                                    ));
+                                ?>
                                 <?php
                         
                                     if($hundred_years_student->have_posts()) :
@@ -982,8 +984,8 @@ Template Name: Home Page Template
                                     <div class="school_proud_sidebar_content_image_text sotoborso_student">
                                         <h4><?php the_title(); ?></h4>
                                         <p>পদবি : <?php echo get_post_meta(get_the_ID(),'designation',true) ?></p>
-                                        <p>কমিটি :  <?php echo get_post_meta(get_the_ID(),'committee_name',true) ?></p>
-                                        
+                                        <p>সময়কাল :  <?php echo get_post_meta(get_the_ID(),'duration',true) ?></p>
+                                        <a href="<?php the_permalink(); ?>" class="details">[  বিস্তারিত ] </a>
                                         
                                     </div>
                                 </div>
@@ -991,7 +993,7 @@ Template Name: Home Page Template
                                 
                             </div>
                             <div class="school_proud_button response_margin_bottom">
-                                <a href="<?php echo get_permalink('313'); ?>">
+                                <a href="<?php echo get_permalink('1872'); ?>">
                                     <button>আরও দেখতে</button>
                                 </a>
                             </div>
